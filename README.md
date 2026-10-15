@@ -100,6 +100,7 @@ Provider fields:
 | `models` | Table of selectable model ids |
 | `replayReasoningContent` | Replay provider reasoning content (DeepSeek always does this) |
 | `tokenLimit` | Chat Completions output field: `max_tokens` or `max_completion_tokens` |
+| `options` | Optional object of protocol-specific settings; unknown names, or names that do not apply to the protocol, fail loading. `temperature`, `topP`, and `maxTokens` stay on the model |
 | `apiKeyEnvironment` | Environment variable name checked first for this provider |
 | `apiKey` | Literal, `{env:NAME}`, or `{file:path}`. Keep secrets out of this file |
 | `requiresApiKey` | Whether a missing key is an error (default `true`, except `ollama`) |
@@ -116,6 +117,8 @@ Model fields:
 | `thinkingEfforts` | Portable names `minimal`, `low`, `medium`, `high`, and `maximum` (`max` is stored as `maximum`), or another effort token the endpoint accepts. A token starts with a letter and then uses only letters, digits, and hyphens |
 | `thinkingCanDisable` | Whether `/thinking off` is accepted (default `true`). Models that always reason, such as Gemini 3, set this to `false` |
 | `imageInput` | Whether the model may receive images (default `false`) |
+| `audioInput` | Declared audio input (default `false`). Stored and visible to plugins; the host does not accept or send audio |
+| `videoInput` | Declared video input (default `false`). Stored and visible to plugins; the host does not accept or send video |
 | `temperature` | Optional, 0 to 2 |
 | `topP` | Optional, 0 to 1 |
 
