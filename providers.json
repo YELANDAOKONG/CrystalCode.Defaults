@@ -220,6 +220,12 @@
         "contextWindow": 400000,
         "maxTokens": 128000,
         "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "maximum"
+        ],
         "thinkingCanDisable": false,
         "imageInput": true
       },
@@ -237,7 +243,8 @@
         "thinkingEfforts": [
           "low",
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
         "imageInput": true
       },
@@ -264,7 +271,8 @@
         "thinking": true,
         "thinkingEfforts": [
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
@@ -298,12 +306,17 @@
       },
       "gpt-5.4": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
           "low",
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
         "imageInput": true
       },
@@ -331,23 +344,33 @@
       },
       "gpt-5.4-pro": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
       },
       "gpt-5.5": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
           "low",
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
         "imageInput": true
       },
@@ -357,7 +380,8 @@
         "thinking": true,
         "thinkingEfforts": [
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
@@ -376,6 +400,10 @@
       },
       "gpt-5.6-luna": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -388,6 +416,10 @@
       },
       "gpt-5.6-sol": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -400,6 +432,10 @@
       },
       "gpt-5.6-terra": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -412,6 +448,10 @@
       },
       "gpt-6-astra": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -425,6 +465,10 @@
       },
       "gpt-6-luna": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -437,6 +481,10 @@
       },
       "gpt-6-sol": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -449,6 +497,10 @@
       },
       "gpt-6.1-sol": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -615,6 +667,7 @@
           "low",
           "medium",
           "high",
+          "xhigh",
           "maximum"
         ],
         "thinkingCanDisable": false,
@@ -628,6 +681,7 @@
           "low",
           "medium",
           "high",
+          "xhigh",
           "maximum"
         ],
         "thinkingCanDisable": false,
@@ -641,6 +695,7 @@
           "low",
           "medium",
           "high",
+          "xhigh",
           "maximum"
         ],
         "thinkingCanDisable": false,
@@ -648,12 +703,17 @@
       },
       "claude-haiku-5-5": {
         "contextWindow": 1048576,
+        "contextWindows": [
+          100000,
+          1048576
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
           "low",
           "medium",
           "high",
+          "xhigh",
           "maximum"
         ],
         "imageInput": true
@@ -666,6 +726,7 @@
           "low",
           "medium",
           "high",
+          "xhigh",
           "maximum"
         ],
         "thinkingCanDisable": false,
@@ -679,6 +740,7 @@
           "low",
           "medium",
           "high",
+          "xhigh",
           "maximum"
         ],
         "imageInput": true
@@ -691,6 +753,7 @@
           "low",
           "medium",
           "high",
+          "xhigh",
           "maximum"
         ],
         "imageInput": true
@@ -703,6 +766,7 @@
           "low",
           "medium",
           "high",
+          "xhigh",
           "maximum"
         ],
         "imageInput": true
@@ -738,6 +802,7 @@
           "low",
           "medium",
           "high",
+          "xhigh",
           "maximum"
         ],
         "imageInput": true
@@ -775,6 +840,7 @@
           "medium",
           "high"
         ],
+        "thinkingCanDisable": false,
         "imageInput": true
       },
       "gemini-3.6-flash": {
@@ -787,6 +853,7 @@
           "medium",
           "high"
         ],
+        "thinkingCanDisable": false,
         "imageInput": true
       },
       "gemini-3.5-flash-lite": {
@@ -799,6 +866,7 @@
           "medium",
           "high"
         ],
+        "thinkingCanDisable": false,
         "imageInput": true
       },
       "gemini-3.1-flash-lite": {
@@ -810,10 +878,15 @@
           "medium",
           "high"
         ],
+        "thinkingCanDisable": false,
         "imageInput": true
       },
       "gemini-3.1-pro-preview": {
         "contextWindow": 1048576,
+        "contextWindows": [
+          200000,
+          1048576
+        ],
         "maxTokens": 65536,
         "thinking": true,
         "thinkingEfforts": [
@@ -821,10 +894,15 @@
           "medium",
           "high"
         ],
+        "thinkingCanDisable": false,
         "imageInput": true
       },
       "gemini-3.1-pro-preview-customtools": {
         "contextWindow": 1048576,
+        "contextWindows": [
+          200000,
+          1048576
+        ],
         "maxTokens": 65536,
         "thinking": true,
         "thinkingEfforts": [
@@ -832,6 +910,7 @@
           "medium",
           "high"
         ],
+        "thinkingCanDisable": false,
         "imageInput": true
       },
       "gemini-3-flash-preview": {
@@ -844,10 +923,15 @@
           "medium",
           "high"
         ],
+        "thinkingCanDisable": false,
         "imageInput": true
       },
       "gemini-2.5-pro": {
         "contextWindow": 1048576,
+        "contextWindows": [
+          200000,
+          1048576
+        ],
         "maxTokens": 65536,
         "thinking": true,
         "thinkingEfforts": [
@@ -1491,6 +1575,10 @@
       },
       "anthropic/claude-haiku-5.5": {
         "contextWindow": 1000000,
+        "contextWindows": [
+          100000,
+          1000000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -1815,6 +1903,10 @@
       },
       "google/gemini-2.5-pro": {
         "contextWindow": 1048576,
+        "contextWindows": [
+          200000,
+          1048576
+        ],
         "maxTokens": 65536,
         "thinking": true,
         "thinkingCanDisable": false,
@@ -1868,6 +1960,10 @@
       },
       "google/gemini-3.1-pro-preview": {
         "contextWindow": 1048576,
+        "contextWindows": [
+          200000,
+          1048576
+        ],
         "maxTokens": 65536,
         "thinking": true,
         "thinkingEfforts": [
@@ -1880,6 +1976,10 @@
       },
       "google/gemini-3.1-pro-preview-customtools": {
         "contextWindow": 1048576,
+        "contextWindows": [
+          200000,
+          1048576
+        ],
         "maxTokens": 65536,
         "thinking": true,
         "thinkingEfforts": [
@@ -2511,7 +2611,8 @@
         "thinkingEfforts": [
           "low",
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
@@ -2534,7 +2635,8 @@
         "thinkingEfforts": [
           "low",
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
         "imageInput": true
       },
@@ -2561,7 +2663,8 @@
         "thinking": true,
         "thinkingEfforts": [
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
@@ -2579,12 +2682,17 @@
       },
       "openai/gpt-5.4": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
           "low",
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
         "imageInput": true
       },
@@ -2612,23 +2720,33 @@
       },
       "openai/gpt-5.4-pro": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
       },
       "openai/gpt-5.5": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
           "low",
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
         "imageInput": true
       },
@@ -2638,13 +2756,18 @@
         "thinking": true,
         "thinkingEfforts": [
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
       },
       "openai/gpt-5.6-luna": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -2657,6 +2780,10 @@
       },
       "openai/gpt-5.6-luna-pro": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -2669,6 +2796,10 @@
       },
       "openai/gpt-5.6-sol": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -2681,6 +2812,10 @@
       },
       "openai/gpt-5.6-sol-pro": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -2693,6 +2828,10 @@
       },
       "openai/gpt-5.6-terra": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -2705,6 +2844,10 @@
       },
       "openai/gpt-5.6-terra-pro": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -2717,6 +2860,10 @@
       },
       "openai/gpt-6-astra": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -2730,6 +2877,10 @@
       },
       "openai/gpt-6-astra-pro": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -2743,6 +2894,10 @@
       },
       "openai/gpt-6-luna": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -2755,6 +2910,10 @@
       },
       "openai/gpt-6-luna-pro": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -2767,6 +2926,10 @@
       },
       "openai/gpt-6-sol": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -2779,6 +2942,10 @@
       },
       "openai/gpt-6-sol-pro": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -2791,6 +2958,10 @@
       },
       "openai/gpt-6.1-sol": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -2804,6 +2975,10 @@
       },
       "openai/gpt-6.1-sol-pro": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -3372,24 +3547,34 @@
       },
       "x-ai/grok-4.6": {
         "contextWindow": 500000,
+        "contextWindows": [
+          200000,
+          500000
+        ],
         "maxTokens": 450000,
         "thinking": true,
         "thinkingEfforts": [
           "low",
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
       },
       "x-ai/grok-4.7": {
         "contextWindow": 500000,
+        "contextWindows": [
+          200000,
+          500000
+        ],
         "maxTokens": 450000,
         "thinking": true,
         "thinkingEfforts": [
           "low",
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
@@ -3487,7 +3672,8 @@
         "maxTokens": 943718,
         "thinking": true,
         "thinkingEfforts": [
-          "high"
+          "high",
+          "maximum"
         ]
       },
       "z-ai/glm-5.3": {
@@ -3641,6 +3827,10 @@
       },
       "anthropic/claude-haiku-5-5": {
         "contextWindow": 1000000,
+        "contextWindows": [
+          100000,
+          1000000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -3811,6 +4001,10 @@
       },
       "google/gemini-2.5-pro": {
         "contextWindow": 1048576,
+        "contextWindows": [
+          200000,
+          1048576
+        ],
         "maxTokens": 65535,
         "thinking": true,
         "imageInput": true
@@ -3830,6 +4024,10 @@
       },
       "google/gemini-3-pro-preview": {
         "contextWindow": 1048576,
+        "contextWindows": [
+          200000,
+          1048576
+        ],
         "maxTokens": 65535,
         "thinking": true,
         "thinkingEfforts": [
@@ -3855,6 +4053,10 @@
       },
       "google/gemini-3.1-pro-preview": {
         "contextWindow": 1048576,
+        "contextWindows": [
+          200000,
+          1048576
+        ],
         "maxTokens": 65535,
         "thinking": true,
         "thinkingEfforts": [
@@ -4192,7 +4394,8 @@
         "thinkingEfforts": [
           "low",
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
         "imageInput": true
       },
@@ -4209,12 +4412,17 @@
       },
       "openai/gpt-5.4": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
           "low",
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
         "imageInput": true
       },
@@ -4242,23 +4450,33 @@
       },
       "openai/gpt-5.4-pro": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
       },
       "openai/gpt-5.5": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
           "low",
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
         "imageInput": true
       },
@@ -4268,13 +4486,18 @@
         "thinking": true,
         "thinkingEfforts": [
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
       },
       "openai/gpt-5.6-luna": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -4287,6 +4510,10 @@
       },
       "openai/gpt-5.6-sol": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -4299,6 +4526,10 @@
       },
       "openai/gpt-5.6-terra": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -4324,6 +4555,10 @@
       },
       "openai/gpt-6-astra": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -4337,6 +4572,10 @@
       },
       "openai/gpt-6-luna": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -4349,6 +4588,10 @@
       },
       "openai/gpt-6-sol": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -4361,6 +4604,10 @@
       },
       "openai/gpt-6.1-sol": {
         "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
         "maxTokens": 128000,
         "thinking": true,
         "thinkingEfforts": [
@@ -4761,26 +5008,39 @@
           "medium",
           "high"
         ],
+        "thinkingCanDisable": false,
         "imageInput": true
       },
       "xai/grok-4.6": {
         "contextWindow": 500000,
+        "contextWindows": [
+          200000,
+          500000
+        ],
         "thinking": true,
         "thinkingEfforts": [
           "low",
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
+        "thinkingCanDisable": false,
         "imageInput": true
       },
       "xai/grok-4.7": {
         "contextWindow": 500000,
+        "contextWindows": [
+          200000,
+          500000
+        ],
         "thinking": true,
         "thinkingEfforts": [
           "low",
           "medium",
-          "high"
+          "high",
+          "maximum"
         ],
+        "thinkingCanDisable": false,
         "imageInput": true
       },
       "xai/grok-build-0.1": {
@@ -4952,7 +5212,8 @@
           "thinkingEfforts": [
             "low",
             "medium",
-            "high"
+            "high",
+            "maximum"
           ],
           "thinkingCanDisable": false,
           "imageInput": true
@@ -4976,7 +5237,8 @@
           "thinkingEfforts": [
             "low",
             "medium",
-            "high"
+            "high",
+            "maximum"
           ],
           "imageInput": true
         },
@@ -5016,12 +5278,17 @@
         },
         "gpt-5.4": {
           "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
             "low",
             "medium",
-            "high"
+            "high",
+            "maximum"
           ],
           "imageInput": true
         },
@@ -5049,23 +5316,33 @@
         },
         "gpt-5.4-pro": {
           "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
             "medium",
-            "high"
+            "high",
+            "maximum"
           ],
           "thinkingCanDisable": false,
           "imageInput": true
         },
         "gpt-5.5": {
           "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
             "low",
             "medium",
-            "high"
+            "high",
+            "maximum"
           ],
           "imageInput": true
         },
@@ -5075,13 +5352,18 @@
           "thinking": true,
           "thinkingEfforts": [
             "medium",
-            "high"
+            "high",
+            "maximum"
           ],
           "thinkingCanDisable": false,
           "imageInput": true
         },
         "gpt-5.6-luna": {
           "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
@@ -5094,6 +5376,10 @@
         },
         "gpt-5.6-sol": {
           "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
@@ -5106,6 +5392,10 @@
         },
         "gpt-5.6-terra": {
           "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
@@ -5118,6 +5408,10 @@
         },
         "gpt-6-astra": {
           "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
@@ -5131,6 +5425,10 @@
         },
         "gpt-6-luna": {
           "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
@@ -5143,6 +5441,10 @@
         },
         "gpt-6-sol": {
           "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
@@ -5155,6 +5457,10 @@
         },
         "gpt-6.1-sol": {
           "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
@@ -5175,28 +5481,41 @@
             "medium",
             "high"
           ],
+          "thinkingCanDisable": false,
           "imageInput": true
         },
         "grok-4.6": {
           "contextWindow": 500000,
+          "contextWindows": [
+            200000,
+            500000
+          ],
           "maxTokens": 500000,
           "thinking": true,
           "thinkingEfforts": [
             "low",
             "medium",
-            "high"
+            "high",
+            "maximum"
           ],
+          "thinkingCanDisable": false,
           "imageInput": true
         },
         "grok-4.7": {
           "contextWindow": 500000,
+          "contextWindows": [
+            200000,
+            500000
+          ],
           "maxTokens": 500000,
           "thinking": true,
           "thinkingEfforts": [
             "low",
             "medium",
-            "high"
+            "high",
+            "maximum"
           ],
+          "thinkingCanDisable": false,
           "imageInput": true
         },
         "grok-build-0.1": {
@@ -5267,6 +5586,7 @@
             "low",
             "medium",
             "high",
+            "xhigh",
             "maximum"
           ],
           "thinkingCanDisable": false,
@@ -5280,6 +5600,7 @@
             "low",
             "medium",
             "high",
+            "xhigh",
             "maximum"
           ],
           "thinkingCanDisable": false,
@@ -5293,12 +5614,17 @@
         },
         "claude-haiku-5-5": {
           "contextWindow": 1000000,
+          "contextWindows": [
+            100000,
+            1000000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
             "low",
             "medium",
             "high",
+            "xhigh",
             "maximum"
           ],
           "imageInput": true
@@ -5334,6 +5660,7 @@
             "low",
             "medium",
             "high",
+            "xhigh",
             "maximum"
           ],
           "imageInput": true
@@ -5346,6 +5673,7 @@
             "low",
             "medium",
             "high",
+            "xhigh",
             "maximum"
           ],
           "imageInput": true
@@ -5358,6 +5686,7 @@
             "low",
             "medium",
             "high",
+            "xhigh",
             "maximum"
           ],
           "imageInput": true
@@ -5370,6 +5699,7 @@
             "low",
             "medium",
             "high",
+            "xhigh",
             "maximum"
           ],
           "thinkingCanDisable": false,
@@ -5407,6 +5737,7 @@
             "low",
             "medium",
             "high",
+            "xhigh",
             "maximum"
           ],
           "imageInput": true
@@ -5419,6 +5750,7 @@
             "low",
             "medium",
             "high",
+            "xhigh",
             "maximum"
           ],
           "thinkingCanDisable": false,
@@ -5468,6 +5800,10 @@
         },
         "gemini-3.1-pro": {
           "contextWindow": 1048576,
+          "contextWindows": [
+            200000,
+            1048576
+          ],
           "maxTokens": 65536,
           "thinking": true,
           "thinkingEfforts": [
@@ -5777,6 +6113,10 @@
       "models": {
         "gpt-5.6-luna": {
           "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
@@ -5789,6 +6129,10 @@
         },
         "gpt-6-luna": {
           "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
@@ -5808,28 +6152,41 @@
             "medium",
             "high"
           ],
+          "thinkingCanDisable": false,
           "imageInput": true
         },
         "grok-4.6": {
           "contextWindow": 500000,
+          "contextWindows": [
+            200000,
+            500000
+          ],
           "maxTokens": 500000,
           "thinking": true,
           "thinkingEfforts": [
             "low",
             "medium",
-            "high"
+            "high",
+            "maximum"
           ],
+          "thinkingCanDisable": false,
           "imageInput": true
         },
         "grok-4.7": {
           "contextWindow": 500000,
+          "contextWindows": [
+            200000,
+            500000
+          ],
           "maxTokens": 500000,
           "thinking": true,
           "thinkingEfforts": [
             "low",
             "medium",
-            "high"
+            "high",
+            "maximum"
           ],
+          "thinkingCanDisable": false,
           "imageInput": true
         },
         "muse-spark-1.2-contributor": {
@@ -5864,12 +6221,17 @@
       "models": {
         "claude-haiku-5-5": {
           "contextWindow": 1000000,
+          "contextWindows": [
+            100000,
+            1000000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
             "low",
             "medium",
             "high",
+            "xhigh",
             "maximum"
           ],
           "imageInput": true
@@ -6419,7 +6781,8 @@
           "thinkingEfforts": [
             "low",
             "medium",
-            "high"
+            "high",
+            "maximum"
           ],
           "imageInput": true
         },
@@ -6441,12 +6804,17 @@
           "thinkingEfforts": [
             "low",
             "medium",
-            "high"
+            "high",
+            "maximum"
           ],
           "imageInput": true
         },
         "gpt-5.6-luna": {
           "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
@@ -6459,6 +6827,10 @@
         },
         "gpt-5.6-sol": {
           "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
@@ -6471,6 +6843,10 @@
         },
         "gpt-5.6-terra": {
           "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
@@ -6483,6 +6859,10 @@
         },
         "gpt-6-astra": {
           "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
@@ -6496,6 +6876,10 @@
         },
         "gpt-6-luna": {
           "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
@@ -6508,6 +6892,10 @@
         },
         "gpt-6-sol": {
           "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
@@ -6520,6 +6908,10 @@
         },
         "gpt-6.1-sol": {
           "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
@@ -6753,28 +7145,41 @@
             "medium",
             "high"
           ],
+          "thinkingCanDisable": false,
           "imageInput": true
         },
         "xai/grok-4.6": {
           "contextWindow": 500000,
+          "contextWindows": [
+            200000,
+            500000
+          ],
           "maxTokens": 500000,
           "thinking": true,
           "thinkingEfforts": [
             "low",
             "medium",
-            "high"
+            "high",
+            "maximum"
           ],
+          "thinkingCanDisable": false,
           "imageInput": true
         },
         "xai/grok-4.7": {
           "contextWindow": 500000,
+          "contextWindows": [
+            200000,
+            500000
+          ],
           "maxTokens": 500000,
           "thinking": true,
           "thinkingEfforts": [
             "low",
             "medium",
-            "high"
+            "high",
+            "maximum"
           ],
+          "thinkingCanDisable": false,
           "imageInput": true
         },
         "xiaomi/mimo-v2.5": {
@@ -6883,6 +7288,7 @@
             "low",
             "medium",
             "high",
+            "xhigh",
             "maximum"
           ],
           "thinkingCanDisable": false,
@@ -6896,6 +7302,7 @@
             "low",
             "medium",
             "high",
+            "xhigh",
             "maximum"
           ],
           "thinkingCanDisable": false,
@@ -6909,12 +7316,17 @@
         },
         "claude-haiku-5-5": {
           "contextWindow": 1000000,
+          "contextWindows": [
+            100000,
+            1000000
+          ],
           "maxTokens": 128000,
           "thinking": true,
           "thinkingEfforts": [
             "low",
             "medium",
             "high",
+            "xhigh",
             "maximum"
           ],
           "imageInput": true
@@ -6927,6 +7339,7 @@
             "low",
             "medium",
             "high",
+            "xhigh",
             "maximum"
           ],
           "imageInput": true
@@ -6939,6 +7352,7 @@
             "low",
             "medium",
             "high",
+            "xhigh",
             "maximum"
           ],
           "imageInput": true
@@ -6951,6 +7365,7 @@
             "low",
             "medium",
             "high",
+            "xhigh",
             "maximum"
           ],
           "imageInput": true
@@ -6963,6 +7378,7 @@
             "low",
             "medium",
             "high",
+            "xhigh",
             "maximum"
           ],
           "thinkingCanDisable": false,
@@ -6988,6 +7404,7 @@
             "low",
             "medium",
             "high",
+            "xhigh",
             "maximum"
           ],
           "imageInput": true
@@ -7000,6 +7417,7 @@
             "low",
             "medium",
             "high",
+            "xhigh",
             "maximum"
           ],
           "thinkingCanDisable": false,
