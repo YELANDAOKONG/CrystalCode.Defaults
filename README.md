@@ -2,7 +2,7 @@
 
 **Default provider and model definitions for [Crystal Code](https://github.com/YELANDAOKONG/CrystalCode).**
 
-This repository holds the reference `providers.json` catalog: named endpoints, protocols, model ids, and per-model metadata such as context window, output limit, thinking efforts, and image input. Copy it into your Crystal home to extend the small starter set built into Crystal Code with the full catalog.
+This repository holds the reference `providers.json` catalog: named endpoints, protocols, model ids, and per-model metadata such as context windows, output limits, thinking efforts, and image input. Copy it into your Crystal home to extend the small starter set built into Crystal Code with the full catalog.
 
 [![Crystal Code](https://img.shields.io/badge/Crystal%20Code-YELANDAOKONG%2FCrystalCode-512BD4.svg)](https://github.com/YELANDAOKONG/CrystalCode)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -82,6 +82,7 @@ A provider name can map to an array of entries when one service exposes several 
 - Without this file, Crystal Code falls back to a small starter catalog: `deepseek`, `openai`, `gemini`, and `ollama`. The `anthropic` protocol is built in, but has no starter entry.
 - A `providers.json` in the Crystal home supplies the operator catalog and overlays the built-in one.
 - Models that are not listed in the effective catalog cannot be selected. There is no global context window.
+- A model may declare selectable context budgets with `contextWindows`; `/context` cycles them, and compaction and the status bar use the selected budget.
 - When `providers.json` exists, the legacy `providers` object in `config.json` is ignored.
 
 <a name="file-format"></a>
@@ -108,11 +109,12 @@ Model fields:
 
 | Field | Meaning |
 | :--- | :--- |
-| `contextWindow` | Required. Positive token window used for compaction and the status bar |
+| `contextWindow` | Required. Positive maximum token window; upper bound for selectable budgets, and the sole budget when `contextWindows` is omitted |
+| `contextWindows` | Optional distinct positive token budgets no greater than `contextWindow`, for example `[272000, 1000000]`. `/context` cycles them; the lowest is the initial budget, and compaction and the status bar use the selected budget |
 | `maxTokens` | Optional positive output-token cap |
 | `thinking` | Whether the model accepts reasoning hints |
-| `thinkingEfforts` | Accepted effort names: `minimal`, `low`, `medium`, `high`, `maximum` |
-| `thinkingCanDisable` | Whether `/thinking off` is accepted (default `true`) |
+| `thinkingEfforts` | Portable names `minimal`, `low`, `medium`, `high`, and `maximum` (`max` is stored as `maximum`), or another effort token the endpoint accepts. A token starts with a letter and then uses only letters, digits, and hyphens |
+| `thinkingCanDisable` | Whether `/thinking off` is accepted (default `true`). Models that always reason, such as Gemini 3, set this to `false` |
 | `imageInput` | Whether the model may receive images (default `false`) |
 | `temperature` | Optional, 0 to 2 |
 | `topP` | Optional, 0 to 1 |
@@ -123,7 +125,7 @@ The [user guide](https://github.com/YELANDAOKONG/CrystalCode/blob/master/docs/us
 
 Maintainers can write a commit message and commit the current change with [`commit.sh`](commit.sh). It runs `crystal run` in this repository. Extra arguments are appended to the task. The run skips external tools and the directory trust check, and it does not record the directory as trusted.
 
-Update `providers.json` by hand when a provider adds, retires, or changes models. Crystal Code does not rewrite this file.
+Update `providers.json` by hand when a provider adds, retires, or changes models or model metadata. Crystal Code does not rewrite this file.
 
 ## 📄 License
 
