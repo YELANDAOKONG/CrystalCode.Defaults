@@ -1,0 +1,53 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://api.mistral.ai/v1/",
+  "tokenLimit": "max_tokens",
+  "models": {
+    "mistral-large-4-0": {
+      "contextWindow": 1048576,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "imageInput": true
+    },
+    "mistral-medium-3-5": {
+      "contextWindow": 262144,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "imageInput": true
+    },
+    "mistral-small-latest": {
+      "contextWindow": 262144,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "imageInput": true
+    },
+    "zai-glm-5-3": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high"
+      ],
+      "thinkingCanDisable": false
+    }
+  }
+}

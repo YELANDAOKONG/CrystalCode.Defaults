@@ -1,0 +1,146 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://ollama.com/v1/",
+  "apiKeyEnvironment": "OLLAMA_API_KEY",
+  "tokenLimit": "max_tokens",
+  "models": {
+    "beam": {
+      "contextWindow": 1048576,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "thinkingCanDisable": false
+    },
+    "deepseek-v4-pro:0813": {
+      "contextWindow": 1048576,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high"
+      ]
+    },
+    "deepseek-v4.1-flash": {
+      "contextWindow": 1048576,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high"
+      ],
+      "imageInput": true
+    },
+    "gemma4:31b": {
+      "contextWindow": 262144,
+      "thinking": true,
+      "imageInput": true
+    },
+    "glm-5.2": {
+      "contextWindow": 1048576,
+      "thinking": true,
+      "thinkingEfforts": [
+        "high"
+      ]
+    },
+    "glm-5.3": {
+      "contextWindow": 1048576,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high"
+      ],
+      "thinkingCanDisable": false
+    },
+    "glm-5.3-flash": {
+      "contextWindow": 1048576,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "gpt-oss:120b": {
+      "contextWindow": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false
+    },
+    "gpt-oss:20b": {
+      "contextWindow": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false
+    },
+    "kimi-k2.6": {
+      "contextWindow": 262144,
+      "thinking": true,
+      "imageInput": true
+    },
+    "kimi-k2.7-code": {
+      "contextWindow": 262144,
+      "thinking": true,
+      "imageInput": true
+    },
+    "kimi-k3": {
+      "contextWindow": 1048576,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high"
+      ],
+      "imageInput": true
+    },
+    "minimax-m2.7": {
+      "contextWindow": 196608,
+      "thinking": true,
+      "thinkingCanDisable": false
+    },
+    "minimax-m3": {
+      "contextWindow": 512000,
+      "thinking": true,
+      "imageInput": true
+    },
+    "mistral-large-3:675b": {
+      "contextWindow": 262144,
+      "imageInput": true
+    },
+    "mistral-large-4": {
+      "contextWindow": 1048576,
+      "thinking": true,
+      "imageInput": true
+    },
+    "muse-spark-open": {
+      "contextWindow": 1048576,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "imageInput": true
+    },
+    "nemotron-3-nano:30b": {
+      "contextWindow": 262144,
+      "thinking": true
+    },
+    "nemotron-3-super": {
+      "contextWindow": 262144,
+      "thinking": true
+    },
+    "nemotron-3-ultra": {
+      "contextWindow": 262144,
+      "thinking": true
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://api.together.ai/v1/",
+  "tokenLimit": "max_tokens",
+  "models": {
+    "deepseek-ai/DeepSeek-V4-Pro-0813": {
+      "contextWindow": 1048576,
+      "thinking": true
+    },
+    "deepseek-ai/DeepSeek-V4.1-Flash": {
+      "contextWindow": 1000000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ]
+    },
+    "meta-models/Muse-Glimmer-30B": {
+      "contextWindow": 131072
+    },
+    "meta-models/Muse-Spark-Open-816B-A42B": {
+      "contextWindow": 1048576
+    },
+    "MiniMaxAI/MiniMax-M3": {
+      "contextWindow": 524288,
+      "thinking": true,
+      "imageInput": true
+    },
+    "moonshotai/Kimi-K3": {
+      "contextWindow": 1048576,
+      "thinking": true,
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "nvidia/NVIDIA-Nemotron-3.5-Super-VL": {
+      "contextWindow": 262144,
+      "imageInput": true
+    },
+    "openai/gpt-oss-120b": {
+      "contextWindow": 131072,
+      "thinking": true
+    },
+    "Prism-ML/Ternary-Bonsai-27B": {
+      "contextWindow": 262144
+    },
+    "Qwen/Qwen3.5-9B": {
+      "contextWindow": 262144,
+      "thinking": true,
+      "imageInput": true
+    },
+    "Qwen/Qwen3.6-Plus": {
+      "contextWindow": 1000000
+    },
+    "Qwen/Qwen3.7-Plus": {
+      "contextWindow": 1000000
+    },
+    "Qwen/Qwen3.8-Flash": {
+      "contextWindow": 1000000
+    },
+    "reflection/Beam-1.0-501B-A23B": {
+      "contextWindow": 1048576
+    },
+    "thinkingmachines/Inkling": {
+      "contextWindow": 524288
+    },
+    "together/Tev1-4B-experimental": {
+      "contextWindow": 32768
+    },
+    "zai-org/GLM-5.2": {
+      "contextWindow": 1048575,
+      "thinking": true,
+      "thinkingEfforts": [
+        "high",
+        "maximum"
+      ]
+    },
+    "zai-org/GLM-5.3": {
+      "contextWindow": 1048575,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false
+    },
+    "zai-org/GLM-5.3-Flash": {
+      "contextWindow": 1048575,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    }
+  }
+}

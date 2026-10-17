@@ -1,0 +1,99 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://api.meta.ai/v1/",
+  "apiKeyEnvironment": "MODEL_API_KEY",
+  "tokenLimit": "max_tokens",
+  "models": {
+    "muse-spark-1.1": {
+      "contextWindow": 1048576,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true
+    },
+    "muse-spark-1.2": {
+      "contextWindow": 1048576,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true
+    },
+    "muse-spark-1.2-contributor": {
+      "contextWindow": 1048576,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true
+    },
+    "muse-spark-1.3": {
+      "contextWindow": 1048576,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true,
+      "maxTokens": 131072
+    },
+    "muse-spark-1.3-contributor": {
+      "contextWindow": 1048576,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true
+    },
+    "muse-wonder-1.0": {
+      "contextWindow": 1048576,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high",
+        "xhigh"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true
+    }
+  }
+}

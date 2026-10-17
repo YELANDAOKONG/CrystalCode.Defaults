@@ -77,6 +77,13 @@ Provider definitions are read at startup. Restart the app after the file changes
 | `opencode-free` | `openai` | `https://opencode.ai/zen/v1/` |
 | `openrouter-free` | `openai` | `https://openrouter.ai/api/v1/` |
 | `siliconflow-intl` | `openai` | `https://api.siliconflow.com/v1/` |
+| `meta` | `openai` | `https://api.meta.ai/v1/` |
+| `mistral` | `openai` | `https://api.mistral.ai/v1/` |
+| `ollama-cloud` | `openai` | `https://ollama.com/v1/` |
+| `stepfun` | `openai` | `https://api.stepfun.com/v1/` |
+| `stepfun-intl` | `openai` | `https://api.stepfun.ai/v1/` |
+| `together` | `openai` | `https://api.together.ai/v1/` |
+| `xai` | `openai` | `https://api.x.ai/v1/` |
 
 A provider name can map to an array of entries when one service exposes several protocols or endpoints; `opencode-zen`, `opencode-go`, and `commandcode` use this form, and each model is routed to the protocol that owns it. `moonshot-intl`, `siliconflow-intl`, and `bigmodel-intl` are separate accounts from the domestic entries, so they do not reuse those API keys. `openrouter-free` and `opencode-free` still need an API key; the models themselves are the no-charge routes.
 

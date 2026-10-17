@@ -1,0 +1,42 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://api.stepfun.com/v1/",
+  "tokenLimit": "max_tokens",
+  "models": {
+    "step-3.5-flash": {
+      "contextWindow": 262144,
+      "thinking": true
+    },
+    "step-3.5-flash-2603": {
+      "contextWindow": 262144,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high"
+      ]
+    },
+    "step-3.7-flash": {
+      "contextWindow": 262144,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "imageInput": true,
+      "videoInput": true
+    },
+    "step-5-preview": {
+      "contextWindow": 1000000,
+      "maxTokens": 64000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "imageInput": true,
+      "videoInput": true
+    }
+  }
+}
