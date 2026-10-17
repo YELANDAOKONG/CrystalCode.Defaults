@@ -88,7 +88,7 @@
         "medium",
         "high",
         "xhigh",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": true
     },
@@ -99,7 +99,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": false
     },
@@ -110,7 +110,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -122,7 +122,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": false,
       "imageInput": true

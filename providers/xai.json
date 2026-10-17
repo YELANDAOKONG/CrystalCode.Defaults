@@ -38,7 +38,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -50,7 +50,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "thinkingCanDisable": false,
       "imageInput": true

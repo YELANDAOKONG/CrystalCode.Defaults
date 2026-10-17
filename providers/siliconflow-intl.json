@@ -197,7 +197,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ]
     },
     "google/gemma-4-12B-it": {
@@ -305,7 +305,7 @@
       "thinking": true,
       "thinkingEfforts": [
         "high",
-        "maximum"
+        "max"
       ]
     },
     "zai-org/GLM-5.3": {
@@ -315,7 +315,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": false
     },
@@ -326,7 +326,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": false,
       "imageInput": true

@@ -9,7 +9,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "imageInput": true
     },
@@ -20,7 +20,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "imageInput": true
     },
@@ -31,7 +31,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "imageInput": true
     },
@@ -42,7 +42,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ]
     }
   }

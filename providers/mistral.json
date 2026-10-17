@@ -45,7 +45,8 @@
       "thinking": true,
       "thinkingEfforts": [
         "low",
-        "high"
+        "high",
+        "max"
       ],
       "thinkingCanDisable": false
     }

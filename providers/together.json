@@ -13,7 +13,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ]
     },
     "meta-models/Muse-Glimmer-30B": {
@@ -72,7 +72,7 @@
       "thinking": true,
       "thinkingEfforts": [
         "high",
-        "maximum"
+        "max"
       ]
     },
     "zai-org/GLM-5.3": {
@@ -81,7 +81,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": false
     },
@@ -91,7 +91,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": false,
       "imageInput": true

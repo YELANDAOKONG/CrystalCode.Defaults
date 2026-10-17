@@ -76,7 +76,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -105,7 +105,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "max"
       ],
       "imageInput": true
     },
@@ -128,7 +128,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "max"
       ],
       "imageInput": true
     },
@@ -140,7 +140,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "max"
       ],
       "imageInput": true
     },
@@ -152,7 +152,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "max"
       ],
       "imageInput": true
     },
@@ -164,7 +164,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "max"
       ],
       "imageInput": true
     },
@@ -176,7 +176,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -195,7 +195,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "max"
       ],
       "imageInput": true
     },
@@ -207,7 +207,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "max"
       ],
       "imageInput": true
     },
@@ -219,7 +219,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -241,7 +241,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ]
     },
     "deepseek/deepseek-v4.1-flash": {
@@ -251,7 +251,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "imageInput": true
     },
@@ -426,7 +426,7 @@
       "thinking": true,
       "thinkingEfforts": [
         "high",
-        "maximum"
+        "max"
       ]
     },
     "mistral/leanstral-1-5": {
@@ -500,7 +500,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -663,7 +663,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "imageInput": true
     },
@@ -690,7 +690,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "imageInput": true
     },
@@ -727,7 +727,7 @@
       "thinkingEfforts": [
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -744,7 +744,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "imageInput": true
     },
@@ -755,7 +755,7 @@
       "thinkingEfforts": [
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -772,7 +772,8 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh",
+        "max"
       ],
       "imageInput": true
     },
@@ -788,7 +789,8 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh",
+        "max"
       ],
       "imageInput": true
     },
@@ -804,7 +806,8 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh",
+        "max"
       ],
       "imageInput": true
     },
@@ -833,7 +836,8 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh",
+        "max"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -850,7 +854,8 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh",
+        "max"
       ],
       "imageInput": true
     },
@@ -866,7 +871,8 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh",
+        "max"
       ],
       "imageInput": true
     },
@@ -882,7 +888,8 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh",
+        "max"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -1074,7 +1081,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ]
     },
     "sakana/fugu-ultra": {
@@ -1083,7 +1090,7 @@
       "thinking": true,
       "thinkingEfforts": [
         "high",
-        "maximum"
+        "xhigh"
       ]
     },
     "tencent/deepseek-v4.1-flash": {
@@ -1093,7 +1100,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ]
     },
     "tencent/glm-5.2": {
@@ -1102,7 +1109,7 @@
       "thinking": true,
       "thinkingEfforts": [
         "high",
-        "maximum"
+        "max"
       ]
     },
     "tencent/glm-5.3": {
@@ -1112,7 +1119,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": false
     },
@@ -1123,7 +1130,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -1135,7 +1142,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -1179,7 +1186,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -1290,7 +1297,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -1306,7 +1313,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -1378,7 +1385,7 @@
       "thinking": true,
       "thinkingEfforts": [
         "high",
-        "maximum"
+        "max"
       ]
     },
     "zai/glm-5.3": {
@@ -1388,7 +1395,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -1400,7 +1407,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": false,
       "imageInput": true

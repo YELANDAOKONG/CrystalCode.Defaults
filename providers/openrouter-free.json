@@ -102,7 +102,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "imageInput": true,
       "audioInput": true
@@ -116,7 +116,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "imageInput": true,
       "audioInput": true

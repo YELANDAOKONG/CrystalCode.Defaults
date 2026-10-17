@@ -15,7 +15,8 @@
           "low",
           "medium",
           "high",
-          "maximum"
+          "xhigh",
+          "max"
         ],
         "imageInput": true
       },
@@ -31,7 +32,8 @@
           "low",
           "medium",
           "high",
-          "maximum"
+          "xhigh",
+          "max"
         ],
         "imageInput": true
       },
@@ -59,7 +61,7 @@
           "low",
           "medium",
           "high",
-          "maximum"
+          "xhigh"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
@@ -76,7 +78,7 @@
           "low",
           "medium",
           "high",
-          "maximum"
+          "xhigh"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
@@ -124,7 +126,7 @@
           "medium",
           "high",
           "xhigh",
-          "maximum"
+          "max"
         ],
         "imageInput": true
       },
@@ -182,7 +184,7 @@
         "thinkingEfforts": [
           "low",
           "high",
-          "maximum"
+          "max"
         ],
         "imageInput": true
       },
@@ -193,7 +195,7 @@
         "thinkingEfforts": [
           "low",
           "high",
-          "maximum"
+          "max"
         ]
       },
       "deepseek-v4-flash-vision-exp": {
@@ -203,7 +205,7 @@
         "thinkingEfforts": [
           "low",
           "high",
-          "maximum"
+          "max"
         ],
         "imageInput": true
       },
@@ -213,7 +215,7 @@
         "thinking": true,
         "thinkingEfforts": [
           "high",
-          "maximum"
+          "max"
         ]
       },
       "deepseek-v4.1-flash": {
@@ -223,7 +225,7 @@
         "thinkingEfforts": [
           "low",
           "high",
-          "maximum"
+          "max"
         ],
         "imageInput": true
       },
@@ -243,7 +245,7 @@
         "thinking": true,
         "thinkingEfforts": [
           "high",
-          "maximum"
+          "max"
         ]
       },
       "glm-5.3": {
@@ -253,7 +255,7 @@
         "thinkingEfforts": [
           "low",
           "high",
-          "maximum"
+          "max"
         ],
         "thinkingCanDisable": false
       },
@@ -264,7 +266,7 @@
         "thinkingEfforts": [
           "low",
           "high",
-          "maximum"
+          "max"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
@@ -315,7 +317,7 @@
         "maxTokens": 131072,
         "thinking": true,
         "thinkingEfforts": [
-          "maximum"
+          "max"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
@@ -395,7 +397,7 @@
           "low",
           "medium",
           "high",
-          "maximum"
+          "xhigh"
         ],
         "imageInput": true
       },

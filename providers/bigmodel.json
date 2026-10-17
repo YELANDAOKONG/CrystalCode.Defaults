@@ -114,7 +114,7 @@
       "thinking": true,
       "thinkingEfforts": [
         "high",
-        "maximum"
+        "max"
       ]
     },
     "glm-5.3": {
@@ -124,7 +124,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": false
     },
@@ -135,7 +135,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -147,7 +147,7 @@
       "thinkingEfforts": [
         "low",
         "high",
-        "maximum"
+        "max"
       ],
       "thinkingCanDisable": false,
       "imageInput": true

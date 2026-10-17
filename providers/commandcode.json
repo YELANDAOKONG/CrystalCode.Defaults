@@ -106,7 +106,7 @@
         "thinkingEfforts": [
           "low",
           "high",
-          "maximum"
+          "max"
         ],
         "imageInput": true
       },
@@ -117,7 +117,7 @@
         "thinkingEfforts": [
           "low",
           "high",
-          "maximum"
+          "max"
         ],
         "imageInput": true
       },
@@ -128,7 +128,7 @@
         "thinkingEfforts": [
           "low",
           "high",
-          "maximum"
+          "max"
         ],
         "imageInput": true
       },
@@ -139,7 +139,7 @@
         "thinkingEfforts": [
           "low",
           "high",
-          "maximum"
+          "max"
         ]
       },
       "deepseek/deepseek-v4.1-flash": {
@@ -149,7 +149,7 @@
         "thinkingEfforts": [
           "low",
           "high",
-          "maximum"
+          "max"
         ],
         "imageInput": true
       },
@@ -160,7 +160,7 @@
         "thinkingEfforts": [
           "low",
           "high",
-          "maximum"
+          "max"
         ],
         "imageInput": true
       },
@@ -259,7 +259,7 @@
           "low",
           "medium",
           "high",
-          "maximum"
+          "xhigh"
         ],
         "imageInput": true
       },
@@ -282,7 +282,7 @@
           "low",
           "medium",
           "high",
-          "maximum"
+          "xhigh"
         ],
         "imageInput": true
       },
@@ -298,7 +298,8 @@
           "low",
           "medium",
           "high",
-          "maximum"
+          "xhigh",
+          "max"
         ],
         "imageInput": true
       },
@@ -314,7 +315,8 @@
           "low",
           "medium",
           "high",
-          "maximum"
+          "xhigh",
+          "max"
         ],
         "imageInput": true
       },
@@ -330,7 +332,8 @@
           "low",
           "medium",
           "high",
-          "maximum"
+          "xhigh",
+          "max"
         ],
         "imageInput": true
       },
@@ -346,7 +349,8 @@
           "low",
           "medium",
           "high",
-          "maximum"
+          "xhigh",
+          "max"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
@@ -363,7 +367,8 @@
           "low",
           "medium",
           "high",
-          "maximum"
+          "xhigh",
+          "max"
         ],
         "imageInput": true
       },
@@ -379,7 +384,8 @@
           "low",
           "medium",
           "high",
-          "maximum"
+          "xhigh",
+          "max"
         ],
         "imageInput": true
       },
@@ -395,7 +401,8 @@
           "low",
           "medium",
           "high",
-          "maximum"
+          "xhigh",
+          "max"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
@@ -460,7 +467,8 @@
           "low",
           "medium",
           "high",
-          "maximum"
+          "xhigh",
+          "max"
         ],
         "imageInput": true
       },
@@ -518,7 +526,7 @@
         "thinkingEfforts": [
           "low",
           "high",
-          "maximum"
+          "max"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
@@ -544,7 +552,7 @@
         "thinking": true,
         "thinkingEfforts": [
           "high",
-          "maximum"
+          "xhigh"
         ]
       },
       "stealth/glyph-cluster:free": {
@@ -610,7 +618,7 @@
           "low",
           "medium",
           "high",
-          "maximum"
+          "xhigh"
         ]
       },
       "xai/grok-4.5": {
@@ -637,7 +645,7 @@
           "low",
           "medium",
           "high",
-          "maximum"
+          "xhigh"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
@@ -654,7 +662,7 @@
           "low",
           "medium",
           "high",
-          "maximum"
+          "xhigh"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
@@ -695,7 +703,7 @@
         "thinkingEfforts": [
           "low",
           "high",
-          "maximum"
+          "max"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
@@ -707,7 +715,7 @@
         "thinkingEfforts": [
           "low",
           "high",
-          "maximum"
+          "max"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
@@ -728,7 +736,7 @@
         "thinking": true,
         "thinkingEfforts": [
           "high",
-          "maximum"
+          "max"
         ]
       },
       "zai-org/GLM-5.2-Fast": {
@@ -737,7 +745,7 @@
         "thinking": true,
         "thinkingEfforts": [
           "high",
-          "maximum"
+          "max"
         ]
       },
       "zai-org/GLM-5.3": {
@@ -747,7 +755,7 @@
         "thinkingEfforts": [
           "low",
           "high",
-          "maximum"
+          "max"
         ],
         "thinkingCanDisable": false
       }
@@ -766,7 +774,7 @@
           "medium",
           "high",
           "xhigh",
-          "maximum"
+          "max"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
@@ -780,7 +788,7 @@
           "medium",
           "high",
           "xhigh",
-          "maximum"
+          "max"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
@@ -804,7 +812,7 @@
           "medium",
           "high",
           "xhigh",
-          "maximum"
+          "max"
         ],
         "imageInput": true
       },
@@ -817,7 +825,7 @@
           "medium",
           "high",
           "xhigh",
-          "maximum"
+          "max"
         ],
         "imageInput": true
       },
@@ -830,7 +838,7 @@
           "medium",
           "high",
           "xhigh",
-          "maximum"
+          "max"
         ],
         "imageInput": true
       },
@@ -843,7 +851,7 @@
           "medium",
           "high",
           "xhigh",
-          "maximum"
+          "max"
         ],
         "imageInput": true
       },
@@ -856,7 +864,7 @@
           "medium",
           "high",
           "xhigh",
-          "maximum"
+          "max"
         ],
         "thinkingCanDisable": false,
         "imageInput": true
@@ -869,7 +877,7 @@
           "low",
           "medium",
           "high",
-          "maximum"
+          "max"
         ],
         "imageInput": true
       },
@@ -882,7 +890,7 @@
           "medium",
           "high",
           "xhigh",
-          "maximum"
+          "max"
         ],
         "imageInput": true
       },
@@ -895,7 +903,7 @@
           "medium",
           "high",
           "xhigh",
-          "maximum"
+          "max"
         ],
         "thinkingCanDisable": false,
         "imageInput": true

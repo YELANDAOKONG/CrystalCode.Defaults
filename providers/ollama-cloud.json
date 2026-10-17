@@ -10,7 +10,8 @@
         "low",
         "medium",
         "high",
-        "xhigh"
+        "xhigh",
+        "max"
       ],
       "thinkingCanDisable": false
     },
@@ -19,7 +20,8 @@
       "thinking": true,
       "thinkingEfforts": [
         "low",
-        "high"
+        "high",
+        "max"
       ]
     },
     "deepseek-v4.1-flash": {
@@ -27,7 +29,8 @@
       "thinking": true,
       "thinkingEfforts": [
         "low",
-        "high"
+        "high",
+        "max"
       ],
       "imageInput": true
     },
@@ -40,7 +43,8 @@
       "contextWindow": 1048576,
       "thinking": true,
       "thinkingEfforts": [
-        "high"
+        "high",
+        "max"
       ]
     },
     "glm-5.3": {
@@ -48,7 +52,8 @@
       "thinking": true,
       "thinkingEfforts": [
         "low",
-        "high"
+        "high",
+        "max"
       ],
       "thinkingCanDisable": false
     },
@@ -57,7 +62,8 @@
       "thinking": true,
       "thinkingEfforts": [
         "low",
-        "high"
+        "high",
+        "max"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -97,7 +103,8 @@
       "thinking": true,
       "thinkingEfforts": [
         "low",
-        "high"
+        "high",
+        "max"
       ],
       "imageInput": true
     },
@@ -126,7 +133,8 @@
       "thinkingEfforts": [
         "low",
         "medium",
-        "high"
+        "high",
+        "max"
       ],
       "imageInput": true
     },

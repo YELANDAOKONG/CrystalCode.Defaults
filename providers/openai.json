@@ -174,7 +174,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -194,7 +194,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "imageInput": true
     },
@@ -222,7 +222,7 @@
       "thinkingEfforts": [
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -239,7 +239,8 @@
       "thinkingEfforts": [
         "low",
         "medium",
-        "high"
+        "high",
+        "xhigh"
       ],
       "imageInput": true
     },
@@ -266,7 +267,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "imageInput": true
     },
@@ -277,7 +278,8 @@
       "thinkingEfforts": [
         "low",
         "medium",
-        "high"
+        "high",
+        "xhigh"
       ],
       "imageInput": true
     },
@@ -288,7 +290,8 @@
       "thinkingEfforts": [
         "low",
         "medium",
-        "high"
+        "high",
+        "xhigh"
       ],
       "imageInput": true
     },
@@ -303,7 +306,7 @@
       "thinkingEfforts": [
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -320,7 +323,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "imageInput": true
     },
@@ -331,7 +334,7 @@
       "thinkingEfforts": [
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -344,7 +347,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "imageInput": true
     },
@@ -360,7 +363,8 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh",
+        "max"
       ],
       "imageInput": true
     },
@@ -376,7 +380,8 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh",
+        "max"
       ],
       "imageInput": true
     },
@@ -392,7 +397,8 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh",
+        "max"
       ],
       "imageInput": true
     },
@@ -408,7 +414,8 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh",
+        "max"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -425,7 +432,8 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh",
+        "max"
       ],
       "imageInput": true
     },
@@ -441,7 +449,8 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh",
+        "max"
       ],
       "imageInput": true
     },
@@ -457,7 +466,8 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh",
+        "max"
       ],
       "thinkingCanDisable": false,
       "imageInput": true
@@ -470,7 +480,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "imageInput": true
     },
@@ -482,7 +492,7 @@
         "low",
         "medium",
         "high",
-        "maximum"
+        "xhigh"
       ],
       "imageInput": true
     },
