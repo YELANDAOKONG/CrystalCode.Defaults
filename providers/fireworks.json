@@ -17,35 +17,10 @@
       "thinkingCanDisable": false,
       "imageInput": true
     },
-    "accounts/fireworks/models/deepseek-v4-pro": {
-      "contextWindow": 1040000,
-      "maxTokens": 393216,
-      "thinking": true,
-      "thinkingEfforts": [
-        "low",
-        "high",
-        "max"
-      ]
-    },
     "accounts/fireworks/models/minimax-m3": {
       "contextWindow": 524288,
       "maxTokens": 524288,
       "thinking": true
-    },
-    "accounts/fireworks/models/glm-5p2": {
-      "contextWindow": 1040000,
-      "maxTokens": 131072,
-      "thinking": true,
-      "thinkingEfforts": [
-        "high",
-        "max"
-      ]
-    },
-    "accounts/fireworks/models/qwen3p8-27b": {
-      "contextWindow": 262144,
-      "maxTokens": 65536,
-      "thinking": true,
-      "imageInput": true
     },
     "accounts/fireworks/models/gpt-oss-120b": {
       "contextWindow": 131072,
