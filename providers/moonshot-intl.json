@@ -1,0 +1,38 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://api.moonshot.ai/v1/",
+  "models": {
+    "kimi-k3": {
+      "contextWindow": 1048576,
+      "maxTokens": 1048576,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "kimi-k2.7-code": {
+      "contextWindow": 262144,
+      "maxTokens": 262144,
+      "thinking": true,
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "kimi-k2.7-code-highspeed": {
+      "contextWindow": 262144,
+      "maxTokens": 262144,
+      "thinking": true,
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "kimi-k2.6": {
+      "contextWindow": 262144,
+      "maxTokens": 262144,
+      "thinking": true,
+      "imageInput": true
+    }
+  }
+}

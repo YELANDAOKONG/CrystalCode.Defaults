@@ -1,0 +1,130 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://openrouter.ai/api/v1/",
+  "replayReasoningContent": true,
+  "tokenLimit": "max_tokens",
+  "models": {
+    "cohere/north-mini-code:free": {
+      "contextWindow": 256000,
+      "maxTokens": 64000,
+      "thinking": true
+    },
+    "dots-studio/dots-3-note-preview:free": {
+      "contextWindow": 512000,
+      "maxTokens": 460800,
+      "thinking": true,
+      "imageInput": true
+    },
+    "google/gemma-4-26b-a4b-it:free": {
+      "contextWindow": 262144,
+      "maxTokens": 32768,
+      "thinking": true,
+      "imageInput": true,
+      "videoInput": true
+    },
+    "google/gemma-4-31b-it:free": {
+      "contextWindow": 262144,
+      "maxTokens": 32768,
+      "thinking": true,
+      "imageInput": true,
+      "videoInput": true
+    },
+    "liquid/lfm-2.5-2.6b:free": {
+      "contextWindow": 65536,
+      "maxTokens": 8192,
+      "thinking": true
+    },
+    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free": {
+      "contextWindow": 256000,
+      "maxTokens": 65536,
+      "thinking": true,
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true
+    },
+    "nvidia/nemotron-3-super-120b-a12b:free": {
+      "contextWindow": 262144,
+      "maxTokens": 235929,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium"
+      ]
+    },
+    "nvidia/nemotron-3-ultra-550b-a55b:free": {
+      "contextWindow": 1000000,
+      "maxTokens": 65536,
+      "thinking": true,
+      "thinkingEfforts": [
+        "medium",
+        "high"
+      ]
+    },
+    "nvidia/nemotron-3.5-content-safety:free": {
+      "contextWindow": 128000,
+      "maxTokens": 8192,
+      "thinking": true,
+      "imageInput": true
+    },
+    "nvidia/nemotron-3.5-lightning:free": {
+      "contextWindow": 1000000,
+      "maxTokens": 65536,
+      "thinking": true
+    },
+    "nvidia/nemotron-3.5-super-vl:free": {
+      "contextWindow": 1000000,
+      "maxTokens": 131072,
+      "thinking": true,
+      "imageInput": true,
+      "videoInput": true
+    },
+    "openrouter/free": {
+      "contextWindow": 200000,
+      "thinking": true,
+      "imageInput": true
+    },
+    "poolside/laguna-s-2.1:free": {
+      "contextWindow": 262144,
+      "maxTokens": 32768,
+      "thinking": true
+    },
+    "poolside/laguna-xs-2.1:free": {
+      "contextWindow": 262144,
+      "maxTokens": 32768,
+      "thinking": true
+    },
+    "thinkingmachines/inkling-small:free": {
+      "contextWindow": 1048576,
+      "maxTokens": 262144,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true,
+      "audioInput": true
+    },
+    "thinkingmachines/inkling:free": {
+      "contextWindow": 1048576,
+      "maxTokens": 262144,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true,
+      "audioInput": true
+    },
+    "xingchen-agi/xing4.0-29b-a4b:free": {
+      "contextWindow": 262144,
+      "maxTokens": 235929,
+      "thinking": true
+    }
+  }
+}

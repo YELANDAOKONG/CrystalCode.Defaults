@@ -72,8 +72,13 @@ Provider definitions are read at startup. Restart the app after the file changes
 | `opencode-zen` | `responses`, `anthropic`, `gemini`, `openai` | `https://opencode.ai/zen/v1/` |
 | `opencode-go` | `responses`, `anthropic`, `openai` | `https://opencode.ai/zen/go/v1/` |
 | `commandcode` | `openai`, `anthropic` | `https://api.commandcode.ai/provider/v1/` |
+| `bigmodel-intl` | `openai` | `https://api.z.ai/api/paas/v4/` |
+| `moonshot-intl` | `openai` | `https://api.moonshot.ai/v1/` |
+| `opencode-free` | `openai` | `https://opencode.ai/zen/v1/` |
+| `openrouter-free` | `openai` | `https://openrouter.ai/api/v1/` |
+| `siliconflow-intl` | `openai` | `https://api.siliconflow.com/v1/` |
 
-A provider name can map to an array of entries when one service exposes several protocols or endpoints; `opencode-zen`, `opencode-go`, and `commandcode` use this form, and each model is routed to the protocol that owns it.
+A provider name can map to an array of entries when one service exposes several protocols or endpoints; `opencode-zen`, `opencode-go`, and `commandcode` use this form, and each model is routed to the protocol that owns it. `moonshot-intl`, `siliconflow-intl`, and `bigmodel-intl` are separate accounts from the domestic entries, so they do not reuse those API keys. `openrouter-free` and `opencode-free` still need an API key; the models themselves are the no-charge routes.
 
 `openai` means OpenAI-compatible Chat Completions and `responses` is the OpenAI Responses API. `deepseek`, `anthropic`, `gemini`, and `ollama` are native protocols.
 

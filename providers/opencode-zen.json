@@ -790,6 +790,17 @@
         ],
         "imageInput": true
       },
+      "deepseek-v4.1-flash-free": {
+        "contextWindow": 1000000,
+        "maxTokens": 384000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high",
+          "maximum"
+        ],
+        "imageInput": true
+      },
       "exo-free": {
         "contextWindow": 1048576,
         "maxTokens": 131072,
@@ -830,6 +841,18 @@
         "thinkingCanDisable": false
       },
       "glm-5.3-flash": {
+        "contextWindow": 1000000,
+        "maxTokens": 131072,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high",
+          "maximum"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
+      "glm-5.3-flash-free": {
         "contextWindow": 1000000,
         "maxTokens": 131072,
         "thinking": true,

@@ -1,0 +1,103 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://opencode.ai/zen/v1/",
+  "replayReasoningContent": true,
+  "tokenLimit": "max_tokens",
+  "models": {
+    "big-pickle": {
+      "contextWindow": 200000,
+      "maxTokens": 32000,
+      "thinking": true
+    },
+    "deepseek-v4.1-flash-free": {
+      "contextWindow": 1000000,
+      "maxTokens": 384000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "exo-free": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "high"
+      ],
+      "imageInput": true
+    },
+    "glm-5.3-flash-free": {
+      "contextWindow": 1000000,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "jev-1.13-free": {
+      "contextWindow": 64000
+    },
+    "ling-3.0-flash-fin-free": {
+      "contextWindow": 262144,
+      "maxTokens": 32768,
+      "thinking": true
+    },
+    "ling-3.1-flash-free": {
+      "contextWindow": 262144,
+      "maxTokens": 32768,
+      "thinking": true
+    },
+    "longcat-2.5-preview-free": {
+      "contextWindow": 1000000,
+      "maxTokens": 131072,
+      "thinking": true,
+      "imageInput": true
+    },
+    "mimo-v2.6-flash-free": {
+      "contextWindow": 200000,
+      "maxTokens": 32000,
+      "thinking": true,
+      "imageInput": true
+    },
+    "nemotron-3-ultra-free": {
+      "contextWindow": 1000000,
+      "maxTokens": 128000,
+      "thinking": true
+    },
+    "nemotron-3.5-lightning-free": {
+      "contextWindow": 262144,
+      "maxTokens": 262144,
+      "thinking": true
+    },
+    "space-bunny-free": {
+      "contextWindow": 1048576,
+      "maxTokens": 524288,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "step-5-preview-free": {
+      "contextWindow": 1000000,
+      "maxTokens": 65536,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "imageInput": true
+    }
+  }
+}

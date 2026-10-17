@@ -1,0 +1,137 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://api.z.ai/api/paas/v4/",
+  "replayReasoningContent": true,
+  "tokenLimit": "max_tokens",
+  "models": {
+    "glm-4.5": {
+      "contextWindow": 131072,
+      "maxTokens": 98304,
+      "thinking": true
+    },
+    "glm-4.5-air": {
+      "contextWindow": 131072,
+      "maxTokens": 98304,
+      "thinking": true
+    },
+    "glm-4.5-flash": {
+      "contextWindow": 131072,
+      "maxTokens": 98304,
+      "thinking": true
+    },
+    "glm-4.5v": {
+      "contextWindow": 64000,
+      "maxTokens": 16384,
+      "thinking": true,
+      "imageInput": true
+    },
+    "glm-4.6": {
+      "contextWindow": 204800,
+      "maxTokens": 131072,
+      "thinking": true
+    },
+    "glm-4.6v": {
+      "contextWindow": 128000,
+      "maxTokens": 32768,
+      "thinking": true,
+      "imageInput": true
+    },
+    "glm-4.6v-flash": {
+      "contextWindow": 128000,
+      "maxTokens": 32768,
+      "thinking": true,
+      "imageInput": true
+    },
+    "glm-4.6v-flashx": {
+      "contextWindow": 131072,
+      "maxTokens": 32768,
+      "thinking": true,
+      "imageInput": true
+    },
+    "glm-4.7": {
+      "contextWindow": 204800,
+      "maxTokens": 131072,
+      "thinking": true
+    },
+    "glm-4.7-flash": {
+      "contextWindow": 200000,
+      "maxTokens": 131072,
+      "thinking": true
+    },
+    "glm-4.7-flashx": {
+      "contextWindow": 200000,
+      "maxTokens": 131072,
+      "thinking": true
+    },
+    "glm-5": {
+      "contextWindow": 204800,
+      "maxTokens": 131072,
+      "thinking": true
+    },
+    "glm-5-turbo": {
+      "contextWindow": 200000,
+      "maxTokens": 131072,
+      "thinking": true
+    },
+    "glm-5.1": {
+      "contextWindow": 200000,
+      "maxTokens": 131072,
+      "thinking": true
+    },
+    "glm-5.2": {
+      "contextWindow": 1000000,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "maximum"
+      ],
+      "thinkingCanDisable": true
+    },
+    "glm-5.3": {
+      "contextWindow": 1000000,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false
+    },
+    "glm-5.3-flash": {
+      "contextWindow": 1000000,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "glm-5.3-flashx": {
+      "contextWindow": 1000000,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "glm-5v-turbo": {
+      "contextWindow": 200000,
+      "maxTokens": 131072,
+      "thinking": true,
+      "imageInput": true
+    }
+  }
+}
