@@ -12,7 +12,8 @@
     "ernie-5.0": {
       "contextWindow": 131072,
       "maxTokens": 65536,
-      "thinking": true
+      "thinking": true,
+      "imageInput": true
     },
     "ernie-5.0-thinking-preview": {
       "contextWindow": 131072,

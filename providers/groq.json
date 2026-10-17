@@ -12,7 +12,8 @@
         "low",
         "medium",
         "high"
-      ]
+      ],
+      "thinkingCanDisable": false
     },
     "openai/gpt-oss-20b": {
       "contextWindow": 131072,
@@ -22,7 +23,8 @@
         "low",
         "medium",
         "high"
-      ]
+      ],
+      "thinkingCanDisable": false
     },
     "qwen/qwen3.8-27b": {
       "contextWindow": 131072,
@@ -34,16 +36,6 @@
         "high"
       ],
       "imageInput": true
-    },
-    "groq/compound": {
-      "contextWindow": 131072,
-      "maxTokens": 131072,
-      "thinking": true
-    },
-    "groq/compound-mini": {
-      "contextWindow": 131072,
-      "maxTokens": 131072,
-      "thinking": true
     },
     "llama-3.3-70b-versatile": {
       "contextWindow": 131072,

@@ -2,6 +2,7 @@
   "protocol": "openai",
   "baseUri": "https://router.huggingface.co/v1/",
   "apiKeyEnvironment": "HF_TOKEN",
+  "replayReasoningContent": true,
   "tokenLimit": "max_tokens",
   "models": {
     "moonshotai/Kimi-K3": {
@@ -9,7 +10,7 @@
       "maxTokens": 131072,
       "thinking": true,
       "imageInput": true,
-      "videoInput": true
+      "thinkingCanDisable": false
     },
     "deepseek-ai/DeepSeek-V4.1-Flash": {
       "contextWindow": 1048576,

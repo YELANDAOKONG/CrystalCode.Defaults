@@ -2,6 +2,7 @@
   "protocol": "openai",
   "baseUri": "https://api.sambanova.ai/v1/",
   "apiKeyEnvironment": "SAMBANOVA_API_KEY",
+  "replayReasoningContent": true,
   "tokenLimit": "max_tokens",
   "models": {
     "MiniMax-M3": {
@@ -28,7 +29,8 @@
         "low",
         "medium",
         "high"
-      ]
+      ],
+      "thinkingCanDisable": false
     },
     "gemma-4-31B-it": {
       "contextWindow": 262144,

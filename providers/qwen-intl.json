@@ -48,11 +48,12 @@
         "low",
         "medium",
         "xhigh"
-      ]
+      ],
+      "thinkingCanDisable": false
     },
     "qwen3.8-27b": {
-      "contextWindow": 262144,
-      "maxTokens": 65536,
+      "contextWindow": 1000000,
+      "maxTokens": 131072,
       "thinking": true,
       "thinkingEfforts": [
         "low",
@@ -64,19 +65,19 @@
     },
     "qwen3.7-plus": {
       "contextWindow": 1000000,
-      "maxTokens": 65536,
+      "maxTokens": 131072,
       "thinking": true,
       "imageInput": true,
       "videoInput": true
     },
     "qwen3.7-max": {
       "contextWindow": 1000000,
-      "maxTokens": 65536,
+      "maxTokens": 131072,
       "thinking": true
     },
     "qwen3.7-flash": {
       "contextWindow": 1000000,
-      "maxTokens": 65536,
+      "maxTokens": 131072,
       "thinking": true,
       "imageInput": true,
       "videoInput": true

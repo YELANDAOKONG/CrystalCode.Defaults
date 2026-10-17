@@ -2,6 +2,7 @@
   "protocol": "openai",
   "baseUri": "https://api.fireworks.ai/inference/v1/",
   "apiKeyEnvironment": "FIREWORKS_API_KEY",
+  "replayReasoningContent": true,
   "tokenLimit": "max_tokens",
   "models": {
     "accounts/fireworks/models/kimi-k3": {
@@ -14,8 +15,7 @@
         "max"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true,
-      "videoInput": true
+      "imageInput": true
     },
     "accounts/fireworks/models/deepseek-v4-pro": {
       "contextWindow": 1040000,
@@ -55,7 +55,8 @@
         "low",
         "medium",
         "high"
-      ]
+      ],
+      "thinkingCanDisable": false
     }
   }
 }

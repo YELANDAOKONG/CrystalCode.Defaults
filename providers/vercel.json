@@ -2,6 +2,7 @@
   "protocol": "openai",
   "baseUri": "https://ai-gateway.vercel.sh/v1/",
   "apiKeyEnvironment": "AI_GATEWAY_API_KEY",
+  "replayReasoningContent": true,
   "tokenLimit": "max_tokens",
   "models": {
     "openai/gpt-6.1-sol": {

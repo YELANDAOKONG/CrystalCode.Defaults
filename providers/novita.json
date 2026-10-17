@@ -2,6 +2,7 @@
   "protocol": "openai",
   "baseUri": "https://api.novita.ai/openai/v1/",
   "apiKeyEnvironment": "NOVITA_API_KEY",
+  "replayReasoningContent": true,
   "tokenLimit": "max_tokens",
   "models": {
     "deepseek/deepseek-v4.1-flash": {

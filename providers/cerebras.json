@@ -12,7 +12,8 @@
         "low",
         "medium",
         "high"
-      ]
+      ],
+      "thinkingCanDisable": false
     },
     "qwen-3.8-27b": {
       "contextWindow": 131072,

@@ -8532,6 +8532,7 @@
     "models": {
       "beam": {
         "contextWindow": 1048576,
+        "thinking": true,
         "thinkingEfforts": [
           "low",
           "medium",
@@ -8940,7 +8941,8 @@
           "low",
           "medium",
           "high"
-        ]
+        ],
+        "thinkingCanDisable": false
       },
       "qwen-3.8-27b": {
         "contextWindow": 131072,
@@ -8959,13 +8961,15 @@
     "protocol": "openai",
     "baseUri": "https://api.deepinfra.com/v1/openai/",
     "apiKeyEnvironment": "DEEPINFRA_API_KEY",
+    "replayReasoningContent": true,
     "tokenLimit": "max_tokens",
     "models": {
       "moonshotai/Kimi-K3": {
         "contextWindow": 1048576,
         "maxTokens": 131072,
         "thinking": true,
-        "imageInput": true
+        "imageInput": true,
+        "thinkingCanDisable": false
       },
       "deepseek-ai/DeepSeek-V4-Pro": {
         "contextWindow": 1048576,
@@ -9017,6 +9021,7 @@
     "protocol": "openai",
     "baseUri": "https://api.fireworks.ai/inference/v1/",
     "apiKeyEnvironment": "FIREWORKS_API_KEY",
+    "replayReasoningContent": true,
     "tokenLimit": "max_tokens",
     "models": {
       "accounts/fireworks/models/kimi-k3": {
@@ -9029,8 +9034,7 @@
           "max"
         ],
         "thinkingCanDisable": false,
-        "imageInput": true,
-        "videoInput": true
+        "imageInput": true
       },
       "accounts/fireworks/models/deepseek-v4-pro": {
         "contextWindow": 1040000,
@@ -9070,7 +9074,8 @@
           "low",
           "medium",
           "high"
-        ]
+        ],
+        "thinkingCanDisable": false
       }
     }
   },
@@ -9088,7 +9093,8 @@
           "low",
           "medium",
           "high"
-        ]
+        ],
+        "thinkingCanDisable": false
       },
       "openai/gpt-oss-20b": {
         "contextWindow": 131072,
@@ -9098,7 +9104,8 @@
           "low",
           "medium",
           "high"
-        ]
+        ],
+        "thinkingCanDisable": false
       },
       "qwen/qwen3.8-27b": {
         "contextWindow": 131072,
@@ -9110,16 +9117,6 @@
           "high"
         ],
         "imageInput": true
-      },
-      "groq/compound": {
-        "contextWindow": 131072,
-        "maxTokens": 131072,
-        "thinking": true
-      },
-      "groq/compound-mini": {
-        "contextWindow": 131072,
-        "maxTokens": 131072,
-        "thinking": true
       },
       "llama-3.3-70b-versatile": {
         "contextWindow": 131072,
@@ -9135,6 +9132,7 @@
     "protocol": "openai",
     "baseUri": "https://router.huggingface.co/v1/",
     "apiKeyEnvironment": "HF_TOKEN",
+    "replayReasoningContent": true,
     "tokenLimit": "max_tokens",
     "models": {
       "moonshotai/Kimi-K3": {
@@ -9142,7 +9140,7 @@
         "maxTokens": 131072,
         "thinking": true,
         "imageInput": true,
-        "videoInput": true
+        "thinkingCanDisable": false
       },
       "deepseek-ai/DeepSeek-V4.1-Flash": {
         "contextWindow": 1048576,
@@ -9293,6 +9291,7 @@
     "protocol": "openai",
     "baseUri": "https://api.tokenfactory.nebius.com/v1/",
     "apiKeyEnvironment": "NEBIUS_API_KEY",
+    "replayReasoningContent": true,
     "tokenLimit": "max_tokens",
     "models": {
       "deepseek-ai/DeepSeek-V4-Pro": {
@@ -9320,7 +9319,8 @@
         "contextWindow": 1048576,
         "maxTokens": 131072,
         "thinking": true,
-        "imageInput": true
+        "imageInput": true,
+        "thinkingCanDisable": false
       },
       "zai-org/GLM-5.3": {
         "contextWindow": 1024000,
@@ -9349,6 +9349,7 @@
     "protocol": "openai",
     "baseUri": "https://api.novita.ai/openai/v1/",
     "apiKeyEnvironment": "NOVITA_API_KEY",
+    "replayReasoningContent": true,
     "tokenLimit": "max_tokens",
     "models": {
       "deepseek/deepseek-v4.1-flash": {
@@ -9415,6 +9416,7 @@
     "protocol": "openai",
     "baseUri": "https://integrate.api.nvidia.com/v1/",
     "apiKeyEnvironment": "NVIDIA_API_KEY",
+    "replayReasoningContent": true,
     "tokenLimit": "max_tokens",
     "models": {
       "deepseek-ai/deepseek-v4.1-flash": {
@@ -9471,7 +9473,8 @@
       "ernie-5.0": {
         "contextWindow": 131072,
         "maxTokens": 65536,
-        "thinking": true
+        "thinking": true,
+        "imageInput": true
       },
       "ernie-5.0-thinking-preview": {
         "contextWindow": 131072,
@@ -9541,11 +9544,12 @@
           "low",
           "medium",
           "xhigh"
-        ]
+        ],
+        "thinkingCanDisable": false
       },
       "qwen3.8-27b": {
-        "contextWindow": 262144,
-        "maxTokens": 65536,
+        "contextWindow": 1000000,
+        "maxTokens": 131072,
         "thinking": true,
         "thinkingEfforts": [
           "low",
@@ -9557,19 +9561,19 @@
       },
       "qwen3.7-plus": {
         "contextWindow": 1000000,
-        "maxTokens": 65536,
+        "maxTokens": 131072,
         "thinking": true,
         "imageInput": true,
         "videoInput": true
       },
       "qwen3.7-max": {
         "contextWindow": 1000000,
-        "maxTokens": 65536,
+        "maxTokens": 131072,
         "thinking": true
       },
       "qwen3.7-flash": {
         "contextWindow": 1000000,
-        "maxTokens": 65536,
+        "maxTokens": 131072,
         "thinking": true,
         "imageInput": true,
         "videoInput": true
@@ -9626,11 +9630,12 @@
           "low",
           "medium",
           "xhigh"
-        ]
+        ],
+        "thinkingCanDisable": false
       },
       "qwen3.8-27b": {
-        "contextWindow": 262144,
-        "maxTokens": 65536,
+        "contextWindow": 1000000,
+        "maxTokens": 131072,
         "thinking": true,
         "thinkingEfforts": [
           "low",
@@ -9642,19 +9647,19 @@
       },
       "qwen3.7-plus": {
         "contextWindow": 1000000,
-        "maxTokens": 65536,
+        "maxTokens": 131072,
         "thinking": true,
         "imageInput": true,
         "videoInput": true
       },
       "qwen3.7-max": {
         "contextWindow": 1000000,
-        "maxTokens": 65536,
+        "maxTokens": 131072,
         "thinking": true
       },
       "qwen3.7-flash": {
         "contextWindow": 1000000,
-        "maxTokens": 65536,
+        "maxTokens": 131072,
         "thinking": true,
         "imageInput": true,
         "videoInput": true
@@ -9665,6 +9670,7 @@
     "protocol": "openai",
     "baseUri": "https://api.sambanova.ai/v1/",
     "apiKeyEnvironment": "SAMBANOVA_API_KEY",
+    "replayReasoningContent": true,
     "tokenLimit": "max_tokens",
     "models": {
       "MiniMax-M3": {
@@ -9691,7 +9697,8 @@
           "low",
           "medium",
           "high"
-        ]
+        ],
+        "thinkingCanDisable": false
       },
       "gemma-4-31B-it": {
         "contextWindow": 262144,
@@ -9726,6 +9733,7 @@
     "protocol": "openai",
     "baseUri": "https://ai-gateway.vercel.sh/v1/",
     "apiKeyEnvironment": "AI_GATEWAY_API_KEY",
+    "replayReasoningContent": true,
     "tokenLimit": "max_tokens",
     "models": {
       "openai/gpt-6.1-sol": {
