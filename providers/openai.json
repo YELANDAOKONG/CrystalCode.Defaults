@@ -47,17 +47,38 @@
     "gpt-4.1": {
       "contextWindow": 1047576,
       "maxTokens": 32768,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "gpt-4.1-mini": {
       "contextWindow": 1047576,
       "maxTokens": 32768,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "gpt-4.1-nano": {
       "contextWindow": 1047576,
       "maxTokens": 32768,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "gpt-4.5-preview": {
       "contextWindow": 128000,
@@ -67,12 +88,26 @@
     "gpt-4o": {
       "contextWindow": 128000,
       "maxTokens": 16384,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "gpt-4o-mini": {
       "contextWindow": 128000,
       "maxTokens": 16384,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "gpt-4o-mini-search-preview": {
       "contextWindow": 128000,
@@ -93,7 +128,15 @@
         "high"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "gpt-5-chat-latest": {
       "contextWindow": 128000,
@@ -118,7 +161,15 @@
         "high"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "gpt-5-nano": {
       "contextWindow": 400000,
@@ -131,7 +182,12 @@
         "high"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ]
     },
     "gpt-5-pro": {
       "contextWindow": 400000,
@@ -152,7 +208,15 @@
         "medium",
         "high"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "gpt-5.1-chat-latest": {
       "contextWindow": 128000,
@@ -196,7 +260,15 @@
         "high",
         "xhigh"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "gpt-5.2-chat-latest": {
       "contextWindow": 128000,
@@ -269,7 +341,15 @@
         "high",
         "xhigh"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "gpt-5.4-mini": {
       "contextWindow": 400000,
@@ -281,7 +361,15 @@
         "high",
         "xhigh"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "gpt-5.4-nano": {
       "contextWindow": 400000,
@@ -293,7 +381,12 @@
         "high",
         "xhigh"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ]
     },
     "gpt-5.4-pro": {
       "contextWindow": 1050000,
@@ -309,7 +402,12 @@
         "xhigh"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ]
     },
     "gpt-5.5": {
       "contextWindow": 1050000,
@@ -325,7 +423,15 @@
         "high",
         "xhigh"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "gpt-5.5-pro": {
       "contextWindow": 1050000,
@@ -337,7 +443,12 @@
         "xhigh"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ]
     },
     "gpt-5.6-cyber": {
       "contextWindow": 400000,
@@ -366,7 +477,15 @@
         "xhigh",
         "max"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "gpt-5.6-sol": {
       "contextWindow": 1050000,
@@ -383,7 +502,15 @@
         "xhigh",
         "max"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "gpt-5.6-terra": {
       "contextWindow": 1050000,
@@ -400,7 +527,15 @@
         "xhigh",
         "max"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "gpt-6-astra": {
       "contextWindow": 1050000,
@@ -418,7 +553,16 @@
         "max"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ],
+      "speeds": [
+        "fast",
+        "ultrafast"
+      ]
     },
     "gpt-6-luna": {
       "contextWindow": 1050000,
@@ -435,7 +579,15 @@
         "xhigh",
         "max"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "gpt-6-sol": {
       "contextWindow": 1050000,
@@ -452,7 +604,15 @@
         "xhigh",
         "max"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "gpt-6.1-sol": {
       "contextWindow": 1050000,
@@ -470,7 +630,16 @@
         "max"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ],
+      "speeds": [
+        "fast",
+        "ultrafast"
+      ]
     },
     "gpt-daybreak-blue-latest": {
       "contextWindow": 1050000,
@@ -562,7 +731,15 @@
         "high"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "o3-deep-research": {
       "contextWindow": 200000,
@@ -604,7 +781,15 @@
         "high"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "o4-mini-deep-research": {
       "contextWindow": 200000,

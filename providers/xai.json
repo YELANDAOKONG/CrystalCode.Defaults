@@ -5,20 +5,36 @@
   "models": {
     "grok-4.20-0309-non-reasoning": {
       "contextWindow": 1000000,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "default",
+        "priority"
+      ]
     },
     "grok-4.20-0309-reasoning": {
       "contextWindow": 1000000,
       "thinking": true,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "default",
+        "priority"
+      ]
     },
     "grok-4.20-multi-agent-0309": {
       "contextWindow": 1000000,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "default",
+        "priority"
+      ]
     },
     "grok-4.3": {
       "contextWindow": 1000000,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "default",
+        "priority"
+      ]
     },
     "grok-4.5": {
       "contextWindow": 500000,
@@ -29,7 +45,11 @@
         "high"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "default",
+        "priority"
+      ]
     },
     "grok-4.6": {
       "contextWindow": 500000,
@@ -41,7 +61,11 @@
         "xhigh"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "default",
+        "priority"
+      ]
     },
     "grok-4.7": {
       "contextWindow": 500000,
@@ -53,12 +77,20 @@
         "xhigh"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "default",
+        "priority"
+      ]
     },
     "grok-build-0.1": {
       "contextWindow": 256000,
       "thinking": true,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "default",
+        "priority"
+      ]
     }
   }
 }

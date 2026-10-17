@@ -14,7 +14,11 @@
         "max"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "standard_only"
+      ]
     },
     "claude-opus-5-5": {
       "contextWindow": 1048576,
@@ -28,7 +32,14 @@
         "max"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "standard_only"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "claude-sonnet-5-5": {
       "contextWindow": 1048576,
@@ -42,7 +53,11 @@
         "max"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "standard_only"
+      ]
     },
     "claude-haiku-5-5": {
       "contextWindow": 1048576,
@@ -59,7 +74,11 @@
         "xhigh",
         "max"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "standard_only"
+      ]
     },
     "claude-fable-5": {
       "contextWindow": 1048576,
@@ -73,7 +92,11 @@
         "max"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "standard_only"
+      ]
     },
     "claude-opus-5": {
       "contextWindow": 1048576,
@@ -86,7 +109,14 @@
         "xhigh",
         "max"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "standard_only"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "claude-opus-4-8": {
       "contextWindow": 1048576,
@@ -99,7 +129,14 @@
         "xhigh",
         "max"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "standard_only"
+      ],
+      "speeds": [
+        "fast"
+      ]
     },
     "claude-opus-4-7": {
       "contextWindow": 1048576,
@@ -112,7 +149,11 @@
         "xhigh",
         "max"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "standard_only"
+      ]
     },
     "claude-opus-4-6": {
       "contextWindow": 1048576,
@@ -124,7 +165,11 @@
         "high",
         "max"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "standard_only"
+      ]
     },
     "claude-opus-4-5": {
       "contextWindow": 200000,
@@ -135,7 +180,11 @@
         "medium",
         "high"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "standard_only"
+      ]
     },
     "claude-sonnet-5": {
       "contextWindow": 1048576,
@@ -148,7 +197,11 @@
         "xhigh",
         "max"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "standard_only"
+      ]
     },
     "claude-sonnet-4-6": {
       "contextWindow": 1048576,
@@ -160,13 +213,21 @@
         "high",
         "max"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "standard_only"
+      ]
     },
     "claude-haiku-4-5": {
       "contextWindow": 200000,
       "maxTokens": 64000,
       "thinking": true,
-      "imageInput": true
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "standard_only"
+      ]
     }
   }
 }
