@@ -1,0 +1,1409 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://router.requesty.ai/v1/",
+  "replayReasoningContent": true,
+  "tokenLimit": "max_tokens",
+  "models": {
+    "alibaba/qwen-max": {
+      "contextWindow": 32768
+    },
+    "alibaba/qwen-plus": {
+      "contextWindow": 131072
+    },
+    "alibaba/qwen-turbo": {
+      "contextWindow": 1000000
+    },
+    "alibaba/qwen3-30b-a3b-instruct-2507": {
+      "contextWindow": 131072,
+      "maxTokens": 65536,
+      "imageInput": true
+    },
+    "alibaba/qwen3-coder-flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 65536
+    },
+    "alibaba/qwen3-coder-plus": {
+      "contextWindow": 1048576,
+      "maxTokens": 65536
+    },
+    "alibaba/qwen3-max": {
+      "contextWindow": 262144,
+      "maxTokens": 65536,
+      "imageInput": true
+    },
+    "alibaba/qwen3.6-plus": {
+      "contextWindow": 1000000,
+      "maxTokens": 65536,
+      "thinking": true
+    },
+    "alibaba/qwen3.7-max": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true
+    },
+    "alibaba/qwen3.7-plus": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "imageInput": true
+    },
+    "alibaba/qwen3.8-flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "imageInput": true
+    },
+    "alibaba/qwen3.8-max": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "anthropic/claude-fable-5": {
+      "contextWindow": 1000000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "anthropic/claude-fable-5.1": {
+      "contextWindow": 1000000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "imageInput": true
+    },
+    "anthropic/claude-haiku-4-5": {
+      "contextWindow": 200000,
+      "maxTokens": 64000,
+      "thinking": true,
+      "imageInput": true
+    },
+    "anthropic/claude-haiku-5-5": {
+      "contextWindow": 1000000,
+      "contextWindows": [
+        100000,
+        1000000
+      ],
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "anthropic/claude-opus-4-5": {
+      "contextWindow": 200000,
+      "maxTokens": 64000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "imageInput": true
+    },
+    "anthropic/claude-opus-4-6": {
+      "contextWindow": 1000000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "anthropic/claude-opus-4-7": {
+      "contextWindow": 1000000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "anthropic/claude-opus-4-8": {
+      "contextWindow": 1000000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "anthropic/claude-opus-5": {
+      "contextWindow": 1000000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "anthropic/claude-opus-5-5": {
+      "contextWindow": 1000000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "anthropic/claude-sonnet-4-5": {
+      "contextWindow": 1000000,
+      "maxTokens": 64000,
+      "thinking": true,
+      "imageInput": true
+    },
+    "anthropic/claude-sonnet-4-6": {
+      "contextWindow": 1000000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "anthropic/claude-sonnet-5": {
+      "contextWindow": 1000000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "anthropic/claude-sonnet-5-5": {
+      "contextWindow": 1000000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "deepseek/deepseek-chat": {
+      "contextWindow": 1000000,
+      "maxTokens": 384000,
+      "thinking": true
+    },
+    "deepseek/deepseek-reasoner": {
+      "contextWindow": 1000000,
+      "maxTokens": 384000,
+      "thinking": true
+    },
+    "deepseek/deepseek-v4-pro-0813": {
+      "contextWindow": 1000000,
+      "maxTokens": 384000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ]
+    },
+    "deepseek/deepseek-v4.1-flash": {
+      "contextWindow": 1000000,
+      "maxTokens": 384000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "google/gemini-2.5-flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 65535,
+      "thinking": true,
+      "imageInput": true
+    },
+    "google/gemini-2.5-flash-lite": {
+      "contextWindow": 1048576,
+      "maxTokens": 65535,
+      "thinking": true,
+      "imageInput": true
+    },
+    "google/gemini-2.5-pro": {
+      "contextWindow": 1048576,
+      "contextWindows": [
+        200000,
+        1048576
+      ],
+      "maxTokens": 65535,
+      "thinking": true,
+      "imageInput": true
+    },
+    "google/gemini-3-flash-preview": {
+      "contextWindow": 1048576,
+      "maxTokens": 65535,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "google/gemini-3-pro-preview": {
+      "contextWindow": 1048576,
+      "contextWindows": [
+        200000,
+        1048576
+      ],
+      "maxTokens": 65535,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "google/gemini-3.1-flash-lite": {
+      "contextWindow": 1048576,
+      "maxTokens": 65535,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "google/gemini-3.1-pro-preview": {
+      "contextWindow": 1048576,
+      "contextWindows": [
+        200000,
+        1048576
+      ],
+      "maxTokens": 65535,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "google/gemini-3.5-flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 65535,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "google/gemini-3.5-flash-lite": {
+      "contextWindow": 1048576,
+      "maxTokens": 65535,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "google/gemini-3.6-flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 65535,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "google/gemma-4-31b-it": {
+      "contextWindow": 262144,
+      "maxTokens": 8192,
+      "thinking": true,
+      "imageInput": true
+    },
+    "minimaxi/minimax-m2": {
+      "contextWindow": 200000,
+      "maxTokens": 128000,
+      "thinking": true
+    },
+    "minimaxi/minimax-m2.5": {
+      "contextWindow": 200000,
+      "maxTokens": 128000,
+      "thinking": true
+    },
+    "minimaxi/minimax-m2.5-highspeed": {
+      "contextWindow": 200000,
+      "maxTokens": 128000,
+      "thinking": true
+    },
+    "minimaxi/minimax-m2.7": {
+      "contextWindow": 200000,
+      "maxTokens": 128000,
+      "thinking": true
+    },
+    "minimaxi/minimax-m2.7-highspeed": {
+      "contextWindow": 200000,
+      "maxTokens": 128000,
+      "thinking": true
+    },
+    "minimaxi/minimax-m3": {
+      "contextWindow": 1000000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "imageInput": true
+    },
+    "mistral/codestral-latest": {
+      "contextWindow": 131072
+    },
+    "mistral/devstral-latest": {
+      "contextWindow": 256000
+    },
+    "mistral/devstral-small-latest": {
+      "contextWindow": 131072
+    },
+    "mistral/glm-5-2": {
+      "contextWindow": 1000000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "high",
+        "maximum"
+      ]
+    },
+    "mistral/leanstral-1-5": {
+      "contextWindow": 262144,
+      "maxTokens": 32768
+    },
+    "mistral/mistral-large-4": {
+      "contextWindow": 524288,
+      "thinking": true,
+      "thinkingEfforts": [
+        "high"
+      ],
+      "imageInput": true
+    },
+    "mistral/mistral-large-latest": {
+      "contextWindow": 131072
+    },
+    "mistral/mistral-medium-3-5": {
+      "contextWindow": 262144,
+      "thinking": true,
+      "imageInput": true
+    },
+    "mistral/mistral-medium-latest": {
+      "contextWindow": 131072
+    },
+    "mistral/mistral-small-2503": {
+      "contextWindow": 32768
+    },
+    "mistral/mistral-small-2603": {
+      "contextWindow": 256000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "high"
+      ],
+      "imageInput": true
+    },
+    "mistral/mistral-small-latest": {
+      "contextWindow": 256000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "high"
+      ],
+      "imageInput": true
+    },
+    "mistral/open-mistral-7b": {
+      "contextWindow": 32768
+    },
+    "moonshot/kimi-k2.5": {
+      "contextWindow": 262144,
+      "maxTokens": 262144,
+      "thinking": true,
+      "imageInput": true
+    },
+    "moonshot/kimi-k2.6": {
+      "contextWindow": 262144,
+      "maxTokens": 262144,
+      "thinking": true,
+      "imageInput": true
+    },
+    "moonshot/kimi-k2.7-code": {
+      "contextWindow": 262144,
+      "maxTokens": 262144,
+      "thinking": true,
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "moonshot/kimi-k3": {
+      "contextWindow": 1048576,
+      "maxTokens": 1048576,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "nvidia/muse-glimmer-30b": {
+      "contextWindow": 131072,
+      "maxTokens": 20480,
+      "thinking": true,
+      "imageInput": true
+    },
+    "nvidia/nemotron-3-nano-30b-a3b": {
+      "contextWindow": 262144,
+      "thinking": true
+    },
+    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning": {
+      "contextWindow": 131072,
+      "maxTokens": 20480,
+      "thinking": true,
+      "imageInput": true
+    },
+    "nvidia/nemotron-3-super-120b-a12b": {
+      "contextWindow": 1048576,
+      "maxTokens": 65536,
+      "thinking": true
+    },
+    "nvidia/nemotron-3-ultra-550b-a55b": {
+      "contextWindow": 1048576,
+      "maxTokens": 65536,
+      "thinking": true
+    },
+    "nvidia/nemotron-3.5-content-safety": {
+      "contextWindow": 131072,
+      "maxTokens": 8192,
+      "thinking": true,
+      "imageInput": true
+    },
+    "nvidia/nemotron-3.5-lightning-30b-a3b": {
+      "contextWindow": 1048576,
+      "maxTokens": 65536,
+      "thinking": true
+    },
+    "openai/gpt-4.1": {
+      "contextWindow": 1047576,
+      "maxTokens": 32768,
+      "imageInput": true
+    },
+    "openai/gpt-4.1-mini": {
+      "contextWindow": 1047576,
+      "maxTokens": 32768,
+      "imageInput": true
+    },
+    "openai/gpt-4.1-nano": {
+      "contextWindow": 1047576,
+      "maxTokens": 32768,
+      "imageInput": true
+    },
+    "openai/gpt-4o": {
+      "contextWindow": 128000,
+      "maxTokens": 16384,
+      "imageInput": true
+    },
+    "openai/gpt-4o-2024-05-13": {
+      "contextWindow": 128000,
+      "maxTokens": 4096,
+      "imageInput": true
+    },
+    "openai/gpt-4o-2024-08-06": {
+      "contextWindow": 128000,
+      "maxTokens": 16384,
+      "imageInput": true
+    },
+    "openai/gpt-4o-2024-11-20": {
+      "contextWindow": 128000,
+      "maxTokens": 16384,
+      "imageInput": true
+    },
+    "openai/gpt-4o-mini": {
+      "contextWindow": 128000,
+      "maxTokens": 16384,
+      "imageInput": true
+    },
+    "openai/gpt-5": {
+      "contextWindow": 400000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "openai/gpt-5-mini": {
+      "contextWindow": 400000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "openai/gpt-5-mini:priority": {
+      "contextWindow": 400000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "openai/gpt-5-nano": {
+      "contextWindow": 400000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "openai/gpt-5-pro": {
+      "contextWindow": 400000,
+      "maxTokens": 272000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "openai/gpt-5.1": {
+      "contextWindow": 400000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "imageInput": true
+    },
+    "openai/gpt-5.2": {
+      "contextWindow": 400000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "openai/gpt-5.3-codex": {
+      "contextWindow": 400000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "imageInput": true
+    },
+    "openai/gpt-5.4": {
+      "contextWindow": 1050000,
+      "contextWindows": [
+        272000,
+        1050000
+      ],
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "openai/gpt-5.4-mini": {
+      "contextWindow": 400000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "imageInput": true
+    },
+    "openai/gpt-5.4-nano": {
+      "contextWindow": 400000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "imageInput": true
+    },
+    "openai/gpt-5.4-pro": {
+      "contextWindow": 1050000,
+      "contextWindows": [
+        272000,
+        1050000
+      ],
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "openai/gpt-5.5": {
+      "contextWindow": 1050000,
+      "contextWindows": [
+        272000,
+        1050000
+      ],
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "openai/gpt-5.5-pro": {
+      "contextWindow": 1050000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "openai/gpt-5.6-luna": {
+      "contextWindow": 1050000,
+      "contextWindows": [
+        272000,
+        1050000
+      ],
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "openai/gpt-5.6-sol": {
+      "contextWindow": 1050000,
+      "contextWindows": [
+        272000,
+        1050000
+      ],
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "openai/gpt-5.6-terra": {
+      "contextWindow": 1050000,
+      "contextWindows": [
+        272000,
+        1050000
+      ],
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "openai/gpt-5:priority": {
+      "contextWindow": 400000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "openai/gpt-6-astra": {
+      "contextWindow": 1050000,
+      "contextWindows": [
+        272000,
+        1050000
+      ],
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "openai/gpt-6-luna": {
+      "contextWindow": 1050000,
+      "contextWindows": [
+        272000,
+        1050000
+      ],
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "openai/gpt-6-sol": {
+      "contextWindow": 1050000,
+      "contextWindows": [
+        272000,
+        1050000
+      ],
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "openai/gpt-6.1-sol": {
+      "contextWindow": 1050000,
+      "contextWindows": [
+        272000,
+        1050000
+      ],
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "openai/o1": {
+      "contextWindow": 200000,
+      "maxTokens": 100000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "openai/o1:high": {
+      "contextWindow": 200000,
+      "maxTokens": 100000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "openai/o1:low": {
+      "contextWindow": 200000,
+      "maxTokens": 100000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "openai/o1:medium": {
+      "contextWindow": 200000,
+      "maxTokens": 100000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "openai/o3": {
+      "contextWindow": 200000,
+      "maxTokens": 100000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "openai/o3-mini": {
+      "contextWindow": 200000,
+      "maxTokens": 100000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false
+    },
+    "openai/o3-mini:high": {
+      "contextWindow": 200000,
+      "maxTokens": 100000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false
+    },
+    "openai/o3-mini:low": {
+      "contextWindow": 200000,
+      "maxTokens": 100000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false
+    },
+    "openai/o3-mini:medium": {
+      "contextWindow": 200000,
+      "maxTokens": 100000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false
+    },
+    "openai/o3-pro": {
+      "contextWindow": 200000,
+      "maxTokens": 100000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "openai/o4-mini": {
+      "contextWindow": 200000,
+      "maxTokens": 100000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false
+    },
+    "openai/o4-mini:high": {
+      "contextWindow": 200000,
+      "maxTokens": 100000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false
+    },
+    "openai/o4-mini:low": {
+      "contextWindow": 200000,
+      "maxTokens": 100000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false
+    },
+    "openai/o4-mini:medium": {
+      "contextWindow": 200000,
+      "maxTokens": 100000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false
+    },
+    "perplexity/pplx-decider-v1-27b": {
+      "contextWindow": 262144,
+      "maxTokens": 1024
+    },
+    "perplexity/sonar": {
+      "contextWindow": 131072,
+      "maxTokens": 8192
+    },
+    "perplexity/sonar-pro": {
+      "contextWindow": 204800,
+      "maxTokens": 8192
+    },
+    "perplexity/sonar-reasoning-pro": {
+      "contextWindow": 131072,
+      "maxTokens": 8192
+    },
+    "poolside/laguna-m.1": {
+      "contextWindow": 32768,
+      "thinking": true
+    },
+    "poolside/laguna-xs.2": {
+      "contextWindow": 32768,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ]
+    },
+    "sakana/fugu-ultra": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "high",
+        "maximum"
+      ]
+    },
+    "tencent/deepseek-v4.1-flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 393216,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ]
+    },
+    "tencent/glm-5.2": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "high",
+        "maximum"
+      ]
+    },
+    "tencent/glm-5.3": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false
+    },
+    "tencent/glm-5.3-flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "tencent/glm-5.3-flashx": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "tencent/hy3": {
+      "contextWindow": 262144,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "tencent/hy4-preview": {
+      "contextWindow": 1048576,
+      "maxTokens": 65536,
+      "thinking": true,
+      "thinkingEfforts": [
+        "high"
+      ]
+    },
+    "tencent/kimi-k2.7-code": {
+      "contextWindow": 262144,
+      "maxTokens": 262144,
+      "thinking": true,
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "tencent/kimi-k2.7-code-highspeed": {
+      "contextWindow": 262144,
+      "maxTokens": 262144,
+      "thinking": true,
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "tencent/kimi-k3": {
+      "contextWindow": 1048576,
+      "maxTokens": 1048576,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "tencent/mimo-v2.5-pro": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "imageInput": true
+    },
+    "tencent/mimo-v2.6-flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "imageInput": true
+    },
+    "tencent/mimo-v2.6-pro": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "imageInput": true
+    },
+    "tencent/minimax-m3": {
+      "contextWindow": 1048576,
+      "maxTokens": 1048576,
+      "thinking": true,
+      "imageInput": true
+    },
+    "thinkingmachines/inkling": {
+      "contextWindow": 65536,
+      "maxTokens": 32768,
+      "thinking": true,
+      "imageInput": true
+    },
+    "thinkingmachines/inkling-256k": {
+      "contextWindow": 262144,
+      "maxTokens": 32768,
+      "thinking": true,
+      "imageInput": true
+    },
+    "xai/grok-3": {
+      "contextWindow": 131072
+    },
+    "xai/grok-3-mini": {
+      "contextWindow": 131072,
+      "thinking": true
+    },
+    "xai/grok-3-mini:high": {
+      "contextWindow": 131072,
+      "thinking": true
+    },
+    "xai/grok-3-mini:low": {
+      "contextWindow": 131072,
+      "thinking": true
+    },
+    "xai/grok-4": {
+      "contextWindow": 256000,
+      "imageInput": true
+    },
+    "xai/grok-4-1-fast-non-reasoning": {
+      "contextWindow": 2000000,
+      "imageInput": true
+    },
+    "xai/grok-4-1-fast-reasoning": {
+      "contextWindow": 2000000,
+      "imageInput": true
+    },
+    "xai/grok-4-fast": {
+      "contextWindow": 2000000
+    },
+    "xai/grok-4-fast-non-reasoning": {
+      "contextWindow": 2000000
+    },
+    "xai/grok-4.2-beta": {
+      "contextWindow": 2000000,
+      "thinking": true,
+      "imageInput": true
+    },
+    "xai/grok-4.3": {
+      "contextWindow": 1000000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "imageInput": true
+    },
+    "xai/grok-4.5": {
+      "contextWindow": 500000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "xai/grok-4.6": {
+      "contextWindow": 500000,
+      "contextWindows": [
+        200000,
+        500000
+      ],
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "xai/grok-4.7": {
+      "contextWindow": 500000,
+      "contextWindows": [
+        200000,
+        500000
+      ],
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "xai/grok-build-0.1": {
+      "contextWindow": 256000
+    },
+    "xai/grok-code-fast-1": {
+      "contextWindow": 256000,
+      "imageInput": true
+    },
+    "xiaomi/mimo-v2.5": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "imageInput": true
+    },
+    "xiaomi/mimo-v2.5-pro": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true
+    },
+    "xiaomi/mimo-v2.6-flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "imageInput": true
+    },
+    "xiaomi/mimo-v2.6-pro": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "imageInput": true
+    },
+    "xiaomi/mimo-v2.6-pro-ultraspeed": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "imageInput": true
+    },
+    "zai/GLM-4.5": {
+      "contextWindow": 131072,
+      "maxTokens": 98304,
+      "thinking": true
+    },
+    "zai/GLM-4.6": {
+      "contextWindow": 200000,
+      "maxTokens": 128000,
+      "thinking": true
+    },
+    "zai/GLM-4.7": {
+      "contextWindow": 200000,
+      "maxTokens": 128000,
+      "thinking": true
+    },
+    "zai/GLM-5": {
+      "contextWindow": 200000,
+      "maxTokens": 128000,
+      "thinking": true
+    },
+    "zai/glm-5.1": {
+      "contextWindow": 200000,
+      "maxTokens": 128000,
+      "thinking": true
+    },
+    "zai/glm-5.2": {
+      "contextWindow": 1000000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "high",
+        "maximum"
+      ]
+    },
+    "zai/glm-5.3": {
+      "contextWindow": 1000000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "zai/glm-5.3-flash": {
+      "contextWindow": 1000000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "protocol": "gemini",
+  "baseUri": "https://generativelanguage.googleapis.com/v1beta/",
+  "models": {
+    "gemini-3.8-flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 65536,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "gemini-3.6-flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 65536,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "gemini-3.5-flash-lite": {
+      "contextWindow": 1048576,
+      "maxTokens": 65536,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "gemini-3.1-flash-lite": {
+      "contextWindow": 1048576,
+      "maxTokens": 65536,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "gemini-3.1-pro-preview": {
+      "contextWindow": 1048576,
+      "contextWindows": [
+        200000,
+        1048576
+      ],
+      "maxTokens": 65536,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "gemini-3.1-pro-preview-customtools": {
+      "contextWindow": 1048576,
+      "contextWindows": [
+        200000,
+        1048576
+      ],
+      "maxTokens": 65536,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "gemini-3-flash-preview": {
+      "contextWindow": 1048576,
+      "maxTokens": 65536,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "gemini-2.5-pro": {
+      "contextWindow": 1048576,
+      "contextWindows": [
+        200000,
+        1048576
+      ],
+      "maxTokens": 65536,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "gemini-2.5-flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 65536,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "imageInput": true
+    },
+    "gemini-2.5-flash-lite": {
+      "contextWindow": 1048576,
+      "maxTokens": 65536,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "imageInput": true
+    }
+  }
+}

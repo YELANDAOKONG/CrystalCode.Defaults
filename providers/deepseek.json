@@ -1,0 +1,49 @@
+{
+  "protocol": "deepseek",
+  "baseUri": "https://api.deepseek.com/",
+  "models": {
+    "deepseek-flash": {
+      "contextWindow": 1000000,
+      "maxTokens": 393216,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "deepseek-v4-flash": {
+      "contextWindow": 1000000,
+      "maxTokens": 393216,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "deepseek-v4-flash-vision-exp": {
+      "contextWindow": 1000000,
+      "maxTokens": 393216,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ],
+      "imageInput": true
+    },
+    "deepseek-v4-pro": {
+      "contextWindow": 1000000,
+      "maxTokens": 393216,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "maximum"
+      ]
+    }
+  }
+}
