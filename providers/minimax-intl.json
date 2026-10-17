@@ -1,0 +1,54 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://api.minimax.io/v1/",
+  "replayReasoningContent": true,
+  "tokenLimit": "max_completion_tokens",
+  "models": {
+    "MiniMax-M3.1-Flash-Preview": {
+      "contextWindow": 1000000,
+      "maxTokens": 524288,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true,
+      "videoInput": true
+    },
+    "MiniMax-M3": {
+      "contextWindow": 1000000,
+      "maxTokens": 524288,
+      "thinking": true,
+      "imageInput": true,
+      "videoInput": true
+    },
+    "MiniMax-M2.7": {
+      "contextWindow": 204800,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingCanDisable": false
+    },
+    "MiniMax-M2.7-highspeed": {
+      "contextWindow": 204800,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingCanDisable": false
+    },
+    "MiniMax-M2.5": {
+      "contextWindow": 204800,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingCanDisable": false
+    },
+    "MiniMax-M2.5-highspeed": {
+      "contextWindow": 204800,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingCanDisable": false
+    }
+  }
+}

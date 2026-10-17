@@ -1,0 +1,23 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://ark.cn-beijing.volces.com/api/v3/",
+  "apiKeyEnvironment": "ARK_API_KEY",
+  "replayReasoningContent": true,
+  "tokenLimit": "max_tokens",
+  "models": {
+    "doubao-seed-2-1-pro-260915": {
+      "contextWindow": 262144,
+      "maxTokens": 262144,
+      "thinking": true,
+      "imageInput": true,
+      "videoInput": true
+    },
+    "doubao-seed-evolving": {
+      "contextWindow": 1048576,
+      "maxTokens": 262144,
+      "thinking": true,
+      "imageInput": true,
+      "videoInput": true
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://api.tokenfactory.nebius.com/v1/",
+  "apiKeyEnvironment": "NEBIUS_API_KEY",
+  "tokenLimit": "max_tokens",
+  "models": {
+    "deepseek-ai/DeepSeek-V4-Pro": {
+      "contextWindow": 1048576,
+      "maxTokens": 393216,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "max"
+      ]
+    },
+    "deepseek-ai/DeepSeek-V4.1-Flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 393216,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "max"
+      ],
+      "imageInput": true
+    },
+    "moonshotai/Kimi-K3": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "imageInput": true
+    },
+    "zai-org/GLM-5.3": {
+      "contextWindow": 1024000,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "max"
+      ],
+      "thinkingCanDisable": false
+    },
+    "MiniMaxAI/MiniMax-M3": {
+      "contextWindow": 1048576,
+      "maxTokens": 524288,
+      "thinking": true
+    },
+    "nvidia/Nemotron-3-Ultra-550b-a55b": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true
+    }
+  }
+}

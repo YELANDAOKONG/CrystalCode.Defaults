@@ -1,0 +1,25 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://api.xiaomimimo.com/v1/",
+  "apiKeyEnvironment": "MIMO_API_KEY",
+  "replayReasoningContent": true,
+  "tokenLimit": "max_completion_tokens",
+  "models": {
+    "mimo-v2.6-pro": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true
+    },
+    "mimo-v2.6-flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true
+    }
+  }
+}

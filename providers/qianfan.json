@@ -1,0 +1,33 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://qianfan.baidubce.com/v2/",
+  "apiKeyEnvironment": "QIANFAN_API_KEY",
+  "tokenLimit": "max_tokens",
+  "models": {
+    "ernie-5.1": {
+      "contextWindow": 131072,
+      "maxTokens": 65536,
+      "thinking": true
+    },
+    "ernie-5.0": {
+      "contextWindow": 131072,
+      "maxTokens": 65536,
+      "thinking": true
+    },
+    "ernie-5.0-thinking-preview": {
+      "contextWindow": 131072,
+      "maxTokens": 65536,
+      "thinking": true,
+      "thinkingCanDisable": false
+    },
+    "ernie-4.5-turbo-128k": {
+      "contextWindow": 131072,
+      "maxTokens": 12288
+    },
+    "ernie-4.5-turbo-vl": {
+      "contextWindow": 131072,
+      "maxTokens": 16384,
+      "imageInput": true
+    }
+  }
+}

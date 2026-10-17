@@ -1,0 +1,21 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://tokenhub.tencentcloudmaas.com/v1/",
+  "apiKeyEnvironment": "TOKENHUB_API_KEY",
+  "replayReasoningContent": true,
+  "tokenLimit": "max_tokens",
+  "models": {
+    "hy4-preview": {
+      "contextWindow": 1000000,
+      "maxTokens": 65536,
+      "thinking": true,
+      "imageInput": true
+    },
+    "hy3": {
+      "contextWindow": 262144,
+      "maxTokens": 131072,
+      "thinking": true,
+      "imageInput": true
+    }
+  }
+}

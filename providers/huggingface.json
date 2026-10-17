@@ -1,0 +1,49 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://router.huggingface.co/v1/",
+  "apiKeyEnvironment": "HF_TOKEN",
+  "tokenLimit": "max_tokens",
+  "models": {
+    "moonshotai/Kimi-K3": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "imageInput": true,
+      "videoInput": true
+    },
+    "deepseek-ai/DeepSeek-V4.1-Flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 393216,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "max"
+      ],
+      "imageInput": true
+    },
+    "zai-org/GLM-5.3": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "max"
+      ],
+      "thinkingCanDisable": false
+    },
+    "Qwen/Qwen3.8-27B": {
+      "contextWindow": 262144,
+      "maxTokens": 65536,
+      "thinking": true,
+      "imageInput": true
+    },
+    "MiniMaxAI/MiniMax-M3": {
+      "contextWindow": 1048576,
+      "maxTokens": 524288,
+      "thinking": true,
+      "imageInput": true
+    }
+  }
+}

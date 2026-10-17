@@ -1,0 +1,46 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://integrate.api.nvidia.com/v1/",
+  "apiKeyEnvironment": "NVIDIA_API_KEY",
+  "tokenLimit": "max_tokens",
+  "models": {
+    "deepseek-ai/deepseek-v4.1-flash": {
+      "contextWindow": 1000000,
+      "maxTokens": 393216,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "max"
+      ],
+      "imageInput": true
+    },
+    "nvidia/nemotron-3-ultra-550b-a55b": {
+      "contextWindow": 1000000,
+      "maxTokens": 131072,
+      "thinking": true
+    },
+    "nvidia/nemotron-3-super-120b-a12b": {
+      "contextWindow": 1000000,
+      "maxTokens": 131072,
+      "thinking": true
+    },
+    "moonshotai/kimi-k2.6": {
+      "contextWindow": 262144,
+      "maxTokens": 131072,
+      "thinking": true,
+      "imageInput": true
+    },
+    "z-ai/glm-5.3": {
+      "contextWindow": 1000000,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "max"
+      ],
+      "thinkingCanDisable": false
+    }
+  }
+}

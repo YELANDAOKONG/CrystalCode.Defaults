@@ -1,0 +1,86 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://dashscope.aliyuncs.com/compatible-mode/v1/",
+  "apiKeyEnvironment": "DASHSCOPE_API_KEY",
+  "replayReasoningContent": true,
+  "tokenLimit": "max_tokens",
+  "models": {
+    "qwen3.8-max": {
+      "contextWindow": 1000000,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "xhigh"
+      ],
+      "imageInput": true,
+      "videoInput": true
+    },
+    "qwen3.8-max-0902": {
+      "contextWindow": 1000000,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "xhigh"
+      ],
+      "imageInput": true,
+      "videoInput": true
+    },
+    "qwen3.8-flash": {
+      "contextWindow": 1000000,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "xhigh"
+      ],
+      "imageInput": true,
+      "videoInput": true
+    },
+    "qwen3.8-2.4t-a95b": {
+      "contextWindow": 1000000,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "xhigh"
+      ]
+    },
+    "qwen3.8-27b": {
+      "contextWindow": 262144,
+      "maxTokens": 65536,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "xhigh"
+      ],
+      "imageInput": true,
+      "videoInput": true
+    },
+    "qwen3.7-plus": {
+      "contextWindow": 1000000,
+      "maxTokens": 65536,
+      "thinking": true,
+      "imageInput": true,
+      "videoInput": true
+    },
+    "qwen3.7-max": {
+      "contextWindow": 1000000,
+      "maxTokens": 65536,
+      "thinking": true
+    },
+    "qwen3.7-flash": {
+      "contextWindow": 1000000,
+      "maxTokens": 65536,
+      "thinking": true,
+      "imageInput": true,
+      "videoInput": true
+    }
+  }
+}

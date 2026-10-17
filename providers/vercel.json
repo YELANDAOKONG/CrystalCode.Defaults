@@ -1,0 +1,83 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://ai-gateway.vercel.sh/v1/",
+  "apiKeyEnvironment": "AI_GATEWAY_API_KEY",
+  "tokenLimit": "max_tokens",
+  "models": {
+    "openai/gpt-6.1-sol": {
+      "contextWindow": 1050000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "anthropic/claude-sonnet-5.5": {
+      "contextWindow": 1000000,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "google/gemini-3.8-flash": {
+      "contextWindow": 1000000,
+      "maxTokens": 65535,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true,
+      "videoInput": true
+    },
+    "deepseek/deepseek-v4.1-flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 32768,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "max"
+      ],
+      "imageInput": true
+    },
+    "moonshotai/kimi-k3": {
+      "contextWindow": 1000000,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "max"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true,
+      "videoInput": true
+    },
+    "alibaba/qwen3.8-max": {
+      "contextWindow": 262144,
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "xhigh"
+      ],
+      "imageInput": true
+    }
+  }
+}

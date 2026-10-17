@@ -1,0 +1,29 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://api.cerebras.ai/v1/",
+  "apiKeyEnvironment": "CEREBRAS_API_KEY",
+  "tokenLimit": "max_completion_tokens",
+  "models": {
+    "gpt-oss-120b": {
+      "contextWindow": 131072,
+      "maxTokens": 40960,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "qwen-3.8-27b": {
+      "contextWindow": 131072,
+      "maxTokens": 40960,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "imageInput": true
+    }
+  }
+}

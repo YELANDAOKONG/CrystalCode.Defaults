@@ -1,0 +1,40 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://api.sambanova.ai/v1/",
+  "apiKeyEnvironment": "SAMBANOVA_API_KEY",
+  "tokenLimit": "max_tokens",
+  "models": {
+    "MiniMax-M3": {
+      "contextWindow": 1048576,
+      "maxTokens": 524288,
+      "thinking": true
+    },
+    "MiniMax-M2.7": {
+      "contextWindow": 196608,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingCanDisable": false
+    },
+    "DeepSeek-V3.1": {
+      "contextWindow": 131072,
+      "maxTokens": 7168,
+      "thinking": true
+    },
+    "gpt-oss-120b": {
+      "contextWindow": 131072,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "gemma-4-31B-it": {
+      "contextWindow": 262144,
+      "maxTokens": 262144,
+      "imageInput": true,
+      "videoInput": true
+    }
+  }
+}

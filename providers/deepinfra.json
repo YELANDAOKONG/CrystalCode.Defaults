@@ -1,0 +1,58 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://api.deepinfra.com/v1/openai/",
+  "apiKeyEnvironment": "DEEPINFRA_API_KEY",
+  "tokenLimit": "max_tokens",
+  "models": {
+    "moonshotai/Kimi-K3": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "imageInput": true
+    },
+    "deepseek-ai/DeepSeek-V4-Pro": {
+      "contextWindow": 1048576,
+      "maxTokens": 393216,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "max"
+      ]
+    },
+    "deepseek-ai/DeepSeek-V4.1-Flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 393216,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "max"
+      ],
+      "imageInput": true
+    },
+    "Qwen/Qwen3.8-27B": {
+      "contextWindow": 262144,
+      "maxTokens": 65536,
+      "thinking": true,
+      "imageInput": true
+    },
+    "zai-org/GLM-5.3": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "max"
+      ],
+      "thinkingCanDisable": false
+    },
+    "MiniMaxAI/MiniMax-M3": {
+      "contextWindow": 524288,
+      "maxTokens": 524288,
+      "thinking": true,
+      "imageInput": true
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "protocol": "openai",
+  "baseUri": "https://api.novita.ai/openai/v1/",
+  "apiKeyEnvironment": "NOVITA_API_KEY",
+  "tokenLimit": "max_tokens",
+  "models": {
+    "deepseek/deepseek-v4.1-flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 393216,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "max"
+      ],
+      "imageInput": true
+    },
+    "deepseek/deepseek-v4-pro-0813": {
+      "contextWindow": 1048576,
+      "maxTokens": 393216,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "max"
+      ]
+    },
+    "zai-org/glm-5.3": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "max"
+      ],
+      "thinkingCanDisable": false
+    },
+    "zai-org/glm-5.3-flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "max"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true,
+      "videoInput": true
+    },
+    "tencent/hy4-preview": {
+      "contextWindow": 1000000,
+      "maxTokens": 64000,
+      "thinking": true
+    },
+    "xiaomimimo/mimo-v2.6-pro": {
+      "contextWindow": 1048576,
+      "maxTokens": 131072,
+      "thinking": true,
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true
+    }
+  }
+}

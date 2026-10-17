@@ -84,8 +84,30 @@ Provider definitions are read at startup. Restart the app after the file changes
 | `stepfun-intl` | `openai` | `https://api.stepfun.ai/v1/` |
 | `together` | `openai` | `https://api.together.ai/v1/` |
 | `xai` | `openai` | `https://api.x.ai/v1/` |
+| `cerebras` | `openai` | `https://api.cerebras.ai/v1/` |
+| `deepinfra` | `openai` | `https://api.deepinfra.com/v1/openai/` |
+| `fireworks` | `openai` | `https://api.fireworks.ai/inference/v1/` |
+| `groq` | `openai` | `https://api.groq.com/openai/v1/` |
+| `huggingface` | `openai` | `https://router.huggingface.co/v1/` |
+| `minimax` | `openai` | `https://api.minimaxi.com/v1/` |
+| `minimax-intl` | `openai` | `https://api.minimax.io/v1/` |
+| `nebius` | `openai` | `https://api.tokenfactory.nebius.com/v1/` |
+| `novita` | `openai` | `https://api.novita.ai/openai/v1/` |
+| `nvidia` | `openai` | `https://integrate.api.nvidia.com/v1/` |
+| `qianfan` | `openai` | `https://qianfan.baidubce.com/v2/` |
+| `qwen` | `openai` | `https://dashscope.aliyuncs.com/compatible-mode/v1/` |
+| `qwen-intl` | `openai` | `https://maas.qwencloudapi.com/compatible-mode/v1/` |
+| `sambanova` | `openai` | `https://api.sambanova.ai/v1/` |
+| `tencent` | `openai` | `https://tokenhub.tencentcloudmaas.com/v1/` |
+| `vercel` | `openai` | `https://ai-gateway.vercel.sh/v1/` |
+| `volcengine` | `openai` | `https://ark.cn-beijing.volces.com/api/v3/` |
+| `xiaomi` | `openai` | `https://api.xiaomimimo.com/v1/` |
 
-A provider name can map to an array of entries when one service exposes several protocols or endpoints; `opencode-zen`, `opencode-go`, and `commandcode` use this form, and each model is routed to the protocol that owns it. `moonshot-intl`, `siliconflow-intl`, and `bigmodel-intl` are separate accounts from the domestic entries, so they do not reuse those API keys. `openrouter-free` and `opencode-free` still need an API key; the models themselves are the no-charge routes.
+A provider name can map to an array of entries when one service exposes several protocols or endpoints; `opencode-zen`, `opencode-go`, and `commandcode` use this form, and each model is routed to the protocol that owns it. `moonshot-intl`, `siliconflow-intl`, `bigmodel-intl`, `qwen-intl`, and `minimax-intl` are separate accounts from the domestic entries, so they do not reuse those API keys. `openrouter-free` and `opencode-free` still need an API key; the models themselves are the no-charge routes.
+
+`qwen` is Alibaba Cloud Model Studio in China and `qwen-intl` is QwenCloud; `minimax` and `minimax-intl` use the China and international hosts. `volcengine` is ByteDance's Ark platform (Doubao), `qianfan` is Baidu's ERNIE platform, `tencent` is Tencent Cloud TokenHub (Hy), and `xiaomi` is the MiMo open platform. `tencent` defaults to the Guangzhou endpoint; use `https://tokenhub-intl.tencentcloudmaas.com/v1/` for Singapore or `https://tokenhub-us.tencentcloudmaas.com/v1/` for Silicon Valley. `huggingface` routes through Inference Providers, `nvidia` through the hosted NIM API, and `vercel` through AI Gateway.
+
+Some large services are intentionally absent. Cohere's compatibility API rejects the `stream_options` field Crystal Code sends while streaming; Perplexity retired its Chat Completions surface in favor of the Agent API; GitHub Models was retired on 30 July 2026; Azure OpenAI, Amazon Bedrock, and Google Vertex AI need per-account or per-region base URIs; Cloudflare Workers AI embeds the account id in the URI. Other providers not covered in this pass include iFlytek Spark, ModelScope, Meituan LongCat, Hyperbolic, Featherless, Nscale, OVHcloud, Scaleway, Baseten, Modal, Replicate, Upstage, Sarvam, and Naver.
 
 `openai` means OpenAI-compatible Chat Completions and `responses` is the OpenAI Responses API. `deepseek`, `anthropic`, `gemini`, and `ollama` are native protocols.
 
