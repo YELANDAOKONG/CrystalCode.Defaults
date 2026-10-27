@@ -450,6 +450,31 @@
         "flex"
       ]
     },
+    "gpt-5.6": {
+      "contextWindow": 1050000,
+      "contextWindows": [
+        272000,
+        1050000
+      ],
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ],
+      "speeds": [
+        "fast"
+      ]
+    },
     "gpt-5.6-cyber": {
       "contextWindow": 400000,
       "maxTokens": 128000,
@@ -590,6 +615,31 @@
       ]
     },
     "gpt-6-sol": {
+      "contextWindow": 1050000,
+      "contextWindows": [
+        272000,
+        1050000
+      ],
+      "maxTokens": 128000,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "imageInput": true,
+      "serviceTiers": [
+        "auto",
+        "default",
+        "flex"
+      ],
+      "speeds": [
+        "fast"
+      ]
+    },
+    "gpt-6.1-terra": {
       "contextWindow": 1050000,
       "contextWindows": [
         272000,

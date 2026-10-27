@@ -500,6 +500,31 @@
           "flex"
         ]
       },
+      "gpt-5.6": {
+        "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "imageInput": true,
+        "serviceTiers": [
+          "auto",
+          "default",
+          "flex"
+        ],
+        "speeds": [
+          "fast"
+        ]
+      },
       "gpt-5.6-cyber": {
         "contextWindow": 400000,
         "maxTokens": 128000,
@@ -640,6 +665,31 @@
         ]
       },
       "gpt-6-sol": {
+        "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "imageInput": true,
+        "serviceTiers": [
+          "auto",
+          "default",
+          "flex"
+        ],
+        "speeds": [
+          "fast"
+        ]
+      },
+      "gpt-6.1-terra": {
         "contextWindow": 1050000,
         "contextWindows": [
           272000,
@@ -1087,6 +1137,18 @@
     "protocol": "gemini",
     "baseUri": "https://generativelanguage.googleapis.com/v1beta/",
     "models": {
+      "gemini-4-argon": {
+        "contextWindow": 1048576,
+        "maxTokens": 32768,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
       "gemini-3.8-flash": {
         "contextWindow": 1048576,
         "maxTokens": 65536,
@@ -1099,7 +1161,32 @@
         "thinkingCanDisable": false,
         "imageInput": true
       },
+      "gemini-3.7-flash": {
+        "contextWindow": 1048576,
+        "maxTokens": 65536,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
       "gemini-3.6-flash": {
+        "contextWindow": 1048576,
+        "maxTokens": 65536,
+        "thinking": true,
+        "thinkingEfforts": [
+          "minimal",
+          "low",
+          "medium",
+          "high"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
+      "gemini-3.5-flash": {
         "contextWindow": 1048576,
         "maxTokens": 65536,
         "thinking": true,

@@ -2,6 +2,18 @@
   "protocol": "gemini",
   "baseUri": "https://generativelanguage.googleapis.com/v1beta/",
   "models": {
+    "gemini-4-argon": {
+      "contextWindow": 1048576,
+      "maxTokens": 32768,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
     "gemini-3.8-flash": {
       "contextWindow": 1048576,
       "maxTokens": 65536,
@@ -14,7 +26,32 @@
       "thinkingCanDisable": false,
       "imageInput": true
     },
+    "gemini-3.7-flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 65536,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
     "gemini-3.6-flash": {
+      "contextWindow": 1048576,
+      "maxTokens": 65536,
+      "thinking": true,
+      "thinkingEfforts": [
+        "minimal",
+        "low",
+        "medium",
+        "high"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "gemini-3.5-flash": {
       "contextWindow": 1048576,
       "maxTokens": 65536,
       "thinking": true,
