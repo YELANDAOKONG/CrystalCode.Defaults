@@ -606,6 +606,16 @@
       "imageInput": true,
       "videoInput": true
     },
+    "inception/mercury-3": {
+      "contextWindow": 1000000,
+      "maxTokens": 131072,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
     "inclusionai/ling-3.0-flash": {
       "contextWindow": 262144,
       "maxTokens": 32768,

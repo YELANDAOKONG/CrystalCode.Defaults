@@ -102,6 +102,7 @@ Provider definitions are read at startup. Restart the app after the file changes
 | `vercel` | `openai` | `https://ai-gateway.vercel.sh/v1/` |
 | `volcengine` | `openai` | `https://ark.cn-beijing.volces.com/api/v3/` |
 | `xiaomi` | `openai` | `https://api.xiaomimimo.com/v1/` |
+| `inception` | `openai` | `https://api.inceptionlabs.ai/v1/` |
 
 A provider name can map to an array of entries when one service exposes several protocols or endpoints; `opencode-zen`, `opencode-go`, and `commandcode` use this form, and each model is routed to the protocol that owns it. `moonshot-intl`, `siliconflow-intl`, `bigmodel-intl`, `qwen-intl`, and `minimax-intl` are separate accounts from the domestic entries, so they do not reuse those API keys. `openrouter-free` and `opencode-free` still need an API key; the models themselves are the no-charge routes.
 
