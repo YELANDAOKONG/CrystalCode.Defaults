@@ -14,28 +14,6 @@
         ],
         "imageInput": true
       },
-      "deepseek-v4-flash": {
-        "contextWindow": 1000000,
-        "maxTokens": 393216,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "high",
-          "max"
-        ],
-        "imageInput": true
-      },
-      "deepseek-v4-flash-vision-exp": {
-        "contextWindow": 1000000,
-        "maxTokens": 393216,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "high",
-          "max"
-        ],
-        "imageInput": true
-      },
       "deepseek-v4-pro": {
         "contextWindow": 1000000,
         "maxTokens": 393216,
@@ -57,42 +35,6 @@
         "contextWindow": 400000,
         "maxTokens": 128000,
         "imageInput": true
-      },
-      "chatgpt-4o-latest": {
-        "contextWindow": 128000,
-        "maxTokens": 16384,
-        "imageInput": true
-      },
-      "codex-mini-latest": {
-        "contextWindow": 200000,
-        "maxTokens": 100000,
-        "thinking": true,
-        "thinkingCanDisable": false,
-        "imageInput": true
-      },
-      "computer-use-preview": {
-        "contextWindow": 8192,
-        "maxTokens": 1024,
-        "thinking": true,
-        "thinkingCanDisable": false,
-        "imageInput": true
-      },
-      "gpt-3.5-turbo": {
-        "contextWindow": 16385,
-        "maxTokens": 4096
-      },
-      "gpt-4": {
-        "contextWindow": 8192,
-        "maxTokens": 8192
-      },
-      "gpt-4-turbo": {
-        "contextWindow": 128000,
-        "maxTokens": 4096,
-        "imageInput": true
-      },
-      "gpt-4-turbo-preview": {
-        "contextWindow": 128000,
-        "maxTokens": 4096
       },
       "gpt-4.1": {
         "contextWindow": 1047576,
@@ -118,23 +60,6 @@
           "fast"
         ]
       },
-      "gpt-4.1-nano": {
-        "contextWindow": 1047576,
-        "maxTokens": 32768,
-        "imageInput": true,
-        "serviceTiers": [
-          "auto",
-          "default"
-        ],
-        "speeds": [
-          "fast"
-        ]
-      },
-      "gpt-4.5-preview": {
-        "contextWindow": 128000,
-        "maxTokens": 16384,
-        "imageInput": true
-      },
       "gpt-4o": {
         "contextWindow": 128000,
         "maxTokens": 16384,
@@ -159,14 +84,6 @@
           "fast"
         ]
       },
-      "gpt-4o-mini-search-preview": {
-        "contextWindow": 128000,
-        "maxTokens": 16384
-      },
-      "gpt-4o-search-preview": {
-        "contextWindow": 128000,
-        "maxTokens": 16384
-      },
       "gpt-5": {
         "contextWindow": 400000,
         "maxTokens": 128000,
@@ -187,18 +104,6 @@
         "speeds": [
           "fast"
         ]
-      },
-      "gpt-5-chat-latest": {
-        "contextWindow": 128000,
-        "maxTokens": 16384,
-        "imageInput": true
-      },
-      "gpt-5-codex": {
-        "contextWindow": 400000,
-        "maxTokens": 128000,
-        "thinking": true,
-        "thinkingCanDisable": false,
-        "imageInput": true
       },
       "gpt-5-mini": {
         "contextWindow": 400000,
@@ -239,16 +144,6 @@
           "flex"
         ]
       },
-      "gpt-5-pro": {
-        "contextWindow": 400000,
-        "maxTokens": 272000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "high"
-        ],
-        "thinkingCanDisable": false,
-        "imageInput": true
-      },
       "gpt-5.1": {
         "contextWindow": 400000,
         "maxTokens": 128000,
@@ -267,38 +162,6 @@
         "speeds": [
           "fast"
         ]
-      },
-      "gpt-5.1-chat-latest": {
-        "contextWindow": 128000,
-        "maxTokens": 16384,
-        "imageInput": true
-      },
-      "gpt-5.1-codex": {
-        "contextWindow": 400000,
-        "maxTokens": 128000,
-        "thinking": true,
-        "thinkingCanDisable": false,
-        "imageInput": true
-      },
-      "gpt-5.1-codex-max": {
-        "contextWindow": 400000,
-        "maxTokens": 128000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "thinkingCanDisable": false,
-        "imageInput": true
-      },
-      "gpt-5.1-codex-mini": {
-        "contextWindow": 400000,
-        "maxTokens": 128000,
-        "thinking": true,
-        "thinkingCanDisable": false,
-        "imageInput": true
       },
       "gpt-5.2": {
         "contextWindow": 400000,
@@ -319,63 +182,6 @@
         "speeds": [
           "fast"
         ]
-      },
-      "gpt-5.2-chat-latest": {
-        "contextWindow": 128000,
-        "maxTokens": 16384,
-        "thinking": true,
-        "thinkingEfforts": [
-          "medium"
-        ],
-        "thinkingCanDisable": false,
-        "imageInput": true
-      },
-      "gpt-5.2-codex": {
-        "contextWindow": 400000,
-        "maxTokens": 128000,
-        "thinking": true,
-        "thinkingCanDisable": false,
-        "imageInput": true
-      },
-      "gpt-5.2-pro": {
-        "contextWindow": 400000,
-        "maxTokens": 128000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "thinkingCanDisable": false,
-        "imageInput": true
-      },
-      "gpt-5.3-chat-latest": {
-        "contextWindow": 128000,
-        "maxTokens": 16384,
-        "imageInput": true
-      },
-      "gpt-5.3-codex": {
-        "contextWindow": 400000,
-        "maxTokens": 128000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "imageInput": true
-      },
-      "gpt-5.3-codex-spark": {
-        "contextWindow": 128000,
-        "maxTokens": 32000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high"
-        ],
-        "imageInput": true
       },
       "gpt-5.4": {
         "contextWindow": 1050000,
@@ -438,27 +244,6 @@
           "flex"
         ]
       },
-      "gpt-5.4-pro": {
-        "contextWindow": 1050000,
-        "contextWindows": [
-          272000,
-          1050000
-        ],
-        "maxTokens": 128000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "thinkingCanDisable": false,
-        "imageInput": true,
-        "serviceTiers": [
-          "auto",
-          "default",
-          "flex"
-        ]
-      },
       "gpt-5.5": {
         "contextWindow": 1050000,
         "contextWindows": [
@@ -481,23 +266,6 @@
         ],
         "speeds": [
           "fast"
-        ]
-      },
-      "gpt-5.5-pro": {
-        "contextWindow": 1050000,
-        "maxTokens": 128000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "thinkingCanDisable": false,
-        "imageInput": true,
-        "serviceTiers": [
-          "auto",
-          "default",
-          "flex"
         ]
       },
       "gpt-5.6": {
@@ -524,18 +292,6 @@
         "speeds": [
           "fast"
         ]
-      },
-      "gpt-5.6-cyber": {
-        "contextWindow": 400000,
-        "maxTokens": 128000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "imageInput": true
       },
       "gpt-5.6-luna": {
         "contextWindow": 1050000,
@@ -741,86 +497,6 @@
           "ultrafast"
         ]
       },
-      "gpt-daybreak-blue-latest": {
-        "contextWindow": 1050000,
-        "maxTokens": 128000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "imageInput": true
-      },
-      "gpt-daybreak-red-latest": {
-        "contextWindow": 400000,
-        "maxTokens": 128000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "imageInput": true
-      },
-      "gpt-oss-120b": {
-        "contextWindow": 131072,
-        "maxTokens": 131072,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high"
-        ]
-      },
-      "gpt-oss-20b": {
-        "contextWindow": 131072,
-        "maxTokens": 131072,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high"
-        ]
-      },
-      "o1": {
-        "contextWindow": 200000,
-        "maxTokens": 100000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high"
-        ],
-        "thinkingCanDisable": false,
-        "imageInput": true
-      },
-      "o1-mini": {
-        "contextWindow": 128000,
-        "maxTokens": 65536,
-        "thinking": true,
-        "thinkingCanDisable": false
-      },
-      "o1-preview": {
-        "contextWindow": 128000,
-        "maxTokens": 32768,
-        "thinking": true,
-        "thinkingCanDisable": false
-      },
-      "o1-pro": {
-        "contextWindow": 200000,
-        "maxTokens": 100000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high"
-        ],
-        "thinkingCanDisable": false,
-        "imageInput": true
-      },
       "o3": {
         "contextWindow": 200000,
         "maxTokens": 100000,
@@ -840,63 +516,6 @@
         "speeds": [
           "fast"
         ]
-      },
-      "o3-deep-research": {
-        "contextWindow": 200000,
-        "maxTokens": 100000,
-        "thinking": true,
-        "thinkingCanDisable": false,
-        "imageInput": true
-      },
-      "o3-mini": {
-        "contextWindow": 200000,
-        "maxTokens": 100000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high"
-        ],
-        "thinkingCanDisable": false
-      },
-      "o3-pro": {
-        "contextWindow": 200000,
-        "maxTokens": 100000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high"
-        ],
-        "thinkingCanDisable": false,
-        "imageInput": true
-      },
-      "o4-mini": {
-        "contextWindow": 200000,
-        "maxTokens": 100000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high"
-        ],
-        "thinkingCanDisable": false,
-        "imageInput": true,
-        "serviceTiers": [
-          "auto",
-          "default",
-          "flex"
-        ],
-        "speeds": [
-          "fast"
-        ]
-      },
-      "o4-mini-deep-research": {
-        "contextWindow": 200000,
-        "maxTokens": 100000,
-        "thinking": true,
-        "thinkingCanDisable": false,
-        "imageInput": true
       }
     }
   },
@@ -1139,7 +758,7 @@
     "models": {
       "gemini-4-argon": {
         "contextWindow": 1048576,
-        "maxTokens": 32768,
+        "maxTokens": 65536,
         "thinking": true,
         "thinkingEfforts": [
           "low",
@@ -1147,7 +766,14 @@
           "high"
         ],
         "thinkingCanDisable": false,
-        "imageInput": true
+        "imageInput": true,
+        "audioInput": true,
+        "videoInput": true,
+        "serviceTiers": [
+          "standard",
+          "flex",
+          "priority"
+        ]
       },
       "gemini-3.8-flash": {
         "contextWindow": 1048576,
@@ -1159,19 +785,14 @@
           "high"
         ],
         "thinkingCanDisable": false,
-        "imageInput": true
-      },
-      "gemini-3.7-flash": {
-        "contextWindow": 1048576,
-        "maxTokens": 65536,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high"
-        ],
-        "thinkingCanDisable": false,
-        "imageInput": true
+        "imageInput": true,
+        "audioInput": true,
+        "videoInput": true,
+        "serviceTiers": [
+          "standard",
+          "flex",
+          "priority"
+        ]
       },
       "gemini-3.6-flash": {
         "contextWindow": 1048576,
@@ -1184,20 +805,14 @@
           "high"
         ],
         "thinkingCanDisable": false,
-        "imageInput": true
-      },
-      "gemini-3.5-flash": {
-        "contextWindow": 1048576,
-        "maxTokens": 65536,
-        "thinking": true,
-        "thinkingEfforts": [
-          "minimal",
-          "low",
-          "medium",
-          "high"
-        ],
-        "thinkingCanDisable": false,
-        "imageInput": true
+        "imageInput": true,
+        "audioInput": true,
+        "videoInput": true,
+        "serviceTiers": [
+          "standard",
+          "flex",
+          "priority"
+        ]
       },
       "gemini-3.5-flash-lite": {
         "contextWindow": 1048576,
@@ -1210,19 +825,34 @@
           "high"
         ],
         "thinkingCanDisable": false,
-        "imageInput": true
+        "imageInput": true,
+        "audioInput": true,
+        "videoInput": true,
+        "serviceTiers": [
+          "standard",
+          "flex",
+          "priority"
+        ]
       },
       "gemini-3.1-flash-lite": {
         "contextWindow": 1048576,
         "maxTokens": 65536,
         "thinking": true,
         "thinkingEfforts": [
+          "minimal",
           "low",
           "medium",
           "high"
         ],
         "thinkingCanDisable": false,
-        "imageInput": true
+        "imageInput": true,
+        "audioInput": true,
+        "videoInput": true,
+        "serviceTiers": [
+          "standard",
+          "flex",
+          "priority"
+        ]
       },
       "gemini-3.1-pro-preview": {
         "contextWindow": 1048576,
@@ -1238,7 +868,14 @@
           "high"
         ],
         "thinkingCanDisable": false,
-        "imageInput": true
+        "imageInput": true,
+        "audioInput": true,
+        "videoInput": true,
+        "serviceTiers": [
+          "standard",
+          "flex",
+          "priority"
+        ]
       },
       "gemini-3.1-pro-preview-customtools": {
         "contextWindow": 1048576,
@@ -1254,7 +891,9 @@
           "high"
         ],
         "thinkingCanDisable": false,
-        "imageInput": true
+        "imageInput": true,
+        "audioInput": true,
+        "videoInput": true
       },
       "gemini-3-flash-preview": {
         "contextWindow": 1048576,
@@ -1267,7 +906,14 @@
           "high"
         ],
         "thinkingCanDisable": false,
-        "imageInput": true
+        "imageInput": true,
+        "audioInput": true,
+        "videoInput": true,
+        "serviceTiers": [
+          "standard",
+          "flex",
+          "priority"
+        ]
       },
       "gemini-2.5-pro": {
         "contextWindow": 1048576,
@@ -1283,7 +929,14 @@
           "high"
         ],
         "thinkingCanDisable": false,
-        "imageInput": true
+        "imageInput": true,
+        "audioInput": true,
+        "videoInput": true,
+        "serviceTiers": [
+          "standard",
+          "flex",
+          "priority"
+        ]
       },
       "gemini-2.5-flash": {
         "contextWindow": 1048576,
@@ -1294,7 +947,14 @@
           "medium",
           "high"
         ],
-        "imageInput": true
+        "imageInput": true,
+        "audioInput": true,
+        "videoInput": true,
+        "serviceTiers": [
+          "standard",
+          "flex",
+          "priority"
+        ]
       },
       "gemini-2.5-flash-lite": {
         "contextWindow": 1048576,
@@ -1305,7 +965,14 @@
           "medium",
           "high"
         ],
-        "imageInput": true
+        "imageInput": true,
+        "audioInput": true,
+        "videoInput": true,
+        "serviceTiers": [
+          "standard",
+          "flex",
+          "priority"
+        ]
       }
     }
   },
@@ -1313,6 +980,30 @@
     "protocol": "openai",
     "baseUri": "https://api.moonshot.cn/v1/",
     "models": {
+      "kimi-k3.1-pro": {
+        "contextWindow": 1048576,
+        "maxTokens": 1048576,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
+      "kimi-k3.1-pro-highspeed": {
+        "contextWindow": 1048576,
+        "maxTokens": 1048576,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
       "kimi-k3": {
         "contextWindow": 1048576,
         "maxTokens": 1048576,
@@ -1327,21 +1018,18 @@
       },
       "kimi-k2.7-code": {
         "contextWindow": 262144,
-        "maxTokens": 262144,
         "thinking": true,
         "thinkingCanDisable": false,
         "imageInput": true
       },
       "kimi-k2.7-code-highspeed": {
         "contextWindow": 262144,
-        "maxTokens": 262144,
         "thinking": true,
         "thinkingCanDisable": false,
         "imageInput": true
       },
       "kimi-k2.6": {
         "contextWindow": 262144,
-        "maxTokens": 262144,
         "thinking": true,
         "imageInput": true
       }
@@ -2014,12 +1702,6 @@
           "fast"
         ]
       },
-      "anthropic/claude-sonnet-4": {
-        "contextWindow": 200000,
-        "maxTokens": 64000,
-        "thinking": true,
-        "imageInput": true
-      },
       "anthropic/claude-sonnet-4.5": {
         "contextWindow": 1000000,
         "maxTokens": 64000,
@@ -2150,7 +1832,7 @@
       },
       "deepseek/deepseek-chat": {
         "contextWindow": 163840,
-        "maxTokens": 16384
+        "maxTokens": 16000
       },
       "deepseek/deepseek-chat-v3-0324": {
         "contextWindow": 163840,
@@ -2160,12 +1842,6 @@
         "contextWindow": 163840,
         "maxTokens": 32768,
         "thinking": true
-      },
-      "deepseek/deepseek-r1": {
-        "contextWindow": 64000,
-        "maxTokens": 16000,
-        "thinking": true,
-        "thinkingCanDisable": false
       },
       "deepseek/deepseek-r1-0528": {
         "contextWindow": 163840,
@@ -2180,7 +1856,7 @@
       },
       "deepseek/deepseek-v3.2": {
         "contextWindow": 163840,
-        "maxTokens": 147456,
+        "maxTokens": 65536,
         "thinking": true
       },
       "deepseek/deepseek-v3.2-exp": {
@@ -2190,7 +1866,7 @@
       },
       "deepseek/deepseek-v4-flash": {
         "contextWindow": 1048576,
-        "maxTokens": 943718,
+        "maxTokens": 131072,
         "thinking": true,
         "thinkingEfforts": [
           "high"
@@ -2237,7 +1913,7 @@
       },
       "deepseek/deepseek-v4.1-flash": {
         "contextWindow": 1048576,
-        "maxTokens": 943718,
+        "maxTokens": 131072,
         "thinking": true,
         "thinkingEfforts": [
           "low",
@@ -2476,25 +2152,15 @@
         "maxTokens": 32768,
         "thinking": true
       },
-      "inclusionai/ling-3.0-flash-fin": {
-        "contextWindow": 262144,
-        "maxTokens": 32768,
-        "thinking": true
-      },
-      "inclusionai/ling-3.0-flash-sante": {
-        "contextWindow": 262144,
-        "maxTokens": 32768,
-        "thinking": true
-      },
       "inclusionai/ling-3.0-flash-vl": {
-        "contextWindow": 262144,
+        "contextWindow": 131072,
         "maxTokens": 32768,
         "thinking": true,
         "imageInput": true
       },
       "inclusionai/ling-3.1-flash": {
         "contextWindow": 262144,
-        "maxTokens": 32768,
+        "maxTokens": 235929,
         "thinking": true
       },
       "liquid/lfm-2.5-2.6b:free": {
@@ -2528,7 +2194,7 @@
         "maxTokens": 16384
       },
       "meta-llama/llama-4-maverick": {
-        "contextWindow": 1048576,
+        "contextWindow": 524288,
         "maxTokens": 16384,
         "imageInput": true
       },
@@ -2626,10 +2292,6 @@
         "contextWindow": 16384,
         "maxTokens": 14745
       },
-      "microsoft/wizardlm-2-8x22b": {
-        "contextWindow": 65535,
-        "maxTokens": 8000
-      },
       "minimax/minimax-01": {
         "contextWindow": 1000192,
         "maxTokens": 900172,
@@ -2642,7 +2304,7 @@
       },
       "minimax/minimax-m2": {
         "contextWindow": 204800,
-        "maxTokens": 176947,
+        "maxTokens": 131072,
         "thinking": true,
         "thinkingCanDisable": false
       },
@@ -2658,13 +2320,13 @@
       },
       "minimax/minimax-m2.5": {
         "contextWindow": 204800,
-        "maxTokens": 128000,
+        "maxTokens": 131072,
         "thinking": true,
         "thinkingCanDisable": false
       },
       "minimax/minimax-m2.7": {
         "contextWindow": 204800,
-        "maxTokens": 176947,
+        "maxTokens": 131072,
         "thinking": true,
         "thinkingCanDisable": false
       },
@@ -2810,6 +2472,18 @@
         "thinkingCanDisable": false,
         "imageInput": true
       },
+      "moonshotai/kimi-k3.1-pro": {
+        "contextWindow": 1048576,
+        "maxTokens": 943718,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high",
+          "max"
+        ],
+        "imageInput": true,
+        "videoInput": true
+      },
       "moonshotai/kimi-k3": {
         "contextWindow": 1048576,
         "maxTokens": 943718,
@@ -2819,7 +2493,6 @@
           "high",
           "max"
         ],
-        "thinkingCanDisable": false,
         "imageInput": true
       },
       "nvidia/nemotron-3-nano-30b-a3b": {
@@ -2844,18 +2517,9 @@
           "medium"
         ]
       },
-      "nvidia/nemotron-3-super-120b-a12b:free": {
-        "contextWindow": 262144,
-        "maxTokens": 235929,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium"
-        ]
-      },
       "nvidia/nemotron-3-ultra-550b-a55b": {
         "contextWindow": 262144,
-        "maxTokens": 16384,
+        "maxTokens": 182520,
         "thinking": true,
         "thinkingEfforts": [
           "medium",
@@ -2903,10 +2567,6 @@
       "nvidia/switchyard": {
         "contextWindow": 1000000
       },
-      "openai/gpt-3.5-turbo": {
-        "contextWindow": 16385,
-        "maxTokens": 4096
-      },
       "openai/gpt-3.5-turbo-0613": {
         "contextWindow": 4095,
         "maxTokens": 3685
@@ -2948,7 +2608,7 @@
       },
       "openai/gpt-4.1-nano": {
         "contextWindow": 1047576,
-        "maxTokens": 32768,
+        "maxTokens": 942818,
         "imageInput": true,
         "serviceTiers": [
           "default"
@@ -3594,7 +3254,7 @@
       },
       "openai/gpt-oss-120b": {
         "contextWindow": 131072,
-        "maxTokens": 117964,
+        "maxTokens": 65536,
         "thinking": true,
         "thinkingEfforts": [
           "low",
@@ -3764,7 +3424,7 @@
       },
       "qwen/qwen3-14b": {
         "contextWindow": 40960,
-        "maxTokens": 36864,
+        "maxTokens": 16384,
         "thinking": true
       },
       "qwen/qwen3-235b-a22b-2507": {
@@ -3809,7 +3469,7 @@
       },
       "qwen/qwen3-next-80b-a3b-instruct": {
         "contextWindow": 262144,
-        "maxTokens": 235929
+        "maxTokens": 16384
       },
       "qwen/qwen3-next-80b-a3b-thinking": {
         "contextWindow": 262144,
@@ -3853,7 +3513,7 @@
       },
       "qwen/qwen3.5-35b-a3b": {
         "contextWindow": 262144,
-        "maxTokens": 32768,
+        "maxTokens": 81920,
         "thinking": true,
         "imageInput": true
       },
@@ -3865,7 +3525,7 @@
       },
       "qwen/qwen3.5-9b": {
         "contextWindow": 262144,
-        "maxTokens": 32768,
+        "maxTokens": 235929,
         "thinking": true,
         "imageInput": true
       },
@@ -3930,7 +3590,7 @@
       },
       "qwen/qwen3.8-2.4t-a95b": {
         "contextWindow": 1048576,
-        "maxTokens": 131072,
+        "maxTokens": 909000,
         "thinking": true,
         "thinkingEfforts": [
           "low",
@@ -3941,7 +3601,7 @@
       },
       "qwen/qwen3.8-27b": {
         "contextWindow": 1000000,
-        "maxTokens": 131072,
+        "maxTokens": 235929,
         "thinking": true,
         "thinkingEfforts": [
           "low",
@@ -4049,7 +3709,7 @@
         "imageInput": true
       },
       "stepfun/step-5-preview": {
-        "contextWindow": 1000000,
+        "contextWindow": 1048576,
         "maxTokens": 64000,
         "thinking": true,
         "thinkingEfforts": [
@@ -4242,13 +3902,13 @@
       },
       "xiaomi/mimo-v2.5": {
         "contextWindow": 1050000,
-        "maxTokens": 131072,
+        "maxTokens": 65536,
         "thinking": true,
         "imageInput": true
       },
       "xiaomi/mimo-v2.5-pro": {
         "contextWindow": 1050000,
-        "maxTokens": 131072,
+        "maxTokens": 235929,
         "thinking": true
       },
       "xiaomi/mimo-v2.6-flash": {
@@ -4313,7 +3973,7 @@
       },
       "z-ai/glm-5": {
         "contextWindow": 204800,
-        "maxTokens": 128000,
+        "maxTokens": 131072,
         "thinking": true
       },
       "z-ai/glm-5-turbo": {
@@ -4882,6 +4542,18 @@
         "maxTokens": 262144,
         "thinking": true,
         "thinkingCanDisable": false,
+        "imageInput": true
+      },
+      "moonshot/kimi-k3.1-pro": {
+        "contextWindow": 1048576,
+        "maxTokens": 1048576,
+        "thinking": true,
+        "imageInput": true
+      },
+      "moonshot/kimi-k3.1-pro-highspeed": {
+        "contextWindow": 1048576,
+        "maxTokens": 1048576,
+        "thinking": true,
         "imageInput": true
       },
       "moonshot/kimi-k3": {
@@ -6841,18 +6513,6 @@
           ],
           "imageInput": true
         },
-        "grok-4.5": {
-          "contextWindow": 500000,
-          "maxTokens": 500000,
-          "thinking": true,
-          "thinkingEfforts": [
-            "low",
-            "medium",
-            "high"
-          ],
-          "thinkingCanDisable": false,
-          "imageInput": true
-        },
         "grok-4.6": {
           "contextWindow": 500000,
           "contextWindows": [
@@ -6981,38 +6641,6 @@
       "replayReasoningContent": true,
       "tokenLimit": "max_tokens",
       "models": {
-        "deepseek-flash": {
-          "contextWindow": 1000000,
-          "maxTokens": 393216,
-          "thinking": true,
-          "thinkingEfforts": [
-            "low",
-            "high",
-            "max"
-          ],
-          "imageInput": true
-        },
-        "deepseek-v4-flash": {
-          "contextWindow": 1000000,
-          "maxTokens": 384000,
-          "thinking": true,
-          "thinkingEfforts": [
-            "low",
-            "high",
-            "max"
-          ]
-        },
-        "deepseek-v4-flash-vision-exp": {
-          "contextWindow": 1000000,
-          "maxTokens": 384000,
-          "thinking": true,
-          "thinkingEfforts": [
-            "low",
-            "high",
-            "max"
-          ],
-          "imageInput": true
-        },
         "deepseek-v4-pro": {
           "contextWindow": 1000000,
           "maxTokens": 384000,
@@ -7032,11 +6660,6 @@
             "max"
           ],
           "imageInput": true
-        },
-        "glm-5": {
-          "contextWindow": 204800,
-          "maxTokens": 131072,
-          "thinking": true
         },
         "glm-5.1": {
           "contextWindow": 200000,
@@ -7084,11 +6707,6 @@
             "high"
           ]
         },
-        "hy3-preview": {
-          "contextWindow": 256000,
-          "maxTokens": 64000,
-          "thinking": true
-        },
         "hy4-preview": {
           "contextWindow": 1024000,
           "maxTokens": 64000,
@@ -7096,12 +6714,6 @@
           "thinkingEfforts": [
             "high"
           ]
-        },
-        "kimi-k2.5": {
-          "contextWindow": 262144,
-          "maxTokens": 32768,
-          "thinking": true,
-          "imageInput": true
         },
         "kimi-k2.6": {
           "contextWindow": 262144,
@@ -7113,6 +6725,18 @@
           "contextWindow": 262144,
           "maxTokens": 262144,
           "thinking": true,
+          "thinkingCanDisable": false,
+          "imageInput": true
+        },
+        "kimi-k3.1-pro": {
+          "contextWindow": 1048576,
+          "maxTokens": 131072,
+          "thinking": true,
+          "thinkingEfforts": [
+            "low",
+            "high",
+            "max"
+          ],
           "thinkingCanDisable": false,
           "imageInput": true
         },
@@ -7128,23 +6752,6 @@
         },
         "longcat-2.0": {
           "contextWindow": 1000000,
-          "maxTokens": 131072,
-          "thinking": true
-        },
-        "longcat-2.5-preview-free": {
-          "contextWindow": 1000000,
-          "maxTokens": 131072,
-          "thinking": true,
-          "imageInput": true
-        },
-        "mimo-v2-omni": {
-          "contextWindow": 262144,
-          "maxTokens": 131072,
-          "thinking": true,
-          "imageInput": true
-        },
-        "mimo-v2-pro": {
-          "contextWindow": 1048576,
           "maxTokens": 131072,
           "thinking": true
         },
@@ -7176,12 +6783,6 @@
           "maxTokens": 131072,
           "thinking": true
         },
-        "qwen3.5-plus": {
-          "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "thinking": true,
-          "imageInput": true
-        },
         "qwen3.6-plus": {
           "contextWindow": 1000000,
           "maxTokens": 65536,
@@ -7192,29 +6793,6 @@
           "contextWindow": 1000000,
           "maxTokens": 65536,
           "thinking": true
-        },
-        "space-bunny": {
-          "contextWindow": 1048576,
-          "maxTokens": 524288,
-          "thinking": true,
-          "thinkingEfforts": [
-            "low",
-            "medium",
-            "high",
-            "xhigh"
-          ],
-          "imageInput": true
-        },
-        "step-5-preview-free": {
-          "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "thinking": true,
-          "thinkingEfforts": [
-            "low",
-            "medium",
-            "high"
-          ],
-          "imageInput": true
         }
       }
     }
@@ -8273,6 +7851,30 @@
     "protocol": "openai",
     "baseUri": "https://api.moonshot.ai/v1/",
     "models": {
+      "kimi-k3.1-pro": {
+        "contextWindow": 1048576,
+        "maxTokens": 1048576,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
+      "kimi-k3.1-pro-highspeed": {
+        "contextWindow": 1048576,
+        "maxTokens": 1048576,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
       "kimi-k3": {
         "contextWindow": 1048576,
         "maxTokens": 1048576,
@@ -8287,21 +7889,18 @@
       },
       "kimi-k2.7-code": {
         "contextWindow": 262144,
-        "maxTokens": 262144,
         "thinking": true,
         "thinkingCanDisable": false,
         "imageInput": true
       },
       "kimi-k2.7-code-highspeed": {
         "contextWindow": 262144,
-        "maxTokens": 262144,
         "thinking": true,
         "thinkingCanDisable": false,
         "imageInput": true
       },
       "kimi-k2.6": {
         "contextWindow": 262144,
-        "maxTokens": 262144,
         "thinking": true,
         "imageInput": true
       }
@@ -9397,16 +8996,15 @@
           "priority"
         ]
       },
-      "grok-4.20-multi-agent-0309": {
-        "contextWindow": 1000000,
-        "imageInput": true,
-        "serviceTiers": [
-          "default",
-          "priority"
-        ]
-      },
       "grok-4.3": {
         "contextWindow": 1000000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
         "imageInput": true,
         "serviceTiers": [
           "default",
@@ -10298,6 +9896,30 @@
           "high",
           "max"
         ],
+        "imageInput": true
+      },
+      "moonshotai/kimi-k3.1-pro": {
+        "contextWindow": 1048576,
+        "maxTokens": 1048576,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
+      "moonshotai/kimi-k3.1-pro-highspeed": {
+        "contextWindow": 1048576,
+        "maxTokens": 1048576,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high",
+          "max"
+        ],
+        "thinkingCanDisable": false,
         "imageInput": true
       },
       "moonshotai/kimi-k3": {

@@ -493,6 +493,18 @@
       "thinkingCanDisable": false,
       "imageInput": true
     },
+    "moonshot/kimi-k3.1-pro": {
+      "contextWindow": 1048576,
+      "maxTokens": 1048576,
+      "thinking": true,
+      "imageInput": true
+    },
+    "moonshot/kimi-k3.1-pro-highspeed": {
+      "contextWindow": 1048576,
+      "maxTokens": 1048576,
+      "thinking": true,
+      "imageInput": true
+    },
     "moonshot/kimi-k3": {
       "contextWindow": 1048576,
       "maxTokens": 1048576,

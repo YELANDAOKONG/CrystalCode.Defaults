@@ -37,18 +37,6 @@
         ],
         "imageInput": true
       },
-      "grok-4.5": {
-        "contextWindow": 500000,
-        "maxTokens": 500000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high"
-        ],
-        "thinkingCanDisable": false,
-        "imageInput": true
-      },
       "grok-4.6": {
         "contextWindow": 500000,
         "contextWindows": [
@@ -177,38 +165,6 @@
     "replayReasoningContent": true,
     "tokenLimit": "max_tokens",
     "models": {
-      "deepseek-flash": {
-        "contextWindow": 1000000,
-        "maxTokens": 393216,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "high",
-          "max"
-        ],
-        "imageInput": true
-      },
-      "deepseek-v4-flash": {
-        "contextWindow": 1000000,
-        "maxTokens": 384000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "high",
-          "max"
-        ]
-      },
-      "deepseek-v4-flash-vision-exp": {
-        "contextWindow": 1000000,
-        "maxTokens": 384000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "high",
-          "max"
-        ],
-        "imageInput": true
-      },
       "deepseek-v4-pro": {
         "contextWindow": 1000000,
         "maxTokens": 384000,
@@ -228,11 +184,6 @@
           "max"
         ],
         "imageInput": true
-      },
-      "glm-5": {
-        "contextWindow": 204800,
-        "maxTokens": 131072,
-        "thinking": true
       },
       "glm-5.1": {
         "contextWindow": 200000,
@@ -280,11 +231,6 @@
           "high"
         ]
       },
-      "hy3-preview": {
-        "contextWindow": 256000,
-        "maxTokens": 64000,
-        "thinking": true
-      },
       "hy4-preview": {
         "contextWindow": 1024000,
         "maxTokens": 64000,
@@ -292,12 +238,6 @@
         "thinkingEfforts": [
           "high"
         ]
-      },
-      "kimi-k2.5": {
-        "contextWindow": 262144,
-        "maxTokens": 32768,
-        "thinking": true,
-        "imageInput": true
       },
       "kimi-k2.6": {
         "contextWindow": 262144,
@@ -309,6 +249,18 @@
         "contextWindow": 262144,
         "maxTokens": 262144,
         "thinking": true,
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
+      "kimi-k3.1-pro": {
+        "contextWindow": 1048576,
+        "maxTokens": 131072,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high",
+          "max"
+        ],
         "thinkingCanDisable": false,
         "imageInput": true
       },
@@ -324,23 +276,6 @@
       },
       "longcat-2.0": {
         "contextWindow": 1000000,
-        "maxTokens": 131072,
-        "thinking": true
-      },
-      "longcat-2.5-preview-free": {
-        "contextWindow": 1000000,
-        "maxTokens": 131072,
-        "thinking": true,
-        "imageInput": true
-      },
-      "mimo-v2-omni": {
-        "contextWindow": 262144,
-        "maxTokens": 131072,
-        "thinking": true,
-        "imageInput": true
-      },
-      "mimo-v2-pro": {
-        "contextWindow": 1048576,
         "maxTokens": 131072,
         "thinking": true
       },
@@ -372,12 +307,6 @@
         "maxTokens": 131072,
         "thinking": true
       },
-      "qwen3.5-plus": {
-        "contextWindow": 1000000,
-        "maxTokens": 65536,
-        "thinking": true,
-        "imageInput": true
-      },
       "qwen3.6-plus": {
         "contextWindow": 1000000,
         "maxTokens": 65536,
@@ -388,29 +317,6 @@
         "contextWindow": 1000000,
         "maxTokens": 65536,
         "thinking": true
-      },
-      "space-bunny": {
-        "contextWindow": 1048576,
-        "maxTokens": 524288,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "imageInput": true
-      },
-      "step-5-preview-free": {
-        "contextWindow": 1000000,
-        "maxTokens": 65536,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high"
-        ],
-        "imageInput": true
       }
     }
   }

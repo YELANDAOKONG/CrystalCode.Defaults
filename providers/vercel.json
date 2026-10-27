@@ -56,6 +56,30 @@
       ],
       "imageInput": true
     },
+    "moonshotai/kimi-k3.1-pro": {
+      "contextWindow": 1048576,
+      "maxTokens": 1048576,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "max"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
+    "moonshotai/kimi-k3.1-pro-highspeed": {
+      "contextWindow": 1048576,
+      "maxTokens": 1048576,
+      "thinking": true,
+      "thinkingEfforts": [
+        "low",
+        "high",
+        "max"
+      ],
+      "thinkingCanDisable": false,
+      "imageInput": true
+    },
     "moonshotai/kimi-k3": {
       "contextWindow": 1000000,
       "maxTokens": 131072,

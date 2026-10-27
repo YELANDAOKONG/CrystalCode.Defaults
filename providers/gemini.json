@@ -4,7 +4,7 @@
   "models": {
     "gemini-4-argon": {
       "contextWindow": 1048576,
-      "maxTokens": 32768,
+      "maxTokens": 65536,
       "thinking": true,
       "thinkingEfforts": [
         "low",
@@ -12,7 +12,14 @@
         "high"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true,
+      "serviceTiers": [
+        "standard",
+        "flex",
+        "priority"
+      ]
     },
     "gemini-3.8-flash": {
       "contextWindow": 1048576,
@@ -24,19 +31,14 @@
         "high"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
-    },
-    "gemini-3.7-flash": {
-      "contextWindow": 1048576,
-      "maxTokens": 65536,
-      "thinking": true,
-      "thinkingEfforts": [
-        "low",
-        "medium",
-        "high"
-      ],
-      "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true,
+      "serviceTiers": [
+        "standard",
+        "flex",
+        "priority"
+      ]
     },
     "gemini-3.6-flash": {
       "contextWindow": 1048576,
@@ -49,20 +51,14 @@
         "high"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
-    },
-    "gemini-3.5-flash": {
-      "contextWindow": 1048576,
-      "maxTokens": 65536,
-      "thinking": true,
-      "thinkingEfforts": [
-        "minimal",
-        "low",
-        "medium",
-        "high"
-      ],
-      "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true,
+      "serviceTiers": [
+        "standard",
+        "flex",
+        "priority"
+      ]
     },
     "gemini-3.5-flash-lite": {
       "contextWindow": 1048576,
@@ -75,19 +71,34 @@
         "high"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true,
+      "serviceTiers": [
+        "standard",
+        "flex",
+        "priority"
+      ]
     },
     "gemini-3.1-flash-lite": {
       "contextWindow": 1048576,
       "maxTokens": 65536,
       "thinking": true,
       "thinkingEfforts": [
+        "minimal",
         "low",
         "medium",
         "high"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true,
+      "serviceTiers": [
+        "standard",
+        "flex",
+        "priority"
+      ]
     },
     "gemini-3.1-pro-preview": {
       "contextWindow": 1048576,
@@ -103,7 +114,14 @@
         "high"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true,
+      "serviceTiers": [
+        "standard",
+        "flex",
+        "priority"
+      ]
     },
     "gemini-3.1-pro-preview-customtools": {
       "contextWindow": 1048576,
@@ -119,7 +137,9 @@
         "high"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true
     },
     "gemini-3-flash-preview": {
       "contextWindow": 1048576,
@@ -132,7 +152,14 @@
         "high"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true,
+      "serviceTiers": [
+        "standard",
+        "flex",
+        "priority"
+      ]
     },
     "gemini-2.5-pro": {
       "contextWindow": 1048576,
@@ -148,7 +175,14 @@
         "high"
       ],
       "thinkingCanDisable": false,
-      "imageInput": true
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true,
+      "serviceTiers": [
+        "standard",
+        "flex",
+        "priority"
+      ]
     },
     "gemini-2.5-flash": {
       "contextWindow": 1048576,
@@ -159,7 +193,14 @@
         "medium",
         "high"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true,
+      "serviceTiers": [
+        "standard",
+        "flex",
+        "priority"
+      ]
     },
     "gemini-2.5-flash-lite": {
       "contextWindow": 1048576,
@@ -170,7 +211,14 @@
         "medium",
         "high"
       ],
-      "imageInput": true
+      "imageInput": true,
+      "audioInput": true,
+      "videoInput": true,
+      "serviceTiers": [
+        "standard",
+        "flex",
+        "priority"
+      ]
     }
   }
 }
