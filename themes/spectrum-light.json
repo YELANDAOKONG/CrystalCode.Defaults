@@ -46,6 +46,7 @@
     ],
     "model": [
       {"regex": "fable", "color": "bold #b45f06"},
+      {"regex": "opus", "color": "#a16207"},
       {"regex": "sonnet", "color": "#c4623f"},
       {"regex": "haiku", "color": "#c28a66"},
       {"regex": "astro", "color": "bold #008f7a"},
