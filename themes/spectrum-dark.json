@@ -1,0 +1,81 @@
+{
+  "approval": {"plan": "#7aa2f7", "default": "#73daca", "edit": "#e0af68", "review": "#bb9af7", "audit": "#ff79c6", "full": "bold #ff6a00"},
+  "status": {"input": "#7dcfff", "output": "#bb9af7", "total": "#e0af68", "path": "#7a9cc6", "tools": "#9ece6a", "elapsed": "#ff9e64"},
+  "gauges": {
+    "context": [
+      {"from": 95, "color": "bold #ffffff on #d7263d"},
+      {"from": 90, "color": "bold #ff2e63"},
+      {"from": 80, "color": "#f7768e"},
+      {"from": 70, "color": "#ff9e64"},
+      {"from": 60, "color": "#e0af68"},
+      {"from": 50, "color": "#c3d86a"},
+      {"from": 35, "color": "#9ece6a"},
+      {"from": 20, "color": "#73daca"},
+      {"from": 0, "color": "#7dcfff"}
+    ],
+    "thinking": [
+      {"match": ["off", "none"], "color": "#6c7086"},
+      {"match": "default", "color": "#8b93a7"},
+      {"match": "minimal", "color": "#7a9cc6"},
+      {"match": "low", "color": "#5fb3b3"},
+      {"match": "medium", "color": "#98c379"},
+      {"match": "high", "color": "#e5c07b"},
+      {"match": "xhigh", "color": "bold #ff9e64"},
+      {"match": ["max", "maximum"], "color": "bold #f7768e"}
+    ],
+    "model": [
+      {"regex": "fable", "color": "bold #ffc857"},
+      {"regex": "sonnet", "color": "#e08a5f"},
+      {"regex": "haiku", "color": "#f2c4a0"},
+      {"regex": "astro", "color": "bold #5ff5d8"},
+      {"regex": "(^|[^a-z])sol([^a-z]|$)", "color": "#3ec9a7"},
+      {"regex": "terra", "color": "#8ac36f"},
+      {"regex": "luna", "color": "#9bbbe0"},
+      {"regex": "grok", "color": "bold #e5e7eb"},
+      {"regex": "deepseek", "color": "#6b8cff"},
+      {"regex": "argon", "color": "bold #c084fc"}
+    ],
+    "context-window": [
+      {"from": 1000000, "color": "bold #ffc857"},
+      {"from": 500000, "color": "#e0af68"},
+      {"from": 200000, "color": "#73daca"},
+      {"from": 64000, "color": "#7aa2f7"},
+      {"from": 0, "color": "#6c7086"}
+    ],
+    "tier": [
+      {"match": "priority", "color": "bold #ff9e64"},
+      {"match": "flex", "color": "#9ece6a"},
+      {"match": "auto", "color": "#7aa2f7"},
+      {"match": "standard_only", "color": "#6c7086"},
+      {"match": "default", "color": "#8b93a7"}
+    ],
+    "speed": [
+      {"match": "ultrafast", "color": "bold #ff6a00"},
+      {"match": "fast", "color": "#e0af68"}
+    ],
+    "prompt-set": [
+      {"match": "cat", "color": "#f2a5c0"},
+      {"match": "reverse", "color": "#bb9af7"},
+      {"match": "search", "color": "#7dcfff"},
+      {"match": "security", "color": "#f7768e"}
+    ],
+    "provider": [
+      {"regex": "claude|anthropic", "color": "#e08a5f"},
+      {"regex": "gpt|openai", "color": "#3ec9a7"},
+      {"regex": "grok|^xai", "color": "#e5e7eb"},
+      {"regex": "gemini", "color": "#8ab4f8"},
+      {"regex": "deepseek", "color": "#6b8cff"},
+      {"regex": "^meta", "color": "#4fa3f7"},
+      {"regex": "mistral", "color": "#ff9e64"}
+    ],
+    "extended-trigger": [
+      {"match": "high", "color": "#f7768e"},
+      {"match": "medium", "color": "#e0af68"},
+      {"match": "low", "color": "#9ece6a"}
+    ],
+    "extended-primary": [
+      {"match": "on", "color": "#73daca"},
+      {"match": "off", "color": "#6c7086"}
+    ]
+  }
+}
