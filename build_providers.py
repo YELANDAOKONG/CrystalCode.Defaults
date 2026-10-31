@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Merge providers/*.json into providers.json.
 
-Each file in providers/ is one provider. The file name without the .json
-suffix is the provider id. The file holds that provider's entry: a single
-object, or an array of entries when one service exposes several protocols.
+Each file in providers/ uses the providers.json shape, as Crystal Code reads
+it: top-level keys are provider ids, and each value is one entry or an array of
+entries when one service exposes several protocols. By convention a file holds
+one provider and is named after its id.
 
 Key order follows the current providers.json so a rebuild does not reshuffle
 the catalog. Provider files that are not already in the catalog are appended
@@ -29,7 +30,12 @@ def main() -> int:
         print("No provider files found in providers/", file=sys.stderr)
         return 1
 
-    catalog = {path.stem: load_provider(path) for path in paths}
+    catalog: dict = {}
+    for path in paths:
+        for name, entry in load_provider(path).items():
+            if name in catalog:
+                raise SystemExit(f"Provider '{name}' is defined in more than one file")
+            catalog[name] = entry
     ordered = order_names(set(catalog))
     catalog = {name: catalog[name] for name in ordered}
     text = json.dumps(catalog, indent=JSON_INDENT, ensure_ascii=False)
@@ -38,13 +44,13 @@ def main() -> int:
     return 0
 
 
-def load_provider(path: Path) -> dict | list:
+def load_provider(path: Path) -> dict:
     try:
         value = json.loads(path.read_text(encoding="utf-8"))
     except json.JSONDecodeError as error:
         raise SystemExit(f"{path.name} is not valid JSON: {error}") from error
-    if not isinstance(value, (dict, list)):
-        raise SystemExit(f"{path.name} must be a JSON object or array")
+    if not isinstance(value, dict):
+        raise SystemExit(f"{path.name} must be a JSON object keyed by provider id")
     return value
 
 

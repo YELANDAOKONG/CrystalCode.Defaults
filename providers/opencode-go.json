@@ -1,323 +1,325 @@
-[
-  {
-    "protocol": "responses",
-    "baseUri": "https://opencode.ai/zen/go/v1/",
-    "models": {
-      "gpt-5.6-luna": {
-        "contextWindow": 1050000,
-        "contextWindows": [
-          272000,
-          1050000
-        ],
-        "maxTokens": 128000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
-        ],
-        "imageInput": true
-      },
-      "gpt-6-luna": {
-        "contextWindow": 1050000,
-        "contextWindows": [
-          272000,
-          1050000
-        ],
-        "maxTokens": 128000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
-        ],
-        "imageInput": true
-      },
-      "grok-4.6": {
-        "contextWindow": 500000,
-        "contextWindows": [
-          200000,
-          500000
-        ],
-        "maxTokens": 500000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "thinkingCanDisable": false,
-        "imageInput": true
-      },
-      "grok-4.7": {
-        "contextWindow": 500000,
-        "contextWindows": [
-          200000,
-          500000
-        ],
-        "maxTokens": 500000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "thinkingCanDisable": false,
-        "imageInput": true
-      },
-      "muse-spark-1.2-contributor": {
-        "contextWindow": 1048576,
-        "maxTokens": 131072,
-        "thinking": true,
-        "thinkingEfforts": [
-          "minimal",
-          "low",
-          "medium",
-          "high"
-        ],
-        "imageInput": true
-      },
-      "muse-spark-1.3-contributor": {
-        "contextWindow": 1048576,
-        "maxTokens": 131072,
-        "thinking": true,
-        "thinkingEfforts": [
-          "minimal",
-          "low",
-          "medium",
-          "high"
-        ],
-        "imageInput": true
+{
+  "opencode-go": [
+    {
+      "protocol": "responses",
+      "baseUri": "https://opencode.ai/zen/go/v1/",
+      "models": {
+        "gpt-5.6-luna": {
+          "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
+          "maxTokens": 128000,
+          "thinking": true,
+          "thinkingEfforts": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ],
+          "imageInput": true
+        },
+        "gpt-6-luna": {
+          "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
+          "maxTokens": 128000,
+          "thinking": true,
+          "thinkingEfforts": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ],
+          "imageInput": true
+        },
+        "grok-4.6": {
+          "contextWindow": 500000,
+          "contextWindows": [
+            200000,
+            500000
+          ],
+          "maxTokens": 500000,
+          "thinking": true,
+          "thinkingEfforts": [
+            "low",
+            "medium",
+            "high",
+            "xhigh"
+          ],
+          "thinkingCanDisable": false,
+          "imageInput": true
+        },
+        "grok-4.7": {
+          "contextWindow": 500000,
+          "contextWindows": [
+            200000,
+            500000
+          ],
+          "maxTokens": 500000,
+          "thinking": true,
+          "thinkingEfforts": [
+            "low",
+            "medium",
+            "high",
+            "xhigh"
+          ],
+          "thinkingCanDisable": false,
+          "imageInput": true
+        },
+        "muse-spark-1.2-contributor": {
+          "contextWindow": 1048576,
+          "maxTokens": 131072,
+          "thinking": true,
+          "thinkingEfforts": [
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ],
+          "imageInput": true
+        },
+        "muse-spark-1.3-contributor": {
+          "contextWindow": 1048576,
+          "maxTokens": 131072,
+          "thinking": true,
+          "thinkingEfforts": [
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ],
+          "imageInput": true
+        }
+      }
+    },
+    {
+      "protocol": "anthropic",
+      "baseUri": "https://opencode.ai/zen/go/v1/",
+      "models": {
+        "claude-haiku-5-5": {
+          "contextWindow": 1000000,
+          "contextWindows": [
+            100000,
+            1000000
+          ],
+          "maxTokens": 128000,
+          "thinking": true,
+          "thinkingEfforts": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ],
+          "imageInput": true
+        },
+        "minimax-m2.7": {
+          "contextWindow": 204800,
+          "maxTokens": 131072,
+          "thinking": true
+        },
+        "minimax-m3": {
+          "contextWindow": 1000000,
+          "maxTokens": 131072,
+          "thinking": true,
+          "imageInput": true
+        },
+        "qwen3.7-plus": {
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "thinking": true,
+          "imageInput": true
+        },
+        "qwen3.8-flash": {
+          "contextWindow": 1000000,
+          "maxTokens": 131072,
+          "thinking": true,
+          "thinkingEfforts": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "imageInput": true
+        },
+        "qwen3.8-max": {
+          "contextWindow": 1000000,
+          "maxTokens": 131072,
+          "thinking": true,
+          "thinkingEfforts": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "imageInput": true
+        }
+      }
+    },
+    {
+      "protocol": "openai",
+      "baseUri": "https://opencode.ai/zen/go/v1/",
+      "replayReasoningContent": true,
+      "tokenLimit": "max_tokens",
+      "models": {
+        "deepseek-v4-pro": {
+          "contextWindow": 1000000,
+          "maxTokens": 384000,
+          "thinking": true,
+          "thinkingEfforts": [
+            "high",
+            "max"
+          ]
+        },
+        "deepseek-v4.1-flash": {
+          "contextWindow": 1000000,
+          "maxTokens": 384000,
+          "thinking": true,
+          "thinkingEfforts": [
+            "low",
+            "high",
+            "max"
+          ],
+          "imageInput": true
+        },
+        "glm-5.1": {
+          "contextWindow": 200000,
+          "maxTokens": 131072,
+          "thinking": true
+        },
+        "glm-5.2": {
+          "contextWindow": 1000000,
+          "maxTokens": 131072,
+          "thinking": true,
+          "thinkingEfforts": [
+            "high",
+            "max"
+          ]
+        },
+        "glm-5.3": {
+          "contextWindow": 1000000,
+          "maxTokens": 131072,
+          "thinking": true,
+          "thinkingEfforts": [
+            "low",
+            "high",
+            "max"
+          ],
+          "thinkingCanDisable": false
+        },
+        "glm-5.3-flash": {
+          "contextWindow": 1000000,
+          "maxTokens": 131072,
+          "thinking": true,
+          "thinkingEfforts": [
+            "low",
+            "high",
+            "max"
+          ],
+          "thinkingCanDisable": false,
+          "imageInput": true
+        },
+        "hy3": {
+          "contextWindow": 256000,
+          "maxTokens": 128000,
+          "thinking": true,
+          "thinkingEfforts": [
+            "low",
+            "high"
+          ]
+        },
+        "hy4-preview": {
+          "contextWindow": 1024000,
+          "maxTokens": 64000,
+          "thinking": true,
+          "thinkingEfforts": [
+            "high"
+          ]
+        },
+        "kimi-k2.6": {
+          "contextWindow": 262144,
+          "maxTokens": 65536,
+          "thinking": true,
+          "imageInput": true
+        },
+        "kimi-k2.7-code": {
+          "contextWindow": 262144,
+          "maxTokens": 262144,
+          "thinking": true,
+          "thinkingCanDisable": false,
+          "imageInput": true
+        },
+        "kimi-k3.1-pro": {
+          "contextWindow": 1048576,
+          "maxTokens": 131072,
+          "thinking": true,
+          "thinkingEfforts": [
+            "low",
+            "high",
+            "max"
+          ],
+          "thinkingCanDisable": false,
+          "imageInput": true
+        },
+        "kimi-k3": {
+          "contextWindow": 1048576,
+          "maxTokens": 131072,
+          "thinking": true,
+          "thinkingEfforts": [
+            "max"
+          ],
+          "thinkingCanDisable": false,
+          "imageInput": true
+        },
+        "longcat-2.0": {
+          "contextWindow": 1000000,
+          "maxTokens": 131072,
+          "thinking": true
+        },
+        "mimo-v2.5": {
+          "contextWindow": 1000000,
+          "maxTokens": 128000,
+          "thinking": true,
+          "imageInput": true
+        },
+        "mimo-v2.5-pro": {
+          "contextWindow": 1048576,
+          "maxTokens": 128000,
+          "thinking": true
+        },
+        "mimo-v2.6-flash": {
+          "contextWindow": 1048576,
+          "maxTokens": 131072,
+          "thinking": true,
+          "imageInput": true
+        },
+        "mimo-v2.6-pro": {
+          "contextWindow": 1048576,
+          "maxTokens": 131072,
+          "thinking": true,
+          "imageInput": true
+        },
+        "minimax-m2.5": {
+          "contextWindow": 204800,
+          "maxTokens": 131072,
+          "thinking": true
+        },
+        "qwen3.6-plus": {
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "thinking": true,
+          "imageInput": true
+        },
+        "qwen3.7-max": {
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "thinking": true
+        }
       }
     }
-  },
-  {
-    "protocol": "anthropic",
-    "baseUri": "https://opencode.ai/zen/go/v1/",
-    "models": {
-      "claude-haiku-5-5": {
-        "contextWindow": 1000000,
-        "contextWindows": [
-          100000,
-          1000000
-        ],
-        "maxTokens": 128000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
-        ],
-        "imageInput": true
-      },
-      "minimax-m2.7": {
-        "contextWindow": 204800,
-        "maxTokens": 131072,
-        "thinking": true
-      },
-      "minimax-m3": {
-        "contextWindow": 1000000,
-        "maxTokens": 131072,
-        "thinking": true,
-        "imageInput": true
-      },
-      "qwen3.7-plus": {
-        "contextWindow": 1000000,
-        "maxTokens": 65536,
-        "thinking": true,
-        "imageInput": true
-      },
-      "qwen3.8-flash": {
-        "contextWindow": 1000000,
-        "maxTokens": 131072,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high"
-        ],
-        "imageInput": true
-      },
-      "qwen3.8-max": {
-        "contextWindow": 1000000,
-        "maxTokens": 131072,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high"
-        ],
-        "imageInput": true
-      }
-    }
-  },
-  {
-    "protocol": "openai",
-    "baseUri": "https://opencode.ai/zen/go/v1/",
-    "replayReasoningContent": true,
-    "tokenLimit": "max_tokens",
-    "models": {
-      "deepseek-v4-pro": {
-        "contextWindow": 1000000,
-        "maxTokens": 384000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "high",
-          "max"
-        ]
-      },
-      "deepseek-v4.1-flash": {
-        "contextWindow": 1000000,
-        "maxTokens": 384000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "high",
-          "max"
-        ],
-        "imageInput": true
-      },
-      "glm-5.1": {
-        "contextWindow": 200000,
-        "maxTokens": 131072,
-        "thinking": true
-      },
-      "glm-5.2": {
-        "contextWindow": 1000000,
-        "maxTokens": 131072,
-        "thinking": true,
-        "thinkingEfforts": [
-          "high",
-          "max"
-        ]
-      },
-      "glm-5.3": {
-        "contextWindow": 1000000,
-        "maxTokens": 131072,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "high",
-          "max"
-        ],
-        "thinkingCanDisable": false
-      },
-      "glm-5.3-flash": {
-        "contextWindow": 1000000,
-        "maxTokens": 131072,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "high",
-          "max"
-        ],
-        "thinkingCanDisable": false,
-        "imageInput": true
-      },
-      "hy3": {
-        "contextWindow": 256000,
-        "maxTokens": 128000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "high"
-        ]
-      },
-      "hy4-preview": {
-        "contextWindow": 1024000,
-        "maxTokens": 64000,
-        "thinking": true,
-        "thinkingEfforts": [
-          "high"
-        ]
-      },
-      "kimi-k2.6": {
-        "contextWindow": 262144,
-        "maxTokens": 65536,
-        "thinking": true,
-        "imageInput": true
-      },
-      "kimi-k2.7-code": {
-        "contextWindow": 262144,
-        "maxTokens": 262144,
-        "thinking": true,
-        "thinkingCanDisable": false,
-        "imageInput": true
-      },
-      "kimi-k3.1-pro": {
-        "contextWindow": 1048576,
-        "maxTokens": 131072,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "high",
-          "max"
-        ],
-        "thinkingCanDisable": false,
-        "imageInput": true
-      },
-      "kimi-k3": {
-        "contextWindow": 1048576,
-        "maxTokens": 131072,
-        "thinking": true,
-        "thinkingEfforts": [
-          "max"
-        ],
-        "thinkingCanDisable": false,
-        "imageInput": true
-      },
-      "longcat-2.0": {
-        "contextWindow": 1000000,
-        "maxTokens": 131072,
-        "thinking": true
-      },
-      "mimo-v2.5": {
-        "contextWindow": 1000000,
-        "maxTokens": 128000,
-        "thinking": true,
-        "imageInput": true
-      },
-      "mimo-v2.5-pro": {
-        "contextWindow": 1048576,
-        "maxTokens": 128000,
-        "thinking": true
-      },
-      "mimo-v2.6-flash": {
-        "contextWindow": 1048576,
-        "maxTokens": 131072,
-        "thinking": true,
-        "imageInput": true
-      },
-      "mimo-v2.6-pro": {
-        "contextWindow": 1048576,
-        "maxTokens": 131072,
-        "thinking": true,
-        "imageInput": true
-      },
-      "minimax-m2.5": {
-        "contextWindow": 204800,
-        "maxTokens": 131072,
-        "thinking": true
-      },
-      "qwen3.6-plus": {
-        "contextWindow": 1000000,
-        "maxTokens": 65536,
-        "thinking": true,
-        "imageInput": true
-      },
-      "qwen3.7-max": {
-        "contextWindow": 1000000,
-        "maxTokens": 65536,
-        "thinking": true
-      }
-    }
-  }
-]
+  ]
+}

@@ -1,49 +1,51 @@
 {
-  "protocol": "openai",
-  "baseUri": "https://api.groq.com/openai/v1/",
-  "apiKeyEnvironment": "GROQ_API_KEY",
-  "tokenLimit": "max_completion_tokens",
-  "models": {
-    "openai/gpt-oss-120b": {
-      "contextWindow": 131072,
-      "maxTokens": 65536,
-      "thinking": true,
-      "thinkingEfforts": [
-        "low",
-        "medium",
-        "high"
-      ],
-      "thinkingCanDisable": false
-    },
-    "openai/gpt-oss-20b": {
-      "contextWindow": 131072,
-      "maxTokens": 65536,
-      "thinking": true,
-      "thinkingEfforts": [
-        "low",
-        "medium",
-        "high"
-      ],
-      "thinkingCanDisable": false
-    },
-    "qwen/qwen3.8-27b": {
-      "contextWindow": 131072,
-      "maxTokens": 16384,
-      "thinking": true,
-      "thinkingEfforts": [
-        "low",
-        "medium",
-        "high"
-      ],
-      "imageInput": true
-    },
-    "llama-3.3-70b-versatile": {
-      "contextWindow": 131072,
-      "maxTokens": 32768
-    },
-    "llama-3.1-8b-instant": {
-      "contextWindow": 131072,
-      "maxTokens": 131072
+  "groq": {
+    "protocol": "openai",
+    "baseUri": "https://api.groq.com/openai/v1/",
+    "apiKeyEnvironment": "GROQ_API_KEY",
+    "tokenLimit": "max_completion_tokens",
+    "models": {
+      "openai/gpt-oss-120b": {
+        "contextWindow": 131072,
+        "maxTokens": 65536,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "thinkingCanDisable": false
+      },
+      "openai/gpt-oss-20b": {
+        "contextWindow": 131072,
+        "maxTokens": 65536,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "thinkingCanDisable": false
+      },
+      "qwen/qwen3.8-27b": {
+        "contextWindow": 131072,
+        "maxTokens": 16384,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "imageInput": true
+      },
+      "llama-3.3-70b-versatile": {
+        "contextWindow": 131072,
+        "maxTokens": 32768
+      },
+      "llama-3.1-8b-instant": {
+        "contextWindow": 131072,
+        "maxTokens": 131072
+      }
     }
   }
 }

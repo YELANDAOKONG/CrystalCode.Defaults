@@ -165,7 +165,7 @@ The [user guide](https://github.com/YELANDAOKONG/CrystalCode/blob/master/docs/us
 
 Maintainers can write a commit message and commit the current change with [`commit.sh`](commit.sh). It runs `crystal run` in this repository. Extra arguments are appended to the task. The run skips external tools and the directory trust check, and it does not record the directory as trusted.
 
-Edit the provider file under [`providers/`](providers/) when a provider adds, retires, or changes models or model metadata. The file name, without `.json`, is the provider id. The file is one provider entry, or an array of entries when one service exposes several protocols.
+Edit the provider file under [`providers/`](providers/) when a provider adds, retires, or changes models or model metadata. Each file uses the `providers.json` shape: the top-level key is the provider id, and its value is one provider entry, or an array of entries when one service exposes several protocols. Name the file after the provider id; a provider id may be defined in only one file.
 
 Regenerate the catalog with [`build_providers.py`](build_providers.py). It overwrites `providers.json` and keeps two-space indentation. Provider order follows the current catalog; a provider file that is not already listed is appended in alphabetical order.
 

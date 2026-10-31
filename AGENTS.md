@@ -4,7 +4,7 @@ This repository holds the default provider and model catalog for [Crystal Code](
 
 ## Source of truth
 
-- Edit `providers/<id>.json`. The file name without `.json` is the provider id. A file is one provider entry, or an array of entries when one service exposes several protocols.
+- Edit `providers/<id>.json`. Each file uses the `providers.json` shape: a top-level key is the provider id, whose value is one entry, or an array of entries when one service exposes several protocols. Name the file after the id, and define each id in one file only.
 - `providers.json` is generated. Never edit it by hand. Regenerate it with `python3 build_providers.py` after every change under `providers/`, and keep both in the same change.
 - Keep the existing key order and two-space indentation. `build_providers.py` keeps provider order stable; a new provider file is appended alphabetically.
 

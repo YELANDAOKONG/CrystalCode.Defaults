@@ -1,37 +1,39 @@
 {
-  "protocol": "openai",
-  "baseUri": "https://api.fireworks.ai/inference/v1/",
-  "apiKeyEnvironment": "FIREWORKS_API_KEY",
-  "replayReasoningContent": true,
-  "tokenLimit": "max_tokens",
-  "models": {
-    "accounts/fireworks/models/kimi-k3": {
-      "contextWindow": 1048576,
-      "maxTokens": 131072,
-      "thinking": true,
-      "thinkingEfforts": [
-        "low",
-        "high",
-        "max"
-      ],
-      "thinkingCanDisable": false,
-      "imageInput": true
-    },
-    "accounts/fireworks/models/minimax-m3": {
-      "contextWindow": 524288,
-      "maxTokens": 524288,
-      "thinking": true
-    },
-    "accounts/fireworks/models/gpt-oss-120b": {
-      "contextWindow": 131072,
-      "maxTokens": 32768,
-      "thinking": true,
-      "thinkingEfforts": [
-        "low",
-        "medium",
-        "high"
-      ],
-      "thinkingCanDisable": false
+  "fireworks": {
+    "protocol": "openai",
+    "baseUri": "https://api.fireworks.ai/inference/v1/",
+    "apiKeyEnvironment": "FIREWORKS_API_KEY",
+    "replayReasoningContent": true,
+    "tokenLimit": "max_tokens",
+    "models": {
+      "accounts/fireworks/models/kimi-k3": {
+        "contextWindow": 1048576,
+        "maxTokens": 131072,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
+      "accounts/fireworks/models/minimax-m3": {
+        "contextWindow": 524288,
+        "maxTokens": 524288,
+        "thinking": true
+      },
+      "accounts/fireworks/models/gpt-oss-120b": {
+        "contextWindow": 131072,
+        "maxTokens": 32768,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "thinkingCanDisable": false
+      }
     }
   }
 }

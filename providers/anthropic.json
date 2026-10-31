@@ -1,233 +1,235 @@
 {
-  "protocol": "anthropic",
-  "baseUri": "https://api.anthropic.com/v1/",
-  "models": {
-    "claude-fable-5-1": {
-      "contextWindow": 1048576,
-      "maxTokens": 128000,
-      "thinking": true,
-      "thinkingEfforts": [
-        "low",
-        "medium",
-        "high",
-        "xhigh",
-        "max"
-      ],
-      "thinkingCanDisable": false,
-      "imageInput": true,
-      "serviceTiers": [
-        "auto",
-        "standard_only"
-      ]
-    },
-    "claude-opus-5-5": {
-      "contextWindow": 1048576,
-      "maxTokens": 128000,
-      "thinking": true,
-      "thinkingEfforts": [
-        "low",
-        "medium",
-        "high",
-        "xhigh",
-        "max"
-      ],
-      "thinkingCanDisable": false,
-      "imageInput": true,
-      "serviceTiers": [
-        "auto",
-        "standard_only"
-      ],
-      "speeds": [
-        "fast"
-      ]
-    },
-    "claude-sonnet-5-5": {
-      "contextWindow": 1048576,
-      "maxTokens": 128000,
-      "thinking": true,
-      "thinkingEfforts": [
-        "low",
-        "medium",
-        "high",
-        "xhigh",
-        "max"
-      ],
-      "thinkingCanDisable": false,
-      "imageInput": true,
-      "serviceTiers": [
-        "auto",
-        "standard_only"
-      ]
-    },
-    "claude-haiku-5-5": {
-      "contextWindow": 1048576,
-      "contextWindows": [
-        100000,
-        1048576
-      ],
-      "maxTokens": 128000,
-      "thinking": true,
-      "thinkingEfforts": [
-        "low",
-        "medium",
-        "high",
-        "xhigh",
-        "max"
-      ],
-      "imageInput": true,
-      "serviceTiers": [
-        "auto",
-        "standard_only"
-      ]
-    },
-    "claude-fable-5": {
-      "contextWindow": 1048576,
-      "maxTokens": 128000,
-      "thinking": true,
-      "thinkingEfforts": [
-        "low",
-        "medium",
-        "high",
-        "xhigh",
-        "max"
-      ],
-      "thinkingCanDisable": false,
-      "imageInput": true,
-      "serviceTiers": [
-        "auto",
-        "standard_only"
-      ]
-    },
-    "claude-opus-5": {
-      "contextWindow": 1048576,
-      "maxTokens": 128000,
-      "thinking": true,
-      "thinkingEfforts": [
-        "low",
-        "medium",
-        "high",
-        "xhigh",
-        "max"
-      ],
-      "imageInput": true,
-      "serviceTiers": [
-        "auto",
-        "standard_only"
-      ],
-      "speeds": [
-        "fast"
-      ]
-    },
-    "claude-opus-4-8": {
-      "contextWindow": 1048576,
-      "maxTokens": 128000,
-      "thinking": true,
-      "thinkingEfforts": [
-        "low",
-        "medium",
-        "high",
-        "xhigh",
-        "max"
-      ],
-      "imageInput": true,
-      "serviceTiers": [
-        "auto",
-        "standard_only"
-      ],
-      "speeds": [
-        "fast"
-      ]
-    },
-    "claude-opus-4-7": {
-      "contextWindow": 1048576,
-      "maxTokens": 128000,
-      "thinking": true,
-      "thinkingEfforts": [
-        "low",
-        "medium",
-        "high",
-        "xhigh",
-        "max"
-      ],
-      "imageInput": true,
-      "serviceTiers": [
-        "auto",
-        "standard_only"
-      ]
-    },
-    "claude-opus-4-6": {
-      "contextWindow": 1048576,
-      "maxTokens": 128000,
-      "thinking": true,
-      "thinkingEfforts": [
-        "low",
-        "medium",
-        "high",
-        "max"
-      ],
-      "imageInput": true,
-      "serviceTiers": [
-        "auto",
-        "standard_only"
-      ]
-    },
-    "claude-opus-4-5": {
-      "contextWindow": 200000,
-      "maxTokens": 64000,
-      "thinking": true,
-      "thinkingEfforts": [
-        "low",
-        "medium",
-        "high"
-      ],
-      "imageInput": true,
-      "serviceTiers": [
-        "auto",
-        "standard_only"
-      ]
-    },
-    "claude-sonnet-5": {
-      "contextWindow": 1048576,
-      "maxTokens": 128000,
-      "thinking": true,
-      "thinkingEfforts": [
-        "low",
-        "medium",
-        "high",
-        "xhigh",
-        "max"
-      ],
-      "imageInput": true,
-      "serviceTiers": [
-        "auto",
-        "standard_only"
-      ]
-    },
-    "claude-sonnet-4-6": {
-      "contextWindow": 1048576,
-      "maxTokens": 128000,
-      "thinking": true,
-      "thinkingEfforts": [
-        "low",
-        "medium",
-        "high",
-        "max"
-      ],
-      "imageInput": true,
-      "serviceTiers": [
-        "auto",
-        "standard_only"
-      ]
-    },
-    "claude-haiku-4-5": {
-      "contextWindow": 200000,
-      "maxTokens": 64000,
-      "thinking": true,
-      "imageInput": true,
-      "serviceTiers": [
-        "auto",
-        "standard_only"
-      ]
+  "anthropic": {
+    "protocol": "anthropic",
+    "baseUri": "https://api.anthropic.com/v1/",
+    "models": {
+      "claude-fable-5-1": {
+        "contextWindow": 1048576,
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "serviceTiers": [
+          "auto",
+          "standard_only"
+        ]
+      },
+      "claude-opus-5-5": {
+        "contextWindow": 1048576,
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "serviceTiers": [
+          "auto",
+          "standard_only"
+        ],
+        "speeds": [
+          "fast"
+        ]
+      },
+      "claude-sonnet-5-5": {
+        "contextWindow": 1048576,
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "serviceTiers": [
+          "auto",
+          "standard_only"
+        ]
+      },
+      "claude-haiku-5-5": {
+        "contextWindow": 1048576,
+        "contextWindows": [
+          100000,
+          1048576
+        ],
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "imageInput": true,
+        "serviceTiers": [
+          "auto",
+          "standard_only"
+        ]
+      },
+      "claude-fable-5": {
+        "contextWindow": 1048576,
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "serviceTiers": [
+          "auto",
+          "standard_only"
+        ]
+      },
+      "claude-opus-5": {
+        "contextWindow": 1048576,
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "imageInput": true,
+        "serviceTiers": [
+          "auto",
+          "standard_only"
+        ],
+        "speeds": [
+          "fast"
+        ]
+      },
+      "claude-opus-4-8": {
+        "contextWindow": 1048576,
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "imageInput": true,
+        "serviceTiers": [
+          "auto",
+          "standard_only"
+        ],
+        "speeds": [
+          "fast"
+        ]
+      },
+      "claude-opus-4-7": {
+        "contextWindow": 1048576,
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "imageInput": true,
+        "serviceTiers": [
+          "auto",
+          "standard_only"
+        ]
+      },
+      "claude-opus-4-6": {
+        "contextWindow": 1048576,
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "max"
+        ],
+        "imageInput": true,
+        "serviceTiers": [
+          "auto",
+          "standard_only"
+        ]
+      },
+      "claude-opus-4-5": {
+        "contextWindow": 200000,
+        "maxTokens": 64000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "imageInput": true,
+        "serviceTiers": [
+          "auto",
+          "standard_only"
+        ]
+      },
+      "claude-sonnet-5": {
+        "contextWindow": 1048576,
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "imageInput": true,
+        "serviceTiers": [
+          "auto",
+          "standard_only"
+        ]
+      },
+      "claude-sonnet-4-6": {
+        "contextWindow": 1048576,
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "max"
+        ],
+        "imageInput": true,
+        "serviceTiers": [
+          "auto",
+          "standard_only"
+        ]
+      },
+      "claude-haiku-4-5": {
+        "contextWindow": 200000,
+        "maxTokens": 64000,
+        "thinking": true,
+        "imageInput": true,
+        "serviceTiers": [
+          "auto",
+          "standard_only"
+        ]
+      }
     }
   }
 }
