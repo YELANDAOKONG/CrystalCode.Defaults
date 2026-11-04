@@ -153,6 +153,18 @@
         "thinkingCanDisable": false,
         "imageInput": true
       },
+      "glm-5.3-flashx-legal": {
+        "contextWindow": 1000000,
+        "maxTokens": 131072,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
       "glm-5v-turbo": {
         "contextWindow": 200000,
         "maxTokens": 131072,
