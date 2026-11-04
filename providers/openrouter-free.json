@@ -43,15 +43,6 @@
         "audioInput": true,
         "videoInput": true
       },
-      "nvidia/nemotron-3-super-120b-a12b:free": {
-        "contextWindow": 262144,
-        "maxTokens": 235929,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium"
-        ]
-      },
       "nvidia/nemotron-3-ultra-550b-a55b:free": {
         "contextWindow": 1000000,
         "maxTokens": 65536,
@@ -83,16 +74,6 @@
         "contextWindow": 200000,
         "thinking": true,
         "imageInput": true
-      },
-      "poolside/laguna-s-2.1:free": {
-        "contextWindow": 262144,
-        "maxTokens": 32768,
-        "thinking": true
-      },
-      "poolside/laguna-xs-2.1:free": {
-        "contextWindow": 262144,
-        "maxTokens": 32768,
-        "thinking": true
       },
       "thinkingmachines/inkling-small:free": {
         "contextWindow": 1048576,
@@ -126,6 +107,12 @@
         "contextWindow": 262144,
         "maxTokens": 235929,
         "thinking": true
+      },
+      "recursive/flint-v1.0:free": {
+        "contextWindow": 262144,
+        "maxTokens": 235929,
+        "thinking": true,
+        "thinkingCanDisable": false
       }
     }
   }

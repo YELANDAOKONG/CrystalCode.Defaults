@@ -6,7 +6,7 @@
     "replayReasoningContent": true,
     "tokenLimit": "max_completion_tokens",
     "models": {
-      "MiniMax-M3.1-Flash-Preview": {
+      "MiniMax-M3.1-Flash": {
         "contextWindow": 1000000,
         "maxTokens": 524288,
         "thinking": true,

@@ -43,6 +43,13 @@
           "max"
         ],
         "thinkingCanDisable": false
+      },
+      "nvidia/nemotron-3.5-super-vl-120b-a12b": {
+        "contextWindow": 1000000,
+        "maxTokens": 131072,
+        "thinking": true,
+        "imageInput": true,
+        "videoInput": true
       }
     }
   }

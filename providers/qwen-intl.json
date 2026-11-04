@@ -82,6 +82,143 @@
         "thinking": true,
         "imageInput": true,
         "videoInput": true
+      },
+      "qwen3.8-omni-flash": {
+        "contextWindow": 1048576,
+        "thinking": true,
+        "imageInput": true,
+        "audioInput": true,
+        "videoInput": true
+      },
+      "deepseek-v4.1-flash": {
+        "contextWindow": 1048576,
+        "maxTokens": 393216,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high",
+          "max"
+        ],
+        "imageInput": true
+      },
+      "deepseek-v4.1-flash-1017": {
+        "contextWindow": 1048576,
+        "maxTokens": 393216,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high",
+          "max"
+        ],
+        "imageInput": true
+      },
+      "deepseek-v4-pro": {
+        "contextWindow": 1048576,
+        "maxTokens": 393216,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high",
+          "max"
+        ]
+      },
+      "deepseek-v4-pro-0813": {
+        "contextWindow": 1048576,
+        "maxTokens": 393216,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high",
+          "max"
+        ]
+      },
+      "deepseek-v4-flash-0731": {
+        "contextWindow": 1048576,
+        "maxTokens": 393216,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high",
+          "max"
+        ]
+      },
+      "glm-5.3": {
+        "contextWindow": 1000000,
+        "maxTokens": 131072,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high",
+          "max"
+        ],
+        "thinkingCanDisable": false
+      },
+      "glm-5.2": {
+        "contextWindow": 1000000,
+        "maxTokens": 131072,
+        "thinking": true,
+        "thinkingEfforts": [
+          "minimal",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
+      },
+      "glm-5.1": {
+        "contextWindow": 200000,
+        "maxTokens": 131072,
+        "thinking": true,
+        "thinkingEfforts": [
+          "minimal",
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ]
+      },
+      "ZHIPU/GLM-5.3": {
+        "contextWindow": 1000000,
+        "maxTokens": 131072,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high",
+          "max"
+        ],
+        "thinkingCanDisable": false
+      },
+      "ZHIPU/GLM-5.2": {
+        "contextWindow": 1000000,
+        "maxTokens": 131072,
+        "thinking": true,
+        "thinkingEfforts": [
+          "minimal",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
+      },
+      "ZHIPU/GLM-5.1": {
+        "contextWindow": 200000,
+        "maxTokens": 131072,
+        "thinking": true
+      },
+      "kimi-k3": {
+        "contextWindow": 1048576,
+        "thinking": true,
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
+      "kimi-k2.7-code": {
+        "contextWindow": 262144,
+        "thinking": true,
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "videoInput": true
       }
     }
   }
