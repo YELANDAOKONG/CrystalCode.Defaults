@@ -408,16 +408,6 @@
           "thinkingCanDisable": false,
           "imageInput": true
         },
-        "inclusionai/ling-3.0-flash-sante:free": {
-          "contextWindow": 262144,
-          "maxTokens": 32768,
-          "thinking": true
-        },
-        "inclusionai/ling-3.1-flash:free": {
-          "contextWindow": 262144,
-          "maxTokens": 32768,
-          "thinking": true
-        },
         "meituan/LongCat-2.0": {
           "contextWindow": 1048576,
           "maxTokens": 131072,
@@ -536,16 +526,6 @@
           "contextWindow": 1000000,
           "maxTokens": 128000,
           "thinking": true
-        },
-        "poolside/laguna-s-2.1-free": {
-          "contextWindow": 256000,
-          "maxTokens": 32000,
-          "thinking": true,
-          "thinkingEfforts": [
-            "low",
-            "medium",
-            "high"
-          ]
         },
         "sakana/fugu-ultra": {
           "contextWindow": 1000000,
@@ -667,17 +647,6 @@
           ],
           "thinkingCanDisable": false,
           "imageInput": true
-        },
-        "xiaomi/mimo-v2.5": {
-          "contextWindow": 1000000,
-          "maxTokens": 131072,
-          "thinking": true,
-          "imageInput": true
-        },
-        "xiaomi/mimo-v2.5-pro": {
-          "contextWindow": 1000000,
-          "maxTokens": 131072,
-          "thinking": true
         },
         "xiaomi/mimo-v2.6-flash": {
           "contextWindow": 1048576,

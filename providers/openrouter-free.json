@@ -5,6 +5,15 @@
     "replayReasoningContent": true,
     "tokenLimit": "max_tokens",
     "models": {
+      "baidu/ernie-5.5-flash-preview:free": {
+        "contextWindow": 1024000,
+        "maxTokens": 921600,
+        "thinking": true,
+        "thinkingEfforts": [
+          "high"
+        ],
+        "thinkingCanDisable": false
+      },
       "cohere/north-mini-code:free": {
         "contextWindow": 256000,
         "maxTokens": 64000,
@@ -30,10 +39,17 @@
         "imageInput": true,
         "videoInput": true
       },
-      "liquid/lfm-2.5-2.6b:free": {
-        "contextWindow": 65536,
+      "inclusionai/ling-3.2-flash:free": {
+        "contextWindow": 1048576,
+        "maxTokens": 262144,
+        "thinking": true,
+        "imageInput": true
+      },
+      "liquid/lfm-3-1.7b:free": {
+        "contextWindow": 262144,
         "maxTokens": 8192,
-        "thinking": true
+        "thinking": true,
+        "thinkingCanDisable": false
       },
       "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free": {
         "contextWindow": 256000,
@@ -52,12 +68,6 @@
           "high"
         ]
       },
-      "nvidia/nemotron-3.5-content-safety:free": {
-        "contextWindow": 128000,
-        "maxTokens": 8192,
-        "thinking": true,
-        "imageInput": true
-      },
       "nvidia/nemotron-3.5-lightning:free": {
         "contextWindow": 1000000,
         "maxTokens": 65536,
@@ -75,38 +85,33 @@
         "thinking": true,
         "imageInput": true
       },
-      "thinkingmachines/inkling-small:free": {
+      "particle-ai/particle-1:free": {
         "contextWindow": 1048576,
-        "maxTokens": 262144,
+        "maxTokens": 131072,
         "thinking": true,
         "thinkingEfforts": [
           "minimal",
           "low",
           "medium",
           "high",
-          "xhigh"
+          "xhigh",
+          "max"
         ],
-        "imageInput": true,
-        "audioInput": true
+        "imageInput": true
       },
-      "thinkingmachines/inkling:free": {
+      "thinkingmachines/inkling-2-small:free": {
         "contextWindow": 1048576,
-        "maxTokens": 262144,
+        "maxTokens": 131072,
         "thinking": true,
         "thinkingEfforts": [
           "minimal",
           "low",
           "medium",
           "high",
-          "xhigh"
+          "max"
         ],
-        "imageInput": true,
-        "audioInput": true
-      },
-      "xingchen-agi/xing4.0-29b-a4b:free": {
-        "contextWindow": 262144,
-        "maxTokens": 235929,
-        "thinking": true
+        "thinkingCanDisable": false,
+        "imageInput": true
       },
       "recursive/flint-v1.0:free": {
         "contextWindow": 262144,

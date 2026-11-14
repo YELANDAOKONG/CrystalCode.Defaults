@@ -56,6 +56,20 @@
         "thinkingCanDisable": false,
         "imageInput": true
       },
+      "anthropic/claude-fable-5.2": {
+        "contextWindow": 1000000,
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
       "anthropic/claude-haiku-4.5": {
         "contextWindow": 200000,
         "maxTokens": 64000,
@@ -202,6 +216,25 @@
         ],
         "thinkingCanDisable": false,
         "imageInput": true
+      },
+      "baidu/ernie-5.5-flash-preview:free": {
+        "contextWindow": 1024000,
+        "maxTokens": 921600,
+        "thinking": true,
+        "thinkingEfforts": [
+          "high"
+        ],
+        "thinkingCanDisable": false
+      },
+      "baidu/ernie-light-dt-1.0-intl": {
+        "contextWindow": 1024000,
+        "maxTokens": 131072,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high",
+          "max"
+        ]
       },
       "bytedance-seed/seed-1.6": {
         "contextWindow": 262144,
@@ -621,10 +654,11 @@
         "maxTokens": 235929,
         "thinking": true
       },
-      "liquid/lfm-2.5-2.6b:free": {
-        "contextWindow": 65536,
-        "maxTokens": 8192,
-        "thinking": true
+      "inclusionai/ling-3.2-flash:free": {
+        "contextWindow": 1048576,
+        "maxTokens": 262144,
+        "thinking": true,
+        "imageInput": true
       },
       "meituan/longcat-2.0": {
         "contextWindow": 1048756,
@@ -677,6 +711,23 @@
         ],
         "thinkingCanDisable": false,
         "imageInput": true
+      },
+      "meta/muse-ember": {
+        "contextWindow": 1048576,
+        "maxTokens": 943718,
+        "thinking": true,
+        "thinkingEfforts": [
+          "minimal",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "audioInput": true,
+        "videoInput": true
       },
       "meta/muse-spark-1.1": {
         "contextWindow": 1048576,
@@ -996,12 +1047,6 @@
       "nvidia/nemotron-3.5-content-safety": {
         "contextWindow": 131072,
         "maxTokens": 117964,
-        "thinking": true,
-        "imageInput": true
-      },
-      "nvidia/nemotron-3.5-content-safety:free": {
-        "contextWindow": 128000,
-        "maxTokens": 8192,
         "thinking": true,
         "imageInput": true
       },
@@ -2133,6 +2178,16 @@
           "high"
         ]
       },
+      "tencent/hy4": {
+        "contextWindow": 1048576,
+        "maxTokens": 65536,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "high"
+        ],
+        "imageInput": true
+      },
       "tencent/hy4-preview": {
         "contextWindow": 1048576,
         "maxTokens": 64000,
@@ -2151,8 +2206,37 @@
           "low",
           "medium",
           "high",
-          "xhigh"
+          "max"
         ],
+        "imageInput": true,
+        "audioInput": true
+      },
+      "thinkingmachines/inkling-2-small": {
+        "contextWindow": 1048576,
+        "maxTokens": 943718,
+        "thinking": true,
+        "thinkingEfforts": [
+          "minimal",
+          "low",
+          "medium",
+          "high",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
+      "thinkingmachines/inkling-2-small:free": {
+        "contextWindow": 1048576,
+        "maxTokens": 131072,
+        "thinking": true,
+        "thinkingEfforts": [
+          "minimal",
+          "low",
+          "medium",
+          "high",
+          "max"
+        ],
+        "thinkingCanDisable": false,
         "imageInput": true
       },
       "thinkingmachines/inkling-small": {
@@ -2164,34 +2248,7 @@
           "low",
           "medium",
           "high",
-          "xhigh"
-        ],
-        "imageInput": true
-      },
-      "thinkingmachines/inkling-small:free": {
-        "contextWindow": 1048576,
-        "maxTokens": 262144,
-        "thinking": true,
-        "thinkingEfforts": [
-          "minimal",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "imageInput": true,
-        "audioInput": true
-      },
-      "thinkingmachines/inkling:free": {
-        "contextWindow": 1048576,
-        "maxTokens": 262144,
-        "thinking": true,
-        "thinkingEfforts": [
-          "minimal",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
+          "max"
         ],
         "imageInput": true,
         "audioInput": true
@@ -2306,11 +2363,6 @@
         "maxTokens": 131072,
         "thinking": true,
         "imageInput": true
-      },
-      "xingchen-agi/xing4.0-29b-a4b:free": {
-        "contextWindow": 262144,
-        "maxTokens": 235929,
-        "thinking": true
       },
       "z-ai/glm-4.5": {
         "contextWindow": 131072,
@@ -2503,6 +2555,35 @@
         "audioInput": true,
         "videoInput": true
       },
+      "google/gemini-4-carbon": {
+        "contextWindow": 1048576,
+        "maxTokens": 943718,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "audioInput": true,
+        "videoInput": true
+      },
+      "google/gemini-4-hydrogen": {
+        "contextWindow": 1048576,
+        "maxTokens": 943718,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "audioInput": true,
+        "videoInput": true
+      },
       "ibm-granite/granite-4.2-8b": {
         "contextWindow": 131072,
         "maxTokens": 117964,
@@ -2540,6 +2621,18 @@
       },
       "liquid/lfm-2.5-24b-a2b": {
         "contextWindow": 128000,
+        "maxTokens": 8192,
+        "thinking": true,
+        "thinkingCanDisable": false
+      },
+      "liquid/lfm-3-1.7b": {
+        "contextWindow": 262144,
+        "maxTokens": 8192,
+        "thinking": true,
+        "thinkingCanDisable": false
+      },
+      "liquid/lfm-3-1.7b:free": {
+        "contextWindow": 262144,
         "maxTokens": 8192,
         "thinking": true,
         "thinkingCanDisable": false
@@ -2623,6 +2716,17 @@
         ],
         "imageInput": true
       },
+      "nex-agi/nex-n2.6": {
+        "contextWindow": 262144,
+        "maxTokens": 235929,
+        "thinking": true,
+        "thinkingEfforts": [
+          "medium",
+          "high"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
       "nousresearch/hermes-4-405b": {
         "contextWindow": 131072,
         "maxTokens": 117964,
@@ -2663,6 +2767,20 @@
         "imageInput": true
       },
       "particle-ai/particle-1": {
+        "contextWindow": 1048576,
+        "maxTokens": 131072,
+        "thinking": true,
+        "thinkingEfforts": [
+          "minimal",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "imageInput": true
+      },
+      "particle-ai/particle-1:free": {
         "contextWindow": 1048576,
         "maxTokens": 131072,
         "thinking": true,

@@ -3,6 +3,25 @@
     "protocol": "gemini",
     "baseUri": "https://generativelanguage.googleapis.com/v1beta/",
     "models": {
+      "gemini-4-carbon": {
+        "contextWindow": 1048576,
+        "maxTokens": 65536,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "audioInput": true,
+        "videoInput": true,
+        "serviceTiers": [
+          "standard",
+          "flex",
+          "priority"
+        ]
+      },
       "gemini-4-argon": {
         "contextWindow": 1048576,
         "maxTokens": 65536,
@@ -11,6 +30,26 @@
           "low",
           "medium",
           "high"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "audioInput": true,
+        "videoInput": true,
+        "serviceTiers": [
+          "standard",
+          "flex",
+          "priority"
+        ]
+      },
+      "gemini-4-hydrogen": {
+        "contextWindow": 1048576,
+        "maxTokens": 65536,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
         ],
         "thinkingCanDisable": false,
         "imageInput": true,

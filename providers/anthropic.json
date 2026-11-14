@@ -3,6 +3,23 @@
     "protocol": "anthropic",
     "baseUri": "https://api.anthropic.com/v1/",
     "models": {
+      "claude-fable-5-2": {
+        "contextWindow": 1048576,
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "speeds": [
+          "fast"
+        ]
+      },
       "claude-fable-5-1": {
         "contextWindow": 1048576,
         "maxTokens": 128000,

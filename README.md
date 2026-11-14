@@ -70,7 +70,7 @@ Provider definitions are read at startup. Restart the app after the file changes
 | `openrouter` | `openai` | `https://openrouter.ai/api/v1/` |
 | `requesty` | `openai` | `https://router.requesty.ai/v1/` |
 | `opencode-zen` | `responses`, `anthropic`, `gemini`, `openai` | `https://opencode.ai/zen/v1/` |
-| `opencode-go` | `responses`, `anthropic`, `openai` | `https://opencode.ai/zen/go/v1/` |
+| `opencode-go` | `responses`, `anthropic`, `gemini`, `openai` | `https://opencode.ai/zen/go/v1/` |
 | `commandcode` | `openai`, `anthropic` | `https://api.commandcode.ai/provider/v1/` |
 | `bigmodel-intl` | `openai` | `https://api.z.ai/api/paas/v4/` |
 | `moonshot-intl` | `openai` | `https://api.moonshot.ai/v1/` |

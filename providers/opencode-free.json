@@ -5,14 +5,27 @@
     "replayReasoningContent": true,
     "tokenLimit": "max_tokens",
     "models": {
+      "beam-free": {
+        "contextWindow": 1048576,
+        "maxTokens": 131072,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false
+      },
       "big-pickle": {
         "contextWindow": 200000,
         "maxTokens": 32000,
         "thinking": true
       },
       "deepseek-v4.1-flash-free": {
-        "contextWindow": 1000000,
-        "maxTokens": 384000,
+        "contextWindow": 200000,
+        "maxTokens": 32000,
         "thinking": true,
         "thinkingEfforts": [
           "low",
@@ -21,18 +34,22 @@
         ],
         "imageInput": true
       },
-      "exo-free": {
-        "contextWindow": 1048576,
-        "maxTokens": 131072,
+      "flint-40b-free": {
+        "contextWindow": 262144,
+        "maxTokens": 65536,
         "thinking": true,
         "thinkingEfforts": [
-          "high"
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
         ],
-        "imageInput": true
+        "thinkingCanDisable": false
       },
       "glm-5.3-flash-free": {
-        "contextWindow": 1000000,
-        "maxTokens": 131072,
+        "contextWindow": 200000,
+        "maxTokens": 32000,
         "thinking": true,
         "thinkingEfforts": [
           "low",
@@ -40,24 +57,30 @@
           "max"
         ],
         "thinkingCanDisable": false,
+        "imageInput": true,
+        "videoInput": true
+      },
+      "iceman-free": {
+        "contextWindow": 262144,
+        "maxTokens": 131072,
+        "thinking": true
+      },
+      "inkling-2-small-free": {
+        "contextWindow": 1048576,
+        "maxTokens": 131072,
+        "thinking": true,
+        "thinkingEfforts": [
+          "minimal",
+          "low",
+          "medium",
+          "high",
+          "max"
+        ],
         "imageInput": true
       },
-      "jev-1.13-free": {
-        "contextWindow": 64000
-      },
-      "ling-3.0-flash-fin-free": {
-        "contextWindow": 262144,
-        "maxTokens": 32768,
-        "thinking": true
-      },
-      "ling-3.1-flash-free": {
-        "contextWindow": 262144,
-        "maxTokens": 32768,
-        "thinking": true
-      },
-      "longcat-2.5-preview-free": {
+      "longcat-2.5-free": {
         "contextWindow": 1000000,
-        "maxTokens": 131072,
+        "maxTokens": 262144,
         "thinking": true,
         "imageInput": true
       },
@@ -67,36 +90,36 @@
         "thinking": true,
         "imageInput": true
       },
-      "nemotron-3-ultra-free": {
+      "minimax-m3.1-flash-free": {
         "contextWindow": 1000000,
-        "maxTokens": 128000,
-        "thinking": true
+        "maxTokens": 512000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "videoInput": true
       },
       "nemotron-3.5-lightning-free": {
         "contextWindow": 262144,
         "maxTokens": 262144,
         "thinking": true
       },
-      "space-bunny-free": {
+      "nemotron-3.5-super-vl-free": {
         "contextWindow": 1048576,
-        "maxTokens": 524288,
+        "maxTokens": 131072,
         "thinking": true,
         "thinkingEfforts": [
+          "minimal",
           "low",
           "medium",
           "high",
           "xhigh"
-        ],
-        "imageInput": true
-      },
-      "step-5-preview-free": {
-        "contextWindow": 1000000,
-        "maxTokens": 65536,
-        "thinking": true,
-        "thinkingEfforts": [
-          "low",
-          "medium",
-          "high"
         ],
         "imageInput": true
       }

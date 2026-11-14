@@ -20,6 +20,20 @@
         "thinkingCanDisable": false,
         "imageInput": true
       },
+      "anthropic/claude-fable-5.2": {
+        "contextWindow": 1000000,
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
       "anthropic/claude-sonnet-5.5": {
         "contextWindow": 1000000,
         "maxTokens": 128000,
@@ -34,12 +48,53 @@
         "thinkingCanDisable": false,
         "imageInput": true
       },
+      "google/gemini-4-carbon": {
+        "contextWindow": 1000000,
+        "maxTokens": 1000000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "videoInput": true
+      },
+      "google/gemini-4-argon": {
+        "contextWindow": 1000000,
+        "maxTokens": 1000000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "videoInput": true
+      },
+      "google/gemini-4-hydrogen": {
+        "contextWindow": 1000000,
+        "maxTokens": 1000000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "videoInput": true
+      },
       "google/gemini-3.8-flash": {
         "contextWindow": 1000000,
         "maxTokens": 65535,
         "thinking": true,
         "thinkingEfforts": [
           "low",
+          "medium",
           "high"
         ],
         "thinkingCanDisable": false,

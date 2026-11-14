@@ -5,6 +5,15 @@
     "apiKeyEnvironment": "QIANFAN_API_KEY",
     "tokenLimit": "max_tokens",
     "models": {
+      "ernie-5.5-flash-preview": {
+        "contextWindow": 1048576,
+        "maxTokens": 1048576
+      },
+      "ernie-light-dt-1.0": {
+        "contextWindow": 1048576,
+        "maxTokens": 131072,
+        "thinking": true
+      },
       "ernie-5.1": {
         "contextWindow": 131072,
         "maxTokens": 65536,

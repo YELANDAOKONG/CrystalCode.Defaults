@@ -6,11 +6,16 @@
     "replayReasoningContent": true,
     "tokenLimit": "max_tokens",
     "models": {
-      "hy4-preview": {
-        "contextWindow": 1000000,
+      "hy4": {
+        "contextWindow": 1048576,
         "maxTokens": 65536,
         "thinking": true,
         "imageInput": true
+      },
+      "hy4-preview": {
+        "contextWindow": 1048576,
+        "maxTokens": 65536,
+        "thinking": true
       },
       "hy3": {
         "contextWindow": 262144,
