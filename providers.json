@@ -1612,6 +1612,11 @@
   "openrouter": {
     "protocol": "openai",
     "baseUri": "https://openrouter.ai/api/v1/",
+    "httpHeaders": {
+      "HTTP-Referer": "https://crystalcode.ink/",
+      "X-OpenRouter-Title": "Crystal Code",
+      "X-OpenRouter-Categories": "cli-agent,ide-extension,personal-agent"
+    },
     "replayReasoningContent": true,
     "tokenLimit": "max_tokens",
     "models": {
@@ -8343,6 +8348,11 @@
   "openrouter-free": {
     "protocol": "openai",
     "baseUri": "https://openrouter.ai/api/v1/",
+    "httpHeaders": {
+      "HTTP-Referer": "https://crystalcode.ink/",
+      "X-OpenRouter-Title": "Crystal Code",
+      "X-OpenRouter-Categories": "cli-agent,ide-extension,personal-agent"
+    },
     "replayReasoningContent": true,
     "tokenLimit": "max_tokens",
     "models": {
