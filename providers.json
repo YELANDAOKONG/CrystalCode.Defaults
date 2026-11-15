@@ -10801,5 +10801,173 @@
         "thinkingCanDisable": false
       }
     }
+  },
+  "chatgpt": {
+    "type": "authentication",
+    "integration": "chatgpt",
+    "protocol": "responses",
+    "baseUri": "https://api.openai.com/v1/",
+    "models": {
+      "gpt-6.1-sol": {
+        "contextWindow": 872000,
+        "contextWindows": [
+          500000,
+          872000
+        ],
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "serviceTiers": [
+          "priority"
+        ]
+      },
+      "gpt-6-astra": {
+        "contextWindow": 872000,
+        "contextWindows": [
+          272000,
+          872000
+        ],
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "serviceTiers": [
+          "priority"
+        ]
+      },
+      "gpt-6.1-terra": {
+        "contextWindow": 872000,
+        "contextWindows": [
+          500000,
+          872000
+        ],
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "serviceTiers": [
+          "priority"
+        ]
+      },
+      "gpt-6-sol": {
+        "contextWindow": 872000,
+        "contextWindows": [
+          272000,
+          872000
+        ],
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "serviceTiers": [
+          "priority"
+        ]
+      },
+      "gpt-6-luna": {
+        "contextWindow": 872000,
+        "contextWindows": [
+          272000,
+          872000
+        ],
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "serviceTiers": [
+          "priority"
+        ]
+      },
+      "gpt-5.6-sol": {
+        "contextWindow": 872000,
+        "contextWindows": [
+          272000,
+          872000
+        ],
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "serviceTiers": [
+          "priority"
+        ]
+      },
+      "gpt-5.6-terra": {
+        "contextWindow": 872000,
+        "contextWindows": [
+          272000,
+          872000
+        ],
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "serviceTiers": [
+          "priority"
+        ]
+      },
+      "gpt-5.6-luna": {
+        "contextWindow": 872000,
+        "contextWindows": [
+          272000,
+          872000
+        ],
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "serviceTiers": [
+          "priority"
+        ]
+      }
+    }
   }
 }

@@ -46,9 +46,11 @@ Invoke-WebRequest `
 
 The download replaces an existing `providers.json`. Back up or merge a file you already customized before you overwrite it.
 
-### 🔑 2. Set provider keys
+### 🔑 2. Set up provider credentials
 
 Keys never belong in this file. Write each one in `~/.crystal/credentials.json` under the provider name, or set `<PROVIDER>_API_KEY` for the process that starts the app. A provider entry can also name an environment variable with `apiKeyEnvironment`, as `bigmodel` does with `ZHIPU_API_KEY`. See [Credentials](https://github.com/YELANDAOKONG/CrystalCode/blob/master/docs/user-guide.md#credentials) in the user guide for the full lookup order.
+
+For `chatgpt`, run `crystal login chatgpt` and approve ChatGPT plan usage in the browser.
 
 ### 🏁 3. Restart Crystal Code
 
@@ -103,6 +105,7 @@ Provider definitions are read at startup. Restart the app after the file changes
 | `volcengine` | `openai` | `https://ark.cn-beijing.volces.com/api/v3/` |
 | `xiaomi` | `openai` | `https://api.xiaomimimo.com/v1/` |
 | `inception` | `openai` | `https://api.inceptionlabs.ai/v1/` |
+| `chatgpt` | `responses` | `https://api.openai.com/v1/` |
 
 A provider name can map to an array of entries when one service exposes several protocols or endpoints; `opencode-zen`, `opencode-go`, and `commandcode` use this form, and each model is routed to the protocol that owns it. `moonshot-intl`, `siliconflow-intl`, `bigmodel-intl`, `qwen-intl`, and `minimax-intl` are separate accounts from the domestic entries, so they do not reuse those API keys. `openrouter-free` and `opencode-free` still need an API key; the models themselves are the no-charge routes.
 
@@ -111,6 +114,8 @@ A provider name can map to an array of entries when one service exposes several 
 Some large services are intentionally absent. Cohere's compatibility API rejects the `stream_options` field Crystal Code sends while streaming; Perplexity retired its Chat Completions surface in favor of the Agent API; GitHub Models was retired on 30 July 2026; Azure OpenAI, Amazon Bedrock, and Google Vertex AI need per-account or per-region base URIs; Cloudflare Workers AI embeds the account id in the URI. Other providers not covered in this pass include iFlytek Spark, ModelScope, Meituan LongCat, Hyperbolic, Featherless, Nscale, OVHcloud, Scaleway, Baseten, Modal, Replicate, Upstage, Sarvam, and Naver.
 
 `openai` means OpenAI-compatible Chat Completions and `responses` is the OpenAI Responses API. `deepseek`, `anthropic`, `gemini`, and `ollama` are native protocols.
+
+`chatgpt` uses Sign in with ChatGPT to draw from an eligible account's plan. Its models and context budgets were checked against the plan-usage model endpoint. Model availability depends on the signed-in account. Use `/tier priority` to request priority processing. In a plan-usage test, OpenAI accepted `priority` for all eight models and reported `default` as the actual tier. [OpenAI model discovery and inference](https://developers.openai.com/siwc/token-sharing-open-source/models-and-inference)
 
 <a name="how-the-file-is-used"></a>
 
@@ -132,6 +137,8 @@ Provider fields:
 
 | Field | Meaning |
 | :--- | :--- |
+| `type` | `authentication` for account login. Omit for API key providers |
+| `integration` | Account login integration id, such as `chatgpt`. Required when `type` is `authentication` |
 | `protocol` | `deepseek`, `openai`, `responses`, `anthropic`, `gemini`, or `ollama` |
 | `baseUri` | Absolute API base URI; the adapter appends the protocol's chat path |
 | `models` | Table of selectable model ids |
