@@ -15,7 +15,8 @@
             "high"
           ],
           "thinkingCanDisable": false,
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-5-codex": {
           "contextWindow": 400000,
@@ -27,7 +28,8 @@
             "high"
           ],
           "thinkingCanDisable": false,
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-5-nano": {
           "contextWindow": 400000,
@@ -40,7 +42,8 @@
             "high"
           ],
           "thinkingCanDisable": false,
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-5.1": {
           "contextWindow": 400000,
@@ -51,7 +54,8 @@
             "medium",
             "high"
           ],
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-5.1-codex": {
           "contextWindow": 400000,
@@ -63,7 +67,8 @@
             "high"
           ],
           "thinkingCanDisable": false,
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-5.1-codex-max": {
           "contextWindow": 400000,
@@ -76,7 +81,8 @@
             "xhigh"
           ],
           "thinkingCanDisable": false,
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-5.1-codex-mini": {
           "contextWindow": 400000,
@@ -88,7 +94,8 @@
             "high"
           ],
           "thinkingCanDisable": false,
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-5.2": {
           "contextWindow": 400000,
@@ -100,7 +107,8 @@
             "high",
             "xhigh"
           ],
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-5.2-codex": {
           "contextWindow": 400000,
@@ -112,7 +120,8 @@
             "high"
           ],
           "thinkingCanDisable": false,
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-5.3-codex": {
           "contextWindow": 400000,
@@ -123,7 +132,8 @@
             "medium",
             "high"
           ],
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-5.3-codex-spark": {
           "contextWindow": 128000,
@@ -134,7 +144,8 @@
             "medium",
             "high"
           ],
-          "thinkingCanDisable": false
+          "thinkingCanDisable": false,
+          "textTools": true
         },
         "gpt-5.4": {
           "contextWindow": 1050000,
@@ -150,7 +161,8 @@
             "high",
             "xhigh"
           ],
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-5.4-mini": {
           "contextWindow": 400000,
@@ -161,7 +173,8 @@
             "medium",
             "high"
           ],
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-5.4-nano": {
           "contextWindow": 400000,
@@ -172,7 +185,8 @@
             "medium",
             "high"
           ],
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-5.4-pro": {
           "contextWindow": 1050000,
@@ -188,7 +202,8 @@
             "xhigh"
           ],
           "thinkingCanDisable": false,
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-5.5": {
           "contextWindow": 1050000,
@@ -204,7 +219,8 @@
             "high",
             "xhigh"
           ],
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-5.5-pro": {
           "contextWindow": 1050000,
@@ -216,7 +232,8 @@
             "xhigh"
           ],
           "thinkingCanDisable": false,
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-5.6-luna": {
           "contextWindow": 1050000,
@@ -233,7 +250,8 @@
             "xhigh",
             "max"
           ],
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-5.6-sol": {
           "contextWindow": 1050000,
@@ -250,7 +268,8 @@
             "xhigh",
             "max"
           ],
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-5.6-terra": {
           "contextWindow": 1050000,
@@ -267,7 +286,8 @@
             "xhigh",
             "max"
           ],
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-6-astra": {
           "contextWindow": 1050000,
@@ -285,7 +305,8 @@
             "max"
           ],
           "thinkingCanDisable": false,
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-6-luna": {
           "contextWindow": 1050000,
@@ -302,7 +323,8 @@
             "xhigh",
             "max"
           ],
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-6-sol": {
           "contextWindow": 1050000,
@@ -319,7 +341,8 @@
             "xhigh",
             "max"
           ],
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "gpt-6.1-sol": {
           "contextWindow": 1050000,
@@ -337,7 +360,8 @@
             "max"
           ],
           "thinkingCanDisable": false,
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "grok-4.5": {
           "contextWindow": 500000,
@@ -349,7 +373,8 @@
             "high"
           ],
           "thinkingCanDisable": false,
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "grok-4.6": {
           "contextWindow": 500000,
@@ -366,7 +391,8 @@
             "xhigh"
           ],
           "thinkingCanDisable": false,
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "grok-4.7": {
           "contextWindow": 500000,
@@ -383,13 +409,15 @@
             "xhigh"
           ],
           "thinkingCanDisable": false,
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "grok-build-0.1": {
           "contextWindow": 256000,
           "maxTokens": 256000,
           "thinking": true,
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "muse-spark-1.2": {
           "contextWindow": 1048576,
@@ -401,7 +429,8 @@
             "medium",
             "high"
           ],
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "muse-spark-1.3": {
           "contextWindow": 1048576,
@@ -413,7 +442,8 @@
             "medium",
             "high"
           ],
-          "imageInput": true
+          "imageInput": true,
+          "textTools": true
         },
         "muse-wonder-1.0": {
           "contextWindow": 1048576,
@@ -430,7 +460,8 @@
           "thinkingCanDisable": false,
           "imageInput": true,
           "audioInput": true,
-          "videoInput": true
+          "videoInput": true,
+          "textTools": true
         },
         "muse-ember-1.0": {
           "contextWindow": 1048576,
@@ -446,7 +477,8 @@
           ],
           "thinkingCanDisable": false,
           "imageInput": true,
-          "videoInput": true
+          "videoInput": true,
+          "textTools": true
         }
       }
     },

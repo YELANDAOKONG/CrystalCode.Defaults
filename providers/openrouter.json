@@ -46,7 +46,8 @@
           "max"
         ],
         "thinkingCanDisable": false,
-        "imageInput": true
+        "imageInput": true,
+        "fileInput": true
       },
       "anthropic/claude-fable-5.1": {
         "contextWindow": 1000000,
@@ -59,7 +60,8 @@
           "max"
         ],
         "thinkingCanDisable": false,
-        "imageInput": true
+        "imageInput": true,
+        "fileInput": true
       },
       "anthropic/claude-fable-5.2": {
         "contextWindow": 1000000,
@@ -73,13 +75,15 @@
           "max"
         ],
         "thinkingCanDisable": false,
-        "imageInput": true
+        "imageInput": true,
+        "fileInput": true
       },
       "anthropic/claude-haiku-4.5": {
         "contextWindow": 200000,
         "maxTokens": 64000,
         "thinking": true,
-        "imageInput": true
+        "imageInput": true,
+        "fileInput": true
       },
       "anthropic/claude-haiku-5.5": {
         "contextWindow": 1000000,
@@ -95,19 +99,22 @@
           "high",
           "max"
         ],
-        "imageInput": true
+        "imageInput": true,
+        "fileInput": true
       },
       "anthropic/claude-opus-4.1": {
         "contextWindow": 200000,
         "maxTokens": 32000,
         "thinking": true,
-        "imageInput": true
+        "imageInput": true,
+        "fileInput": true
       },
       "anthropic/claude-opus-4.5": {
         "contextWindow": 200000,
         "maxTokens": 64000,
         "thinking": true,
-        "imageInput": true
+        "imageInput": true,
+        "fileInput": true
       },
       "anthropic/claude-opus-4.6": {
         "contextWindow": 1000000,
@@ -119,7 +126,8 @@
           "high",
           "max"
         ],
-        "imageInput": true
+        "imageInput": true,
+        "fileInput": true
       },
       "anthropic/claude-opus-4.7": {
         "contextWindow": 1000000,
@@ -131,7 +139,8 @@
           "high",
           "max"
         ],
-        "imageInput": true
+        "imageInput": true,
+        "fileInput": true
       },
       "anthropic/claude-opus-4.8": {
         "contextWindow": 1000000,
@@ -146,7 +155,8 @@
         "imageInput": true,
         "speeds": [
           "fast"
-        ]
+        ],
+        "fileInput": true
       },
       "anthropic/claude-opus-5": {
         "contextWindow": 1000000,
@@ -161,7 +171,8 @@
         "imageInput": true,
         "speeds": [
           "fast"
-        ]
+        ],
+        "fileInput": true
       },
       "anthropic/claude-opus-5.5": {
         "contextWindow": 1000000,
@@ -177,13 +188,15 @@
         "imageInput": true,
         "speeds": [
           "fast"
-        ]
+        ],
+        "fileInput": true
       },
       "anthropic/claude-sonnet-4.5": {
         "contextWindow": 1000000,
         "maxTokens": 64000,
         "thinking": true,
-        "imageInput": true
+        "imageInput": true,
+        "fileInput": true
       },
       "anthropic/claude-sonnet-4.6": {
         "contextWindow": 1000000,
@@ -195,7 +208,8 @@
           "high",
           "max"
         ],
-        "imageInput": true
+        "imageInput": true,
+        "fileInput": true
       },
       "anthropic/claude-sonnet-5": {
         "contextWindow": 1000000,
@@ -207,7 +221,8 @@
           "high",
           "max"
         ],
-        "imageInput": true
+        "imageInput": true,
+        "fileInput": true
       },
       "anthropic/claude-sonnet-5.5": {
         "contextWindow": 1000000,
@@ -220,7 +235,8 @@
           "max"
         ],
         "thinkingCanDisable": false,
-        "imageInput": true
+        "imageInput": true,
+        "fileInput": true
       },
       "baidu/ernie-5.5-flash-preview:free": {
         "contextWindow": 1024000,

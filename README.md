@@ -156,6 +156,8 @@ Model fields:
 | `imageInput` | Whether the model may receive images (default `false`) |
 | `audioInput` | Declared audio input (default `false`). Stored and visible to plugins; the host does not accept or send audio |
 | `videoInput` | Declared video input (default `false`). Stored and visible to plugins; the host does not accept or send video |
+| `fileInput` | Declared document file input (default `false`). Stored and visible to plugins |
+| `textTools` | Offer `apply_patch` as a free-form custom tool (default `false`). Only supported by the `responses` protocol |
 | `temperature` | Optional, 0 to 2 |
 | `topP` | Optional, 0 to 1 |
 
