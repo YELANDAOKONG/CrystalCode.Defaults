@@ -470,6 +470,60 @@
           "ultrafast"
         ]
       },
+      "gpt-6.2-astra": {
+        "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "serviceTiers": [
+          "auto",
+          "default",
+          "flex"
+        ],
+        "speeds": [
+          "fast",
+          "ultrafast"
+        ]
+      },
+      "gpt-6.2-sol": {
+        "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "serviceTiers": [
+          "auto",
+          "default",
+          "flex"
+        ],
+        "speeds": [
+          "fast",
+          "ultrafast"
+        ]
+      },
       "o3": {
         "contextWindow": 200000,
         "maxTokens": 100000,

@@ -5,6 +5,48 @@
     "protocol": "responses",
     "baseUri": "https://api.openai.com/v1/",
     "models": {
+      "gpt-6.2-sol": {
+        "contextWindow": 872000,
+        "contextWindows": [
+          500000,
+          872000
+        ],
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "serviceTiers": [
+          "priority"
+        ]
+      },
+      "gpt-6.2-astra": {
+        "contextWindow": 872000,
+        "contextWindows": [
+          272000,
+          872000
+        ],
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "serviceTiers": [
+          "priority"
+        ]
+      },
       "gpt-6.1-sol": {
         "contextWindow": 872000,
         "contextWindows": [

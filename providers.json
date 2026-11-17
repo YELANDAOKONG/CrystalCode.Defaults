@@ -497,6 +497,60 @@
           "ultrafast"
         ]
       },
+      "gpt-6.2-astra": {
+        "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "serviceTiers": [
+          "auto",
+          "default",
+          "flex"
+        ],
+        "speeds": [
+          "fast",
+          "ultrafast"
+        ]
+      },
+      "gpt-6.2-sol": {
+        "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "serviceTiers": [
+          "auto",
+          "default",
+          "flex"
+        ],
+        "speeds": [
+          "fast",
+          "ultrafast"
+        ]
+      },
       "o3": {
         "contextWindow": 200000,
         "maxTokens": 100000,
@@ -3376,6 +3430,78 @@
         "thinkingCanDisable": false,
         "imageInput": true
       },
+      "openai/gpt-6.2-astra": {
+        "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
+      "openai/gpt-6.2-astra-pro": {
+        "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
+      "openai/gpt-6.2-sol": {
+        "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
+      "openai/gpt-6.2-sol-pro": {
+        "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
       "openai/gpt-chat-latest": {
         "contextWindow": 400000,
         "maxTokens": 128000,
@@ -5414,6 +5540,42 @@
         "thinkingCanDisable": false,
         "imageInput": true
       },
+      "openai/gpt-6.2-astra": {
+        "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
+      "openai/gpt-6.2-sol": {
+        "contextWindow": 1050000,
+        "contextWindows": [
+          272000,
+          1050000
+        ],
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
       "openai/o3": {
         "contextWindow": 200000,
         "maxTokens": 100000,
@@ -6120,6 +6282,44 @@
           "textTools": true
         },
         "gpt-6.1-sol": {
+          "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
+          "maxTokens": 128000,
+          "thinking": true,
+          "thinkingEfforts": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ],
+          "thinkingCanDisable": false,
+          "imageInput": true,
+          "textTools": true
+        },
+        "gpt-6.2-astra": {
+          "contextWindow": 1050000,
+          "contextWindows": [
+            272000,
+            1050000
+          ],
+          "maxTokens": 128000,
+          "thinking": true,
+          "thinkingEfforts": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ],
+          "thinkingCanDisable": false,
+          "imageInput": true,
+          "textTools": true
+        },
+        "gpt-6.2-sol": {
           "contextWindow": 1050000,
           "contextWindows": [
             272000,
@@ -10592,6 +10792,34 @@
         "thinkingCanDisable": false,
         "imageInput": true
       },
+      "openai/gpt-6.2-astra": {
+        "contextWindow": 1050000,
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
+      "openai/gpt-6.2-sol": {
+        "contextWindow": 1050000,
+        "maxTokens": 128000,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true
+      },
       "anthropic/claude-fable-5.2": {
         "contextWindow": 1000000,
         "maxTokens": 128000,
@@ -10808,6 +11036,48 @@
     "protocol": "responses",
     "baseUri": "https://api.openai.com/v1/",
     "models": {
+      "gpt-6.2-sol": {
+        "contextWindow": 872000,
+        "contextWindows": [
+          500000,
+          872000
+        ],
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "serviceTiers": [
+          "priority"
+        ]
+      },
+      "gpt-6.2-astra": {
+        "contextWindow": 872000,
+        "contextWindows": [
+          272000,
+          872000
+        ],
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max",
+          "ultra"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "serviceTiers": [
+          "priority"
+        ]
+      },
       "gpt-6.1-sol": {
         "contextWindow": 872000,
         "contextWindows": [
