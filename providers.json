@@ -11053,6 +11053,9 @@
         ],
         "thinkingCanDisable": false,
         "imageInput": true,
+        "responses": {
+          "systemAsDeveloper": true
+        },
         "serviceTiers": [
           "priority"
         ]
@@ -11074,6 +11077,9 @@
         ],
         "thinkingCanDisable": false,
         "imageInput": true,
+        "responses": {
+          "systemAsDeveloper": true
+        },
         "serviceTiers": [
           "priority"
         ]
@@ -11094,6 +11100,9 @@
         ],
         "thinkingCanDisable": false,
         "imageInput": true,
+        "responses": {
+          "systemAsDeveloper": true
+        },
         "serviceTiers": [
           "priority"
         ]
@@ -11114,6 +11123,9 @@
         ],
         "thinkingCanDisable": false,
         "imageInput": true,
+        "responses": {
+          "systemAsDeveloper": true
+        },
         "serviceTiers": [
           "priority"
         ]
@@ -11134,6 +11146,9 @@
         ],
         "thinkingCanDisable": false,
         "imageInput": true,
+        "responses": {
+          "systemAsDeveloper": true
+        },
         "serviceTiers": [
           "priority"
         ]
@@ -11154,6 +11169,9 @@
         ],
         "thinkingCanDisable": false,
         "imageInput": true,
+        "responses": {
+          "systemAsDeveloper": true
+        },
         "serviceTiers": [
           "priority"
         ]
@@ -11174,6 +11192,9 @@
         ],
         "thinkingCanDisable": false,
         "imageInput": true,
+        "responses": {
+          "systemAsDeveloper": true
+        },
         "serviceTiers": [
           "priority"
         ]
@@ -11194,6 +11215,9 @@
         ],
         "thinkingCanDisable": false,
         "imageInput": true,
+        "responses": {
+          "systemAsDeveloper": true
+        },
         "serviceTiers": [
           "priority"
         ]
@@ -11214,6 +11238,9 @@
         ],
         "thinkingCanDisable": false,
         "imageInput": true,
+        "responses": {
+          "systemAsDeveloper": true
+        },
         "serviceTiers": [
           "priority"
         ]
@@ -11234,6 +11261,9 @@
         ],
         "thinkingCanDisable": false,
         "imageInput": true,
+        "responses": {
+          "systemAsDeveloper": true
+        },
         "serviceTiers": [
           "priority"
         ]

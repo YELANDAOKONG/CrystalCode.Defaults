@@ -115,7 +115,7 @@ Some large services are intentionally absent. Cohere's compatibility API rejects
 
 `openai` means OpenAI-compatible Chat Completions and `responses` is the OpenAI Responses API. `deepseek`, `anthropic`, `gemini`, and `ollama` are native protocols.
 
-`chatgpt` uses Sign in with ChatGPT to draw from an eligible account's plan. Its models and context budgets were checked against the plan-usage model endpoint. Model availability depends on the signed-in account. Use `/tier priority` to request priority processing. In a plan-usage test, OpenAI accepted `priority` for all eight models and reported `default` as the actual tier. [OpenAI model discovery and inference](https://developers.openai.com/siwc/token-sharing-open-source/models-and-inference)
+`chatgpt` uses Sign in with ChatGPT to draw from an eligible account's plan. Its models and context budgets were checked against the plan-usage model endpoint. Model availability depends on the signed-in account. The catalog enables `responses.systemAsDeveloper` for these models so supported models can reuse the system prompt as part of the cached prefix. Use `/tier priority` to request priority processing. In a plan-usage test, OpenAI accepted `priority` for all eight models and reported `default` as the actual tier. [OpenAI model discovery and inference](https://developers.openai.com/siwc/token-sharing-open-source/models-and-inference)
 
 <a name="how-the-file-is-used"></a>
 
@@ -165,6 +165,7 @@ Model fields:
 | `videoInput` | Declared video input (default `false`). Stored and visible to plugins; the host does not accept or send video |
 | `fileInput` | Declared document file input (default `false`). Stored and visible to plugins |
 | `textTools` | Offer `apply_patch` as a free-form custom tool (default `false`). Only supported by the `responses` protocol |
+| `responses` | Optional request-format overrides for Responses models. `systemAsDeveloper: true` sends system prompts as developer messages in the input |
 | `temperature` | Optional, 0 to 2 |
 | `topP` | Optional, 0 to 1 |
 
