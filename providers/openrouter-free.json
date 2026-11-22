@@ -19,17 +19,6 @@
         ],
         "thinkingCanDisable": false
       },
-      "cohere/north-mini-code:free": {
-        "contextWindow": 256000,
-        "maxTokens": 64000,
-        "thinking": true
-      },
-      "dots-studio/dots-3-note-preview:free": {
-        "contextWindow": 512000,
-        "maxTokens": 460800,
-        "thinking": true,
-        "imageInput": true
-      },
       "google/gemma-4-26b-a4b-it:free": {
         "contextWindow": 262144,
         "maxTokens": 32768,

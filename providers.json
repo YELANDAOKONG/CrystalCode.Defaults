@@ -846,6 +846,26 @@
           "priority"
         ]
       },
+      "gemini-4-neon": {
+        "contextWindow": 1048576,
+        "maxTokens": 65536,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "audioInput": true,
+        "videoInput": true,
+        "serviceTiers": [
+          "standard",
+          "flex",
+          "priority"
+        ]
+      },
       "gemini-4-argon": {
         "contextWindow": 1048576,
         "maxTokens": 65536,
@@ -8618,17 +8638,6 @@
         ],
         "thinkingCanDisable": false
       },
-      "cohere/north-mini-code:free": {
-        "contextWindow": 256000,
-        "maxTokens": 64000,
-        "thinking": true
-      },
-      "dots-studio/dots-3-note-preview:free": {
-        "contextWindow": 512000,
-        "maxTokens": 460800,
-        "thinking": true,
-        "imageInput": true
-      },
       "google/gemma-4-26b-a4b-it:free": {
         "contextWindow": 262144,
         "maxTokens": 32768,
@@ -10236,6 +10245,13 @@
     "replayReasoningContent": true,
     "tokenLimit": "max_tokens",
     "models": {
+      "qwen4-max": {
+        "contextWindow": 1000000,
+        "maxTokens": 131072,
+        "thinking": true,
+        "imageInput": true,
+        "videoInput": true
+      },
       "qwen3.8-max": {
         "contextWindow": 1000000,
         "maxTokens": 131072,
@@ -10492,6 +10508,13 @@
     "replayReasoningContent": true,
     "tokenLimit": "max_tokens",
     "models": {
+      "qwen4-max": {
+        "contextWindow": 1000000,
+        "maxTokens": 131072,
+        "thinking": true,
+        "imageInput": true,
+        "videoInput": true
+      },
       "qwen3.8-max": {
         "contextWindow": 1000000,
         "maxTokens": 131072,
@@ -10762,6 +10785,12 @@
         "contextWindow": 1048576,
         "maxTokens": 65536,
         "thinking": true
+      },
+      "hy4-flash": {
+        "contextWindow": 1048576,
+        "maxTokens": 65536,
+        "thinking": true,
+        "imageInput": true
       },
       "hy3": {
         "contextWindow": 262144,

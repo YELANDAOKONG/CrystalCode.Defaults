@@ -17,6 +17,12 @@
         "maxTokens": 65536,
         "thinking": true
       },
+      "hy4-flash": {
+        "contextWindow": 1048576,
+        "maxTokens": 65536,
+        "thinking": true,
+        "imageInput": true
+      },
       "hy3": {
         "contextWindow": 262144,
         "maxTokens": 131072,

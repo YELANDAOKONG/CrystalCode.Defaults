@@ -6,6 +6,13 @@
     "replayReasoningContent": true,
     "tokenLimit": "max_tokens",
     "models": {
+      "qwen4-max": {
+        "contextWindow": 1000000,
+        "maxTokens": 131072,
+        "thinking": true,
+        "imageInput": true,
+        "videoInput": true
+      },
       "qwen3.8-max": {
         "contextWindow": 1000000,
         "maxTokens": 131072,

@@ -22,6 +22,26 @@
           "priority"
         ]
       },
+      "gemini-4-neon": {
+        "contextWindow": 1048576,
+        "maxTokens": 65536,
+        "thinking": true,
+        "thinkingEfforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "thinkingCanDisable": false,
+        "imageInput": true,
+        "audioInput": true,
+        "videoInput": true,
+        "serviceTiers": [
+          "standard",
+          "flex",
+          "priority"
+        ]
+      },
       "gemini-4-argon": {
         "contextWindow": 1048576,
         "maxTokens": 65536,
